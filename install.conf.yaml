@@ -1,0 +1,29 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases
+    ~/.gitconfig: gitconfig
+    ~/.ssh/config:
+        path: ssh/config
+        create: true
+    ~/.zshrc: zshrc
+    ~/bin:
+        path: bin/
+        create: true
+
+- shell:
+    -
+        description: Install homebrew if needed
+        command: which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    -
+        description: Install homebrew-managed items
+        command: brew bundle check || ./homebrew/install.sh
+        stdout: true
+        stdin: true
+    -
+        description: Install VS Code extensions
+        command: ./vscode/install.sh
+        stdout: true

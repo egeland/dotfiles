@@ -1,0 +1,41 @@
+[user]
+	email = frode.egeland@fairfaxmedia.com.au
+	name = Frode Egeland
+	signingkey = 5F49CC7B
+[alias]
+	ci = commit --signoff -S
+    prp = pull --rebase --prune
+	meld = !git difftool -t meld --dir-diff
+	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
+	cb = checkout -b
+	cm = checkout master
+[core]
+	excludesfile = /Users/fegeland/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = code --wait
+[commit]
+	template = /Users/fegeland/.stCommitMsg
+
+[merge]
+	tool = meld
+[mergetool]
+	prompt = false
+[push]
+    default = current
+
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[svn]
+	rmdir = true

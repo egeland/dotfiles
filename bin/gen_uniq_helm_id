@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for context in $(kubectl config get-contexts --output=name |grep blue); do
+  kubectl config use-context "$context" >/dev/null
+  c=$(pwgen --no-capitalize --no-numerals 5 1)
+  while helm status "${c}" 2>/dev/null; do
+    c=$(pwgen --no-capitalize --no-numerals 5 1)
+    sleep 0.2
+  done
+  echo "$context: $c"
+done

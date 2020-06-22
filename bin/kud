@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Setting kubernetes context to blue-development"
+kubectl config use-context blue-development
+

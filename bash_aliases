@@ -1,0 +1,10 @@
+alias aws_ffx_blue='export AWS_PROFILE="ffxblue" ; export AWS_DEFAULT_PROFILE="ffxblue"'
+alias aws_ffx_white='export AWS_PROFILE="White" ; export AWS_DEFAULT_PROFILE="White"'
+alias aws_ffx_sfn_test='export AWS_PROFILE="sparkleformationtest" ; export AWS_DEFAULT_PROFILE="sparkleformationtest"'
+alias aws_ffx_k8s_prod='export AWS_PROFILE="containers-production" ; export AWS_DEFAULT_PROFILE="containers-production"'
+alias aws_ffx_k8s_nonprod='export AWS_PROFILE="containers-nonproduction" ; export AWS_DEFAULT_PROFILE="containers-nonproduction"'
+alias aws_ffx_sandbox='export AWS_PROFILE="sandbox" ; export AWS_DEFAULT_PROFILE="sandbox"'
+alias aws_ffx_serverless1='export AWS_PROFILE="serverless1" ; export AWS_DEFAULT_PROFILE="serverless1"'
+alias aws_CLEAR='unset AWS_PROFILE ; unset AWS_DEFAULT_PROFILE'
+alias k='kubectl'
+

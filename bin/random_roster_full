@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import random
+
+# Pick a random person
+
+TEAM = [
+    "Aish",
+    "Alexey",
+    "Joe",
+    "Joel",
+    "Lee",
+    "Matt",
+    "Mick",
+    "Mike",
+    "Mitchell",
+    "RobG",
+    "RobH",
+]
+
+
+random.shuffle(TEAM)
+for member in TEAM:
+    print(member)
