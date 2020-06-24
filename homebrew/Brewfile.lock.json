@@ -23,7 +23,7 @@
         "revision": "2c0f6116b1f5c5e3cb95c24db51ea93861694007"
       },
       "homebrew/cask": {
-        "revision": "6640285e12a84d3b133ed0cd720c2cb7c1604efa"
+        "revision": "bc305e384e958b4e43357b9a51e55b169a8c0b34"
       },
       "homebrew/core": {
         "revision": "d2bc38e9cb5f59a704cc3e8b9a2720b064a307a9"
@@ -652,9 +652,6 @@
               "sha256": "179b68a29fe9f6731a294a674fbd439623acf22c1997c68b6358808adc83b763"
             }
           }
-        },
-        "options": {
-          "link": false
         }
       },
       "gpg-agent": {
