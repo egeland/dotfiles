@@ -27,3 +27,6 @@
         description: Install VS Code extensions
         command: ./vscode/install.sh
         stdout: true
+    -
+        description: Set up python virtual env
+        command: ./python/install.sh
