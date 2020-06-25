@@ -23,10 +23,10 @@
         "revision": "17ae79b776781ff249332024c4da6ddadbad41c0"
       },
       "homebrew/cask": {
-        "revision": "0dd37b89c341c4b4c6344f47fab7d72391cfd571"
+        "revision": "a0d8111497b7aeab8a8e1f7300027b7a1524e52b"
       },
       "homebrew/core": {
-        "revision": "658fb971cc534ef418b59acc4889f65e21304cc6"
+        "revision": "413d9896c436113ad25dc96c41f105b43c9ded33"
       },
       "jmespath/jmespath": {
         "revision": "4dbf3746742d6ce3ef781271d452ff72f629b6f0"
@@ -1289,7 +1289,53 @@
         }
       },
       "robscott/tap/kube-capacity": null,
-      "versent/taps/saml2aws": null
+      "versent/taps/saml2aws": null,
+      "bash-completion@2": {
+        "version": "2.10_1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/bash-completion%402-2.10_1.catalina.bottle.tar.gz",
+              "sha256": "b162bc315662861c84f428b262c9883d34ff7eab80ddff09148f81aef4d5d7ff"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/bash-completion%402-2.10_1.mojave.bottle.tar.gz",
+              "sha256": "b162bc315662861c84f428b262c9883d34ff7eab80ddff09148f81aef4d5d7ff"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/bash-completion%402-2.10_1.high_sierra.bottle.tar.gz",
+              "sha256": "b162bc315662861c84f428b262c9883d34ff7eab80ddff09148f81aef4d5d7ff"
+            }
+          }
+        }
+      },
+      "whalebrew": {
+        "version": "0.2.3",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/whalebrew-0.2.3.catalina.bottle.tar.gz",
+              "sha256": "3243317cffe305c9c21a458793f4319b9784e979cf3225663df3e83b53e1736f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/whalebrew-0.2.3.mojave.bottle.tar.gz",
+              "sha256": "9abfd2e5951f589dde2cc9847b44e77741785a8b9ff5208c958bd8233def74b8"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/whalebrew-0.2.3.high_sierra.bottle.tar.gz",
+              "sha256": "66e059ff26ef8e1a7d15416bf0b3a946716e03e60cf7f1281e572dcd78b1f4d8"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/whalebrew-0.2.3.sierra.bottle.tar.gz",
+              "sha256": "a6357b16b2285d65c523902fa90180f3b6e77b08196cf6edce3f32b38202ff54"
+            }
+          }
+        }
+      }
     },
     "cask": {
       "1password": {
@@ -1411,15 +1457,21 @@
         "options": {
           "full_name": "wireshark"
         }
+      },
+      "rectangle": {
+        "version": "0.30",
+        "options": {
+          "full_name": "rectangle"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "mojave": {
-        "HOMEBREW_VERSION": "2.4.2-3-g1f77027",
+        "HOMEBREW_VERSION": "2.4.2-5-gadbc50f",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "658fb971cc534ef418b59acc4889f65e21304cc6",
+        "Homebrew/homebrew-core": "413d9896c436113ad25dc96c41f105b43c9ded33",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"
