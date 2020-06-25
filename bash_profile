@@ -18,7 +18,7 @@ function title {
 source ~/py3/bin/activate
 
 [ -f ~/py3/bin/aws_bash_completer ] && source aws_bash_completer
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
 [ -f /usr/local/bin/kubectl ] && source <(/usr/local/bin/kubectl completion bash)
 [ -f /usr/local/etc/bash_completion.d/git-completion.bash ] && source /usr/local/etc/bash_completion.d/git-completion.bash
 
