@@ -20,13 +20,13 @@
         "revision": "1a2daf01f8a938457c666f263174f8e00b3e3893"
       },
       "homebrew/bundle": {
-        "revision": "17ae79b776781ff249332024c4da6ddadbad41c0"
+        "revision": "38450939dcc5a7bd5c139464fb35b5939c406221"
       },
       "homebrew/cask": {
-        "revision": "0582e7a60eaa46729a0b8036de4e2114292a0b50"
+        "revision": "f92881148a49d32b4893df3e3dd281832a7e36dc"
       },
       "homebrew/core": {
-        "revision": "a64b93f6b97600451b9e99adb661ade38f810943"
+        "revision": "3e5b82082ec8af606f50a83fc480154dd72e68c7"
       },
       "jmespath/jmespath": {
         "revision": "4dbf3746742d6ce3ef781271d452ff72f629b6f0"
@@ -173,22 +173,22 @@
         }
       },
       "awscli": {
-        "version": "2.0.25",
+        "version": "2.0.26",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.catalina.bottle.tar.gz",
-              "sha256": "663ffc0197f4edbbe5f351f67d071a7ca4848be8a01fea5f99dd9d14558f3a7c"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.catalina.bottle.tar.gz",
+              "sha256": "481bf232b560b04ad7b7d8eb5e90395ec76492343a1d68077d711369f7178491"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.mojave.bottle.tar.gz",
-              "sha256": "d65c65c39cbe4a8ac20c175cc5b8cc8180dcc3fe96e55069b7fc8d890129f368"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.mojave.bottle.tar.gz",
+              "sha256": "9f21b6360f37a2b4b87676ba727ae80e971324036df3ffd958fa27c8dffbf9d7"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.high_sierra.bottle.tar.gz",
-              "sha256": "b8640bf289cd48d59fea766ede54ca64dfc526c276f12250a8beeaa7db18fcfb"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.high_sierra.bottle.tar.gz",
+              "sha256": "b039373cb0b981c89036ff0c07e4834f59a0a282c4ccfc27937529d0245d0c96"
             }
           }
         }
@@ -1570,7 +1570,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.4.2-14-gdb99886",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a64b93f6b97600451b9e99adb661ade38f810943",
+        "Homebrew/homebrew-core": "3e5b82082ec8af606f50a83fc480154dd72e68c7",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"

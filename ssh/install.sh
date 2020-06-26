@@ -2,8 +2,14 @@
 
 echo -n "Bitwarden login: "
 bw login --check || bw login
-BW_SESSION=$(bw --raw unlock)
-SSH_FOLDER_ID=$(bw list folders --search SSH | jq -r '.[0].id')
+
+until bw unlock --check
+do
+    echo "Enter Master Password: "
+    export BW_SESSION=$(bw --raw unlock)
+done
+
+export SSH_FOLDER_ID=$(bw list folders --search SSH | jq -r '.[0].id')
 
 if [[ ! -d ~/.ssh ]]; then
     mkdir ~/.ssh && chmod 700 ~/.ssh
