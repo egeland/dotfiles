@@ -30,7 +30,7 @@
         command: which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     -
         description: Install homebrew-managed items
-        command: brew bundle check || ./homebrew/install.sh
+        command: ./homebrew/install.sh
         stdout: true
         stdin: true
     -

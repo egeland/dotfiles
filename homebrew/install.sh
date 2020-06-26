@@ -1,11 +1,18 @@
-#!/usr/local/bin/bash
+#!/usr/local/bin/bash -x
 
 cd homebrew
 
-brew update
 brew tap homebrew/bundle
+brew update
 brew upgrade
-brew bundle
-brew bundle cleanup --verbose --force
+
+if brew bundle check --verbose ; then
+# skip
+    echo '(skipping brew bundle)'
+else
+    brew bundle
+fi
+brew bundle cleanup --force
+brew doctor
 
 cd ..

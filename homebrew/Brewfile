@@ -1,12 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
 tap "cantino/mcfly", "https://github.com/cantino/mcfly"
 tap "ffxblue/custom"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask"
-tap "homebrew/core"
+# tap "matthope/taps-versions"
 tap "jmespath/jmespath"
-tap "matthope/taps-versions"
-tap "mikelorant/homebrew-custom"
+tap "mikelorant/custom"
 tap "versent/taps"
 
 brew "aws-iam-authenticator"
@@ -36,7 +36,6 @@ brew "kustomize"
 brew "ncurses"
 brew "nmap"
 brew "node"
-brew "nushell"
 brew "openssl@1.1"
 brew "pwgen"
 brew "python"
@@ -48,7 +47,7 @@ brew "wget"
 
 brew "cantino/mcfly/mcfly"
 brew "jmespath/jmespath/jp"
-brew "matthope/taps-versions/terraform@0.12.10", link: false
+# brew "matthope/taps-versions/terraform@0.12.10", link: false
 brew "versent/taps/saml2aws"
 
 cask "1password"

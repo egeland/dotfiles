@@ -23,7 +23,7 @@
         "revision": "38450939dcc5a7bd5c139464fb35b5939c406221"
       },
       "homebrew/cask": {
-        "revision": "6594713b08cc810e4165315354e6460c0daa8d5c"
+        "revision": "ccdc55fff36a2cc1f7b4885ab6f19e840a4dff76"
       },
       "homebrew/core": {
         "revision": "0bff963c8a77b5bf0c2239d743fbd4550c6117cc"
@@ -1570,7 +1570,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.4.2-14-gdb99886",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0bff963c8a77b5bf0c2239d743fbd4550c6117cc",
+        "Homebrew/homebrew-core": "120310d024a76d92974a97a264406c06dab44036",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"
