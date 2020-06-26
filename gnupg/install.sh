@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/local/bin/bash -x
 
 echo -n "Bitwarden login: "
 bw login --check || bw login
@@ -11,6 +11,6 @@ done
 
 # export GPG_FOLDER_ID=$(bw list folders --search GPG | jq -r '.[0].id')
 
-DECODE_PASSWORD=$(bw get item "87604617-5c5e-4af6-83aa-abe600907a16" | jq -r '.notes')
+export DECODE_PASSWORD=$(bw get item "87604617-5c5e-4af6-83aa-abe600907a16" | jq -r '.notes')
 
-gpg --passphrase "${DECODE_PASSWORD}" --batch --no-use-agent --decrypt secret_keys.enc | gpg --import
+gpg --passphrase "${DECODE_PASSWORD}" --batch --no-use-agent --decrypt gnupg/secret_keys.enc | gpg --import
