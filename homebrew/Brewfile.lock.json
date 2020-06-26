@@ -1404,6 +1404,23 @@
             }
           }
         }
+      },
+      "mas": {
+        "version": "1.7.0",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.0.catalina.bottle.tar.gz",
+              "sha256": "b985d100947063ee94961f7f1290f232786634b869d20d56bd553197cf91188b"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.0.mojave.bottle.tar.gz",
+              "sha256": "c7005c34a3cf38d23f98e9cc238a0deae61f50ea5dfbcf51a34cc689a9db315e"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -1570,7 +1587,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.4.2-14-gdb99886",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "120310d024a76d92974a97a264406c06dab44036",
+        "Homebrew/homebrew-core": "e4e03212f035c24effa22bc2e1326ad1c6d8a855",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"

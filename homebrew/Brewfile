@@ -33,6 +33,7 @@ brew "kubectx"
 brew "kubernetes-cli"
 brew "kubeseal"
 brew "kustomize"
+brew "mas"
 brew "ncurses"
 brew "nmap"
 brew "node"
@@ -66,3 +67,6 @@ cask "rectangle"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
+
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Monosnap", id: 540348655
