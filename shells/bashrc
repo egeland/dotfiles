@@ -18,4 +18,4 @@ export HISTCONTROL=ignoreboth:erasedups
 [ -f /Users/fegeland/.config/yarn/global/node_modules/tabtab/.completions/sls.bash ] && . /Users/fegeland/.config/yarn/global/node_modules/tabtab/.completions/sls.bash
 
 complete -C /usr/local/bin/terraform terraform
-eval "$(starship init bash)"
+

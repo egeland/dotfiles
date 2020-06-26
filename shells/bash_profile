@@ -35,6 +35,7 @@ export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/sbin" # Add my ~/bin and go
 # if [ "$TERM" != "linux" ]; then
 #     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 # fi
+eval "$(starship init bash)"
 
 export HISTSIZE=20000
 export HISTFILESIZE=25000

@@ -1,15 +1,15 @@
 - clean: ['~']
 
 - link:
-    ~/.profile: profile
-    ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
-    ~/.bash_aliases: bash_aliases
+    ~/.profile: shells/profile
+    ~/.bash_profile: shells/bash_profile
+    ~/.bashrc: shells/bashrc
+    ~/.bash_aliases: shells/bash_aliases
     ~/.gitconfig: gitconfig
     ~/.ssh/config:
         path: ssh/config
         create: true
-    ~/.zshrc: zshrc
+    ~/.zshrc: shells/zshrc
     ~/bin:
         path: bin/
         create: true
@@ -17,8 +17,9 @@
         path: karabiner
         create: true
     ~/.config/fish:
-        path: fish
+        path: shells/fish
         create: true
+        force: true
     ~/.gnupg/gpg.conf:
         path: gnupg/gpg.conf
     ~/.gnupg/gpg-agent.conf:
