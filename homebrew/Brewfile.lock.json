@@ -1535,6 +1535,12 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "master-pdf-editor": {
+        "version": "5.4.38",
+        "options": {
+          "full_name": "master-pdf-editor"
+        }
       }
     }
   },
