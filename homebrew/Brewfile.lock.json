@@ -23,10 +23,10 @@
         "revision": "17ae79b776781ff249332024c4da6ddadbad41c0"
       },
       "homebrew/cask": {
-        "revision": "a0d8111497b7aeab8a8e1f7300027b7a1524e52b"
+        "revision": "0582e7a60eaa46729a0b8036de4e2114292a0b50"
       },
       "homebrew/core": {
-        "revision": "413d9896c436113ad25dc96c41f105b43c9ded33"
+        "revision": "1a823f264d1a4888f95ac5861eb21f94af263e77"
       },
       "jmespath/jmespath": {
         "revision": "4dbf3746742d6ce3ef781271d452ff72f629b6f0"
@@ -42,6 +42,12 @@
       },
       "versent/taps": {
         "revision": "1e58292c1efa0dcfd2d3ee96893b2d12766f232e"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "b67d3c735eceb8367b06d7a969a71595d6b10c51"
+      },
+      "mikelorant/custom": {
+        "revision": "3b3f3ea462d1ec4699e46635661506f4486d119d"
       }
     },
     "brew": {
@@ -1159,22 +1165,22 @@
         }
       },
       "terraform": {
-        "version": "0.12.27",
+        "version": "0.12.28",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.27.catalina.bottle.tar.gz",
-              "sha256": "02453de15d4cc03e42a9ffc8ee2429667a79fc84ceb6a2504a1bf11a4f163718"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.28.catalina.bottle.tar.gz",
+              "sha256": "33bccc922a2204ce317e553dcc6cfc2106cd8ff72c9e12ada102100741c5242d"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.27.mojave.bottle.tar.gz",
-              "sha256": "02453de15d4cc03e42a9ffc8ee2429667a79fc84ceb6a2504a1bf11a4f163718"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.28.mojave.bottle.tar.gz",
+              "sha256": "bc46af39ad947e0ae428ef8605f8cf38e55330860423440ae8dee147d363bdcc"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.27.high_sierra.bottle.tar.gz",
-              "sha256": "02453de15d4cc03e42a9ffc8ee2429667a79fc84ceb6a2504a1bf11a4f163718"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.28.high_sierra.bottle.tar.gz",
+              "sha256": "c1ea4d4491aded438793b5857a81fc1557de4d6d3117029b2fd7a9a0af7ca3d1"
             }
           }
         }
@@ -1335,6 +1341,48 @@
             }
           }
         }
+      },
+      "fish": {
+        "version": "3.1.2",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/fish-3.1.2.catalina.bottle.tar.gz",
+              "sha256": "b158b7f8640feb7c622ff3ca92b1bd88565f274f3e761499f5926bb124eeff7d"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/fish-3.1.2.mojave.bottle.tar.gz",
+              "sha256": "6797636eaba364d0cbbc0459103a8767598e985f01846cca6cb57c986dfee7b8"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/fish-3.1.2.high_sierra.bottle.tar.gz",
+              "sha256": "2609577a0d9f6b661331adccf5d1d8e010662ffe128869757e0af9a6760e26fb"
+            }
+          }
+        }
+      },
+      "nushell": {
+        "version": "0.15.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/nushell-0.15.0.catalina.bottle.tar.gz",
+              "sha256": "a516b3eb630fde82b8bb1d4ee84870bded2609ed2ea61844174edbd064cec0cf"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/nushell-0.15.0.mojave.bottle.tar.gz",
+              "sha256": "e76db1897d9c612c7cc00d291257f83ad3204f67720cadd65e4ece60f35e531e"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/nushell-0.15.0.high_sierra.bottle.tar.gz",
+              "sha256": "3a3e49fff0d9431348555acc8b7c909186a7e00df53ff6d80de70c7e66316898"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -1463,15 +1511,33 @@
         "options": {
           "full_name": "rectangle"
         }
+      },
+      "font-jetbrains-mono": {
+        "version": "1.0.6",
+        "options": {
+          "full_name": "font-jetbrains-mono"
+        }
+      },
+      "font-ibm-plex-mono": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-ibm-plex-mono"
+        }
+      },
+      "big-ip-edge-client": {
+        "version": "7.1.9",
+        "options": {
+          "full_name": "big-ip-edge-client"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "mojave": {
-        "HOMEBREW_VERSION": "2.4.2-5-gadbc50f",
+        "HOMEBREW_VERSION": "2.4.2-14-gdb99886",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "413d9896c436113ad25dc96c41f105b43c9ded33",
+        "Homebrew/homebrew-core": "1a823f264d1a4888f95ac5861eb21f94af263e77",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"

@@ -13,6 +13,9 @@
     ~/bin:
         path: bin/
         create: true
+    ~/.config/karabiner:
+        path: karabiner
+        create: true
 
 - shell:
     -
@@ -25,11 +28,11 @@
         stdin: true
     -
         description: Switch to brew-installed bash
-        command: if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells; chsh -s "${BREW_PREFIX}/bin/bash"; fi;
+        command: BREW_PREFIX=$(brew --prefix) if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells; chsh -s "${BREW_PREFIX}/bin/bash"; fi;
     -
         description: Install VS Code extensions
         command: ./vscode/install.sh
-        stdout: true
+        stdout: false
     -
         description: Set up python virtual env
         command: ./python/install.sh
