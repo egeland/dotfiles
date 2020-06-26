@@ -18,6 +18,7 @@ PKief.material-icon-theme
 rafamel.subtle-brackets
 redhat.vscode-yaml
 sidp.strict-whitespace
+skyapps.fish-vscode
 thomas-baumgaertner.vcl
 yzane.markdown-pdf
 yzhang.markdown-all-in-one

@@ -28,13 +28,13 @@ export EDITOR=/usr/bin/vim
 
 export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/sbin" # Add my ~/bin and go/bin to PATH for scripting
 
-function _update_ps1() {
-    PS1="$(~/bin/powerline-shell.py --mode compatible $? 2> /dev/null)"
-}
+# function _update_ps1() {
+#     PS1="$(~/bin/powerline-shell.py --mode compatible $? 2> /dev/null)"
+# }
 
-if [ "$TERM" != "linux" ]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
+# if [ "$TERM" != "linux" ]; then
+#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+# fi
 
 export HISTSIZE=20000
 export HISTFILESIZE=25000
