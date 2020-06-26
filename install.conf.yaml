@@ -19,6 +19,10 @@
     ~/.config/fish:
         path: fish
         create: true
+    ~/.gnupg/gpg.conf:
+        path: gnupg/gpg.conf
+    ~/.gnupg/gpg-agent.conf:
+        path: gnupg/gpg-agent.conf
 
 - shell:
     -
@@ -33,9 +37,6 @@
         description: Switch to brew-installed bash
         command: export BREW_PREFIX=$(brew --prefix); if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells; chsh -s "${BREW_PREFIX}/bin/bash"; fi;
     -
-        description: Install VS Code extensions
-        command: ./vscode/install.sh
-    -
         description: Set up python virtual env
         command: ./python/install.sh
     -
@@ -43,3 +44,11 @@
         command: ./ssh/install.sh
         stdin: true
         stdout: true
+    -
+        description: Decode GPG secret key
+        command: ./gnupg/install.sh
+        stdin: true
+        stdout: true
+    -
+        description: Install VS Code extensions
+        command: ./vscode/install.sh
