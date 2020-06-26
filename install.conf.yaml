@@ -24,6 +24,8 @@
         path: gnupg/gpg.conf
     ~/.gnupg/gpg-agent.conf:
         path: gnupg/gpg-agent.conf
+    ~/.config/starship.toml:
+        path: starship/starship.toml
 
 - shell:
     -

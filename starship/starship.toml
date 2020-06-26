@@ -1,0 +1,14 @@
+[kubernetes]
+symbol = "☸︎ "
+style = "#326CE5"
+disabled = false
+
+
+[aws]
+displayed_items = "region"
+style = "#ff9900"
+[aws.region_aliases]
+ap-southeast-2 = "apse2"
+
+[time]
+disabled = false
