@@ -1,5 +1,10 @@
 #!/usr/local/bin/bash
 
+if [[ -f ~/.ssh/.import_done ]]; then
+    echo "SSH Keys already imported"
+    exit 0
+fi
+
 echo -n "Bitwarden login: "
 bw login --check || bw login
 
@@ -28,3 +33,5 @@ do
         chmod 700 ~/"${SSH_KEY_NAME}"
     fi
 done
+
+touch ~/.ssh/.import_done
