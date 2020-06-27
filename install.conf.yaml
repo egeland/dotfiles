@@ -26,6 +26,8 @@
         path: gnupg/gpg-agent.conf
     ~/.config/starship.toml:
         path: starship/starship.toml
+    ~/.saml2aws:
+        path: saml2aws
 
 - shell:
     -
