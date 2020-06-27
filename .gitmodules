@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "shells/fish/fish-kubectl-completions"]
+	path = shells/fish/fish-kubectl-completions
+	url = https://github.com/evanlucas/fish-kubectl-completions

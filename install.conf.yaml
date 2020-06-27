@@ -20,6 +20,9 @@
         path: shells/fish
         create: true
         force: true
+    shells/fish/completions/kubectl.fish:
+        path: shells/fish/fish-kubectl-completions/completions/kubectl.fish
+        create: true
     ~/.gnupg/gpg.conf:
         path: gnupg/gpg.conf
     ~/.gnupg/gpg-agent.conf:
