@@ -2,6 +2,14 @@
 
 cd homebrew
 
+LAST_RUN=".last_run"
+if [[ -f "$LAST_RUN" ]]; then
+    find "$LAST_RUN" -mtime +4h -print | grep -q "$LAST_RUN" || \
+        echo "Homebrew checked recently - skipping" && \
+        cd .. && \
+        exit 0
+fi
+
 brew tap homebrew/bundle
 brew update
 brew upgrade
@@ -14,5 +22,7 @@ else
 fi
 brew bundle cleanup --force
 brew doctor
+
+touch $LAST_RUN
 
 cd ..

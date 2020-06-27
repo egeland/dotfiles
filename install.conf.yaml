@@ -31,6 +31,10 @@
 
 - shell:
     -
+        description: MacOS System Update
+        command: softwareupdate -i -a
+        stdout: false
+    -
         description: Install homebrew if needed
         command: which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     -
