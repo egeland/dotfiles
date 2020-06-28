@@ -64,3 +64,7 @@
     -
         description: Install VS Code extensions
         command: ./vscode/install.sh
+    -
+        description: Set up iterm2
+        command: ./iterm2_profile/install.sh
+        stdout: true
