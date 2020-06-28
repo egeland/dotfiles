@@ -21,6 +21,7 @@ else
     brew bundle
 fi
 brew bundle cleanup --force
+brew cleanup
 brew doctor
 
 touch $LAST_RUN
