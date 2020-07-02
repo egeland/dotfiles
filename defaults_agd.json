@@ -1,0 +1,34 @@
+{
+    AKLastIDMSEnvironment = 0;
+    AppleAntiAliasingThreshold = 4;
+    AppleLanguages =     (
+        "en-AU"
+    );
+    AppleLanguagesDidMigrate = "10.15.4";
+    AppleLanguagesSchemaVersion = 1001;
+    AppleLocale = "en_AU";
+    AppleMiniaturizeOnDoubleClick = 0;
+    NSAutomaticCapitalizationEnabled = 1;
+    NSAutomaticPeriodSubstitutionEnabled = 1;
+    NSLinguisticDataAssetsRequestLastInterval = 86400;
+    NSLinguisticDataAssetsRequestTime = "2020-07-02 04:35:51 +0000";
+    NSLinguisticDataAssetsRequested =     (
+        en,
+        "en_AU"
+    );
+    NSUserDictionaryReplacementItems =     (
+                {
+            on = 1;
+            replace = omw;
+            with = "On my way!";
+        }
+    );
+    "com.apple.finder.SyncExtensions" =     {
+        dirMap =         {
+        };
+    };
+    "com.apple.sound.beep.flash" = 0;
+    "com.apple.springing.delay" = "0.5";
+    "com.apple.springing.enabled" = 1;
+    "com.apple.trackpad.forceClick" = 1;
+}
