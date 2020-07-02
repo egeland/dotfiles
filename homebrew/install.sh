@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash -x
+#!/bin/bash -x
 
 cd homebrew
 

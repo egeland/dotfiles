@@ -25,6 +25,7 @@
         create: true
     ~/.gnupg/gpg.conf:
         path: gnupg/gpg.conf
+        create: true
     ~/.gnupg/gpg-agent.conf:
         path: gnupg/gpg-agent.conf
     ~/.config/starship.toml:
