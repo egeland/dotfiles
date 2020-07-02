@@ -6,16 +6,24 @@ import random
 
 TEAM = [
     "Aish",
-    "Alexey",
-    "Joe",
+    "Alex",
+    "Archie",
+    "Bala",
+    "Balu",
+    "Ben",
+    "Denny",
+    "Frode",
     "Joel",
+    "Sweeney",
     "Lee",
     "Matt",
     "Mick",
     "Mike",
+    "Miles",
     "Mitchell",
-    "RobG",
-    "RobH",
+    "Gomez",
+    "Todd",
+    "Rasika",
 ]
 
 
