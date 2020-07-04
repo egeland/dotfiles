@@ -1,10 +1,11 @@
 {
     AKLastIDMSEnvironment = 0;
     AppleAntiAliasingThreshold = 4;
+    AppleInterfaceStyle = Dark;
     AppleLanguages =     (
         "en-AU"
     );
-    AppleLanguagesDidMigrate = "10.15.4";
+    AppleLanguagesDidMigrate = "10.15.5";
     AppleLanguagesSchemaVersion = 1001;
     AppleLocale = "en_AU";
     AppleMiniaturizeOnDoubleClick = 0;
@@ -16,6 +17,12 @@
         en,
         "en_AU"
     );
+    NSPreferredWebServices =     {
+        NSWebServicesProviderWebSearch =         {
+            NSDefaultDisplayName = Google;
+            NSProviderIdentifier = "com.google.www";
+        };
+    };
     NSUserDictionaryReplacementItems =     (
                 {
             on = 1;

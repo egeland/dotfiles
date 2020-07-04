@@ -2,10 +2,11 @@
     "Apple Global Domain" =     {
         AKLastIDMSEnvironment = 0;
         AppleAntiAliasingThreshold = 4;
+        AppleInterfaceStyle = Dark;
         AppleLanguages =         (
             "en-AU"
         );
-        AppleLanguagesDidMigrate = "10.15.4";
+        AppleLanguagesDidMigrate = "10.15.5";
         AppleLanguagesSchemaVersion = 1001;
         AppleLocale = "en_AU";
         AppleMiniaturizeOnDoubleClick = 0;
@@ -17,6 +18,12 @@
             en,
             "en_AU"
         );
+        NSPreferredWebServices =         {
+            NSWebServicesProviderWebSearch =             {
+                NSDefaultDisplayName = Google;
+                NSProviderIdentifier = "com.google.www";
+            };
+        };
         NSUserDictionaryReplacementItems =         (
                         {
                 on = 1;
@@ -34,12 +41,13 @@
         "com.apple.trackpad.forceClick" = 1;
     };
     ContextStoreAgent =     {
-        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/app/usageActivityDate" = "2020-07-02 05:10:06 +0000";
-        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/app/usageActivityDate" = "2020-07-02 05:10:06 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/app/usageActivityDate" = "2020-07-02 07:09:10 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/app/usageActivityDate" = "2020-07-02 07:09:10 +0000";
     };
     "com.apple.AdLib" =     {
         adprivacydMaxSegmentSendInterval = 259200;
         adprivacydSegmentInterval = 127411;
+        forceLimitAdTracking = 0;
     };
     "com.apple.AddressBook" =     {
         ABBirthDayVisible = 1;
@@ -49,6 +57,8 @@
         ABVersion = 1419;
     };
     "com.apple.AppleMediaServices" =     {
+        AMSDeviceBiometricsState = 0;
+        AMSMigratedToNewAccountStore = 1;
         AMSStorefrontSuffixes =         {
         };
     };
@@ -426,6 +436,266 @@
             "\\Ud83c\\Uddff\\Ud83c\\Uddf2",
             "\\Ud83c\\Uddff\\Ud83c\\Uddfc"
         );
+        "19F101_en-AU" =         (
+            "\\Ud83c\\Udff3\\Ufe0f",
+            "\\Ud83c\\Udff4",
+            "\\Ud83c\\Udff4\\U200d\\U2620\\Ufe0f",
+            "\\Ud83c\\Udfc1",
+            "\\Ud83d\\Udea9",
+            "\\Ud83c\\Udff3\\Ufe0f\\U200d\\Ud83c\\Udf08",
+            "\\Ud83c\\Uddfa\\Ud83c\\Uddf3",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddeb",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddfd",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf1",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddff",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf8",
+            "\\Ud83c\\Udde6\\Ud83c\\Udde9",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf4",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddee",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf6",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddec",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf7",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf2",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddfc",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddfa",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddf9",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddff",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf8",
+            "\\Ud83c\\Udde7\\Ud83c\\Udded",
+            "\\Ud83c\\Udde7\\Ud83c\\Udde9",
+            "\\Ud83c\\Udde7\\Ud83c\\Udde7",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddfe",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddea",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddff",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddef",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf2",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf9",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf4",
+            "\\Ud83c\\Udde7\\Ud83c\\Udde6",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddfc",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddfb\\Ud83c\\Uddec",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf3",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddec",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddeb",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddf0\\Ud83c\\Udded",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf2",
+            "\\Ud83c\\Udde8\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddee\\Ud83c\\Udde8",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddfb",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf6",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddfe",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddf9\\Ud83c\\Udde9",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf1",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf3",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddfd",
+            "\\Ud83c\\Udde8\\Ud83c\\Udde8",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddf2",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddec",
+            "\\Ud83c\\Udde8\\Ud83c\\Udde9",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf0",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddf7",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddee",
+            "\\Ud83c\\Udded\\Ud83c\\Uddf7",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddfa",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddfc",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddfe",
+            "\\Ud83c\\Udde8\\Ud83c\\Uddff",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddf0",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddef",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddf2",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddea\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddfb",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf6",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddef",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddec\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddea",
+            "\\Ud83c\\Udde9\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddec\\Ud83c\\Udded",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddec\\Ud83c\\Udde9",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf5",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddfe",
+            "\\Ud83c\\Udded\\Ud83c\\Uddf9",
+            "\\Ud83c\\Udded\\Ud83c\\Uddf3",
+            "\\Ud83c\\Udded\\Ud83c\\Uddf0",
+            "\\Ud83c\\Udded\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddee\\Ud83c\\Udde9",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf6",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddee\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddef\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddef\\Ud83c\\Uddf5",
+            "\\Ud83c\\Udf8c",
+            "\\Ud83c\\Uddef\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddef\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddfd\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf1\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddfb",
+            "\\Ud83c\\Uddf1\\Ud83c\\Udde7",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddfe",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddfe",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddfb",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf2\\Ud83c\\Udded",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf6",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddfe\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddfd",
+            "\\Ud83c\\Uddeb\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddf2\\Ud83c\\Udde9",
+            "\\Ud83c\\Uddf2\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf2\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddf3\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddf5",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf3\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddf5",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddf2\\Ud83c\\Uddf5",
+            "\\Ud83c\\Uddf3\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf4\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf5\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddfe",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf5\\Ud83c\\Udded",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf6\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf7\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddf7\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf7\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddf7\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddfc\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf8\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddf7\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf8\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddfd",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddec\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf8\\Ud83c\\Udde7",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddff\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddea\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddf1\\Ud83c\\Uddf0",
+            "\\Ud83c\\Udde7\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf8\\Ud83c\\Udded",
+            "\\Ud83c\\Uddf0\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddf1\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf5\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddfb\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf8\\Ud83c\\Udde9",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddea",
+            "\\Ud83c\\Udde8\\Ud83c\\Udded",
+            "\\Ud83c\\Uddf8\\Ud83c\\Uddfe",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddfc",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddef",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddf9\\Ud83c\\Udded",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf1",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf0",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf4",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf9",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf7",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddf9\\Ud83c\\Udde8",
+            "\\Ud83c\\Uddf9\\Ud83c\\Uddfb",
+            "\\Ud83c\\Uddfb\\Ud83c\\Uddee",
+            "\\Ud83c\\Uddfa\\Ud83c\\Uddec",
+            "\\Ud83c\\Uddfa\\Ud83c\\Udde6",
+            "\\Ud83c\\Udde6\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddec\\Ud83c\\Udde7",
+            "\\Ud83c\\Udff4\\Udb40\\Udc67\\Udb40\\Udc62\\Udb40\\Udc65\\Udb40\\Udc6e\\Udb40\\Udc67\\Udb40\\Udc7f",
+            "\\Ud83c\\Udff4\\Udb40\\Udc67\\Udb40\\Udc62\\Udb40\\Udc73\\Udb40\\Udc63\\Udb40\\Udc74\\Udb40\\Udc7f",
+            "\\Ud83c\\Udff4\\Udb40\\Udc67\\Udb40\\Udc62\\Udb40\\Udc77\\Udb40\\Udc6c\\Udb40\\Udc73\\Udb40\\Udc7f",
+            "\\Ud83c\\Uddfa\\Ud83c\\Uddf8",
+            "\\Ud83c\\Uddfa\\Ud83c\\Uddfe",
+            "\\Ud83c\\Uddfa\\Ud83c\\Uddff",
+            "\\Ud83c\\Uddfb\\Ud83c\\Uddfa",
+            "\\Ud83c\\Uddfb\\Ud83c\\Udde6",
+            "\\Ud83c\\Uddfb\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddfb\\Ud83c\\Uddf3",
+            "\\Ud83c\\Uddfc\\Ud83c\\Uddeb",
+            "\\Ud83c\\Uddea\\Ud83c\\Udded",
+            "\\Ud83c\\Uddfe\\Ud83c\\Uddea",
+            "\\Ud83c\\Uddff\\Ud83c\\Uddf2",
+            "\\Ud83c\\Uddff\\Ud83c\\Uddfc"
+        );
     };
     "com.apple.EmojiPreferences" =     {
         EMFDefaultsKey =         {
@@ -438,7 +708,7 @@
     };
     "com.apple.FontRegistry.user" =     {
         LastUpdated = "2020-07-02 04:33:45 +0000";
-        Version = 19E287;
+        Version = 19F101;
     };
     "com.apple.GEO" =     {
         DefaultsSanitizedVersion = 20190107;
@@ -510,18 +780,27 @@
     };
     "com.apple.Maps" =     {
         AnnouncementsETag = "\\"ecfa567b5db3229860736670e2c8aa012b5b3e6c\\"";
-        AnnouncementsLastUpdated = "615357243.27988";
+        AnnouncementsLastUpdated = "615363023.793043";
         LastAnnouncementsURL = "https://gspe35-ssl.ls.apple.com/config/announcements?environment=prod&hardware=MacBookPro16,1&lang=en-AU&os=osx&os_build=19E287&os_version=10.15.4";
     };
+    "com.apple.Safari.SafeBrowsing" =     {
+        HasMigratedSafeBrowsingEnabledDefaults = 1;
+        SafeBrowsingRemoteConfigurationLastUpdateDate = "2020-07-02 06:46:00 +0000";
+    };
+    "com.apple.Safari.SandboxBroker" =     {
+        DidMigrateResourcesToSandbox = 1;
+        Homepage = {length = 270, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d4 };
+        ShowDevelopMenu = 0;
+    };
     "com.apple.SafariBookmarksSyncAgent" =     {
-        NewestLaunchedSafariBookmarksSyncAgentVersion = "609.1.20.111.8";
+        NewestLaunchedSafariBookmarksSyncAgentVersion = "609.2.9.1.2";
     };
     "com.apple.ServicesMenu.Services" =     {
         NSServices =         {
             CFPrincipalLocalizations =             (
                 "en_AU",
-                en,
-                "en_GB"
+                "en_GB",
+                English
             );
             CFVendedServices =             (
                                 {
@@ -574,8 +853,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Create Service";
                         default = "Create Service";
-                        en = "Create Service";
                         "en_AU" = "Create Service";
                         "en_GB" = "Create Service";
                     };
@@ -593,8 +872,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Create Workflow";
                         default = "Create Workflow";
-                        en = "Create Workflow";
                         "en_AU" = "Create Workflow";
                         "en_GB" = "Create Workflow";
                     };
@@ -613,8 +892,8 @@
                         default = B;
                     };
                     NSMenuItem =                     {
+                        English = "Send File To Bluetooth Device";
                         default = "Send File To Bluetooth Device";
-                        en = "Send File To Bluetooth Device";
                         "en_AU" = "Send File To Bluetooth Device";
                         "en_GB" = "Send File To Bluetooth Device";
                     };
@@ -634,14 +913,14 @@
                     NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                     NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                     NSKeyEquivalent =                     {
+                        English = "$^@C";
                         default = "$^@C";
-                        en = "$^@C";
                         "en_AU" = "$^@C";
                         "en_GB" = "$^@C";
                     };
                     NSMenuItem =                     {
+                        English = "Convert Text to Traditional Chinese";
                         default = "Convert Text from Simplified to Traditional Chinese";
-                        en = "Convert Text to Traditional Chinese";
                         "en_AU" = "Convert Text to Traditional Chinese";
                         "en_GB" = "Convert Text to Traditional Chinese";
                     };
@@ -665,14 +944,14 @@
                     NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                     NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                     NSKeyEquivalent =                     {
+                        English = "$^~@C";
                         default = "$^~@C";
-                        en = "$^~@C";
                         "en_AU" = "$^~@C";
                         "en_GB" = "$^~@C";
                     };
                     NSMenuItem =                     {
+                        English = "Convert Text to Simplified Chinese";
                         default = "Convert Text from Traditional to Simplified Chinese";
-                        en = "Convert Text to Simplified Chinese";
                         "en_AU" = "Convert Text to Simplified Chinese";
                         "en_GB" = "Convert Text to Simplified Chinese";
                     };
@@ -698,8 +977,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Convert Text to Full Width";
                         default = "Convert Text to Full Width";
-                        en = "Convert Text to Full Width";
                         "en_AU" = "Convert Text to Full Width";
                         "en_GB" = "Convert Text to Full Width";
                     };
@@ -722,8 +1001,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Convert Text to Half Width";
                         default = "Convert Text to Half Width";
-                        en = "Convert Text to Half Width";
                         "en_AU" = "Convert Text to Half Width";
                         "en_GB" = "Convert Text to Half Width";
                     };
@@ -746,8 +1025,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Look Up in Dictionary";
                         default = "Look Up in Dictionary";
-                        en = "Look Up in Dictionary";
                         "en_AU" = "Look Up in Dictionary";
                         "en_GB" = "Look Up in Dictionary";
                     };
@@ -764,8 +1043,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Folder Actions Set-up\\U2026";
                         default = "Folder Actions Setup";
-                        en = "Folder Actions Set-up\\U2026";
                         "en_AU" = "Folder Actions Set-up\\U2026";
                         "en_GB" = "Folder Actions Set-up\\U2026";
                     };
@@ -783,8 +1062,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Font Book/Create Font Library From Text";
                         default = "Font Book/Create Font Library From Text";
-                        en = "Font Book/Create Font Library From Text";
                         "en_AU" = "Font Book/Create Font Library From Text";
                         "en_GB" = "Font Book/Create Font Library From Text";
                     };
@@ -805,8 +1084,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Font Book/Create Collection From Text";
                         default = "Font Book/Create Collection From Text";
-                        en = "Font Book/Create Collection From Text";
                         "en_AU" = "Font Book/Create Collection From Text";
                         "en_GB" = "Font Book/Create Collection From Text";
                     };
@@ -827,8 +1106,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Font Book/Display Font Information";
                         default = "Font Book/Display Font Information";
-                        en = "Font Book/Display Font Information";
                         "en_AU" = "Font Book/Display Font Information";
                         "en_GB" = "Font Book/Display Font Information";
                     };
@@ -848,8 +1127,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Import Image";
                         default = "Import Image";
-                        en = "Import Image";
                         "en_AU" = "Import Image";
                         "en_GB" = "Import Image";
                     };
@@ -882,8 +1161,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Preview/Open images";
                         default = "Preview/Open images";
-                        en = "Preview/Open images";
                         "en_AU" = "Preview/Open images";
                         "en_GB" = "Preview/Open images";
                     };
@@ -900,8 +1179,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Encode Selected Audio Files";
                         default = "Encode Selected Audio Files";
-                        en = "Encode Selected Audio Files";
                         "en_AU" = "Encode Selected Audio Files";
                         "en_GB" = "Encode Selected Audio Files";
                     };
@@ -921,8 +1200,8 @@
                         default = L;
                     };
                     NSMenuItem =                     {
+                        English = "Search With %WebSearchProvider@";
                         default = "Search With %WebSearchProvider@";
-                        en = "Search With %WebSearchProvider@";
                         "en_AU" = "Search With %WebSearchProvider@";
                         "en_GB" = "Search With %WebSearchProvider@";
                     };
@@ -939,8 +1218,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Add to Reading List";
                         default = "Add to Reading List";
-                        en = "Add to Reading List";
                         "en_AU" = "Add to Reading List";
                         "en_GB" = "Add to Reading List";
                     };
@@ -969,8 +1248,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Script Editor/Make New AppleScript";
                         default = "Script Editor/Make New AppleScript";
-                        en = "Script Editor/Make New AppleScript";
                         "en_AU" = "Script Editor/Make New AppleScript";
                         "en_GB" = "Script Editor/Make New AppleScript";
                     };
@@ -987,8 +1266,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Script Editor/Run as AppleScript";
                         default = "Script Editor/Run as AppleScript";
-                        en = "Script Editor/Run as AppleScript";
                         "en_AU" = "Script Editor/Run as AppleScript";
                         "en_GB" = "Script Editor/Run as AppleScript";
                     };
@@ -1004,14 +1283,14 @@
                     NSBundleIdentifier = "com.apple.ScriptEditor2";
                     NSBundlePath = "/System/Applications/Utilities/Script Editor.app";
                     NSKeyEquivalent =                     {
+                        English = "*";
                         default = "*";
-                        en = "*";
                         "en_AU" = "*";
                         "en_GB" = "*";
                     };
                     NSMenuItem =                     {
+                        English = "Script Editor/Get Result of AppleScript";
                         default = "Script Editor/Get Result of AppleScript";
-                        en = "Script Editor/Get Result of AppleScript";
                         "en_AU" = "Script Editor/Get Result of AppleScript";
                         "en_GB" = "Script Editor/Get Result of AppleScript";
                     };
@@ -1035,8 +1314,8 @@
                         default = F;
                     };
                     NSMenuItem =                     {
+                        English = Spotlight;
                         default = "SEARCH_WITH_SPOTLIGHT";
-                        en = Spotlight;
                         "en_AU" = Spotlight;
                         "en_GB" = Spotlight;
                     };
@@ -1051,14 +1330,14 @@
                     NSBundleIdentifier = "com.apple.Stickies";
                     NSBundlePath = "/System/Applications/Stickies.app";
                     NSKeyEquivalent =                     {
+                        English = Y;
                         default = Y;
-                        en = Y;
                         "en_AU" = Y;
                         "en_GB" = Y;
                     };
                     NSMenuItem =                     {
+                        English = "Make New Sticky Note";
                         default = "Make Sticky";
-                        en = "Make New Sticky Note";
                         "en_AU" = "Make New Sticky Note";
                         "en_GB" = "Make New Sticky Note";
                     };
@@ -1077,8 +1356,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = Summarise;
                         default = Summarize;
-                        en = Summarise;
                         "en_AU" = Summarise;
                         "en_GB" = Summarise;
                     };
@@ -1095,8 +1374,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "New Terminal at Folder";
                         default = "New Terminal at Folder";
-                        en = "New Terminal at Folder";
                         "en_AU" = "New Terminal at Folder";
                         "en_GB" = "New Terminal at Folder";
                     };
@@ -1120,8 +1399,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "New Terminal Tab at Folder";
                         default = "New Terminal Tab at Folder";
-                        en = "New Terminal Tab at Folder";
                         "en_AU" = "New Terminal Tab at Folder";
                         "en_GB" = "New Terminal Tab at Folder";
                     };
@@ -1147,8 +1426,8 @@
                         default = M;
                     };
                     NSMenuItem =                     {
+                        English = "Open man Page in Terminal";
                         default = "Open man Page in Terminal";
-                        en = "Open man Page in Terminal";
                         "en_AU" = "Open man Page in Terminal";
                         "en_GB" = "Open man Page in Terminal";
                     };
@@ -1169,8 +1448,8 @@
                         default = A;
                     };
                     NSMenuItem =                     {
+                        English = "Search man Page Index in Terminal";
                         default = "Search man Page Index in Terminal";
-                        en = "Search man Page Index in Terminal";
                         "en_AU" = "Search man Page Index in Terminal";
                         "en_GB" = "Search man Page Index in Terminal";
                     };
@@ -1190,8 +1469,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "New TextEdit Window Containing Selection";
                         default = "New TextEdit Window Containing Selection";
-                        en = "New TextEdit Window Containing Selection";
                         "en_AU" = "New TextEdit Window Containing Selection";
                         "en_GB" = "New TextEdit Window Containing Selection";
                     };
@@ -1210,8 +1489,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Open Selected File in TextEdit";
                         default = "Open Selected File in TextEdit";
-                        en = "Open Selected File in TextEdit";
                         "en_AU" = "Open Selected File in TextEdit";
                         "en_GB" = "Open Selected File in TextEdit";
                     };
@@ -1234,8 +1513,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Finder/Open";
                         default = "Finder/Open";
-                        en = "Finder/Open";
                         "en_AU" = "Finder/Open";
                         "en_GB" = "Finder/Open";
                     };
@@ -1259,8 +1538,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Finder/Show in Finder";
                         default = "Finder/Reveal";
-                        en = "Finder/Show in Finder";
                         "en_AU" = "Finder/Show in Finder";
                         "en_GB" = "Finder/Show in Finder";
                     };
@@ -1284,8 +1563,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Finder/Show Info in Finder";
                         default = "Finder/Show Info";
-                        en = "Finder/Show Info in Finder";
                         "en_AU" = "Finder/Show Info in Finder";
                         "en_GB" = "Finder/Show Info in Finder";
                     };
@@ -1306,8 +1585,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Mail/New Email With Selection";
                         default = "Mail/New Email With Selection";
-                        en = "Mail/New Email With Selection";
                         "en_AU" = "Mail/New Email With Selection";
                         "en_GB" = "Mail/New Email With Selection";
                     };
@@ -1327,8 +1606,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Mail/New Email To Address";
                         default = "Mail/New Email To Address";
-                        en = "Mail/New Email To Address";
                         "en_AU" = "Mail/New Email To Address";
                         "en_GB" = "Mail/New Email To Address";
                     };
@@ -1345,8 +1624,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Add to Music as a Spoken Track";
                         default = "Add to Music as a Spoken Track";
-                        en = "Add to Music as a Spoken Track";
                         "en_AU" = "Add to Music as a Spoken Track";
                         "en_GB" = "Add to Music as a Spoken Track";
                     };
@@ -1363,8 +1642,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Encode Selected Video Files";
                         default = "Encode Selected Video Files";
-                        en = "Encode Selected Video Files";
                         "en_AU" = "Encode Selected Video Files";
                         "en_GB" = "Encode Selected Video Files";
                     };
@@ -1383,8 +1662,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Set Desktop Picture";
                         default = "Set Desktop Picture";
-                        en = "Set Desktop Picture";
                         "en_AU" = "Set Desktop Picture";
                         "en_GB" = "Set Desktop Picture";
                     };
@@ -1400,8 +1679,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Show Map";
                         default = "Show Map";
-                        en = "Show Map";
                         "en_AU" = "Show Map";
                         "en_GB" = "Show Map";
                     };
@@ -1421,8 +1700,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Speech/Start Speaking Text";
                         default = "Speech/Start Speaking Text";
-                        en = "Speech/Start Speaking Text";
                         "en_AU" = "Speech/Start Speaking Text";
                         "en_GB" = "Speech/Start Speaking Text";
                     };
@@ -1439,8 +1718,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Speech/Stop Speaking";
                         default = "Speech/Stop Speaking";
-                        en = "Speech/Stop Speaking";
                         "en_AU" = "Speech/Stop Speaking";
                         "en_GB" = "Speech/Stop Speaking";
                     };
@@ -1457,8 +1736,8 @@
                     NSKeyEquivalent =                     {
                     };
                     NSMenuItem =                     {
+                        English = "Open URL";
                         default = "Open URL";
-                        en = "Open URL";
                         "en_AU" = "Open URL";
                         "en_GB" = "Open URL";
                     };
@@ -1470,6 +1749,42 @@
                         NSStringPboardType
                     );
                     NSUUID = {length = 20, bytes = 0xb2f07f415fa9a00c9ef0d5bd7e275ea20487fcf0};
+                },
+                                {
+                    NSBundleIdentifier = "com.googlecode.iterm2";
+                    NSBundlePath = "/Applications/iTerm.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        default = "New iTerm2 Tab Here";
+                    };
+                    NSMessage = openTab;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSSendTypes =                     (
+                        NSFilenamesPboardType,
+                        "public.plain-text"
+                    );
+                    NSUUID = {length = 20, bytes = 0x27a1bc994bb2be0099b121900bc708db640da603};
+                },
+                                {
+                    NSBundleIdentifier = "com.googlecode.iterm2";
+                    NSBundlePath = "/Applications/iTerm.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        default = "New iTerm2 Window Here";
+                    };
+                    NSMessage = openWindow;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSSendTypes =                     (
+                        NSFilenamesPboardType,
+                        "public.plain-text"
+                    );
+                    NSUUID = {length = 20, bytes = 0x10e0690fbf28143718e2d0e312b3b08ce940c455};
                 }
             );
             CFVersion = 2;
@@ -1477,7 +1792,7 @@
     };
     "com.apple.SetupAssistant" =     {
         DidSeeActivationLock = 0;
-        DidSeeAppearanceSetup = 0;
+        DidSeeAppearanceSetup = 1;
         DidSeeApplePaySetup = 0;
         DidSeeAvatarSetup = 0;
         DidSeeCloudSetup = 1;
@@ -1487,21 +1802,39 @@
         DidSeeSyncSetup = 0;
         DidSeeSyncSetup2 = 0;
         DidSeeTouchIDSetup = 0;
-        DidSeeTrueTone = 0;
+        DidSeeTrueTone = 1;
         DidSeeiCloudLoginForStorageServices = 0;
         GestureMovieSeen = none;
-        LastPreLoginTasksPerformedBuild = 19E287;
-        LastPreLoginTasksPerformedVersion = "10.15.4";
+        LastPreLoginTasksPerformedBuild = 19F101;
+        LastPreLoginTasksPerformedVersion = "10.15.5";
         LastPrivacyBundleVersion = 2;
         LastSeenBuddyBuildVersion = 19D76;
         LastSeenCloudProductVersion = "10.15.3";
+        LastSeenSiriProductVersion = "10.15.5";
         MiniBuddyLaunchReason = 0;
         MiniBuddyLaunchedPostMigration = 0;
         MiniBuddyShouldLaunchToResumeSetup = 0;
         NSAddServicesToContextMenus = 0;
-        PreviousBuildVersion = 0;
-        PreviousSystemVersion = 0;
+        PreviousBuildVersion = 19E287;
+        PreviousSystemVersion = "10.15.4";
         SkipFirstLoginOptimization = 0;
+    };
+    "com.apple.Siri" =     {
+        StatusMenuVisible = 0;
+    };
+    "com.apple.Siri.SiriTodayExtension" =     {
+        AppleLanguages =         (
+            "en-AU"
+        );
+        AppleLocale = "en_AU";
+        AppleTextDirection = 0;
+    };
+    "com.apple.SiriNCService" =     {
+        AppleLanguages =         (
+            "en-AU"
+        );
+        AppleLocale = "en_AU";
+        AppleTextDirection = 0;
     };
     "com.apple.SocialPushAgent" =     {
         MigratedCabRegistrations = 1;
@@ -1517,7 +1850,7 @@
         lastVisibleScreenRect = "{{0, 80}, {1792, 1017}}";
         lastWindowPosition = "{{556, 466}, {680, 430}}";
         showedFTE = 1;
-        startTime = "615357249.063954";
+        startTime = "615363085.064267";
         useCount = 1;
     };
     "com.apple.TelephonyUtilities" =     {
@@ -1536,7 +1869,7 @@
         HasMigratedDefaults = 1;
         "NSWindow Frame TTAppPreferences" = "563 445 667 533 0 0 1792 1097 ";
         "NSWindow Frame TTWindow" = "61 687 524 349 0 0 1792 1097 ";
-        "NSWindow Frame TTWindow Basic" = "0 80 1788 1017 0 0 1792 1097 ";
+        "NSWindow Frame TTWindow Basic" = "0 354 1228 743 0 0 1792 1097 ";
         ProfileCurrentVersion = "2.07";
         SecureKeyboardEntry = 0;
         "Startup Window Settings" = Basic;
@@ -1719,7 +2052,7 @@
             "com.apple.vimeo" = "VimeoAuthenticationPlugin.bundle";
             "com.apple.youku" = "YoukuAuthenticationPlugin.bundle";
         };
-        LastSystemVersion = 19E287;
+        LastSystemVersion = 19F101;
     };
     "com.apple.appstored" =     {
         ArcadeDeviceGUID = 3C22FB53217C;
@@ -1727,15 +2060,15 @@
         ArcadeDeviceIDCreationDate = "2020-07-02 04:34:06 +0000";
         ArcadePayoutDeviceID = "2CE929B3-58D6-4CBF-BF0A-68F0D00AA953";
         ArcadePayoutIntervalStartDate = "2020-07-02 04:34:07 +0000";
-        ArcadePayoutLaunchesIntervalStartDate = "2020-07-02 04:34:07 +0000";
+        ArcadePayoutLaunchesIntervalStartDate = "2020-07-02 06:13:16 +0000";
         ArcadeSubscriptionState = Unsubscribed;
-        ArcadeSummaryIntervalStartDate = "2020-07-02 04:34:07 +0000";
-        ArcadeSummaryLaunchesIntervalStartDate = "2020-07-02 04:34:07 +0000";
-        CrossfireIntervalStartDate = "2020-07-02 04:34:23 +0000";
-        CrossfireLaunchesIntervalStartDate = "2020-07-02 04:34:23 +0000";
-        LastOSBuildVersion = 19E287;
-        TargetDateOcelotPostPayout = "2020-07-02 16:34:07 +0000";
-        TargetDateOcelotPostSummary = "2020-07-02 16:34:07 +0000";
+        ArcadeSummaryIntervalStartDate = "2020-07-02 06:13:16 +0000";
+        ArcadeSummaryLaunchesIntervalStartDate = "2020-07-02 06:13:16 +0000";
+        CrossfireIntervalStartDate = "2020-07-02 06:13:15 +0000";
+        CrossfireLaunchesIntervalStartDate = "2020-07-02 06:13:15 +0000";
+        LastOSBuildVersion = 19F101;
+        TargetDateOcelotPostPayout = "2020-07-02 18:13:16 +0000";
+        TargetDateOcelotPostSummary = "2020-07-02 18:13:16 +0000";
     };
     "com.apple.assistant" =     {
         "Last Known Analytics Store State" = 0;
@@ -1743,17 +2076,29 @@
         "Voice Trigger Needs Sync" = 1;
     };
     "com.apple.assistant.backedup" =     {
+        "Output Voice" =         {
+            Custom = 1;
+            Footprint = 0;
+            Gender = 0;
+            Language = "en-AU";
+        };
+        "Session Language" = "en-AU";
+    };
+    "com.apple.assistant.support" =     {
+        "Assistant Enabled" = 0;
+    };
+    "com.apple.bookstoreagent" =     {
     };
     "com.apple.calculateframework" =     {
         currencyCache =         {
-            AED = "3.6728";
+            AED = "3.67185";
             AFN = "77.05";
             ALL = "110.25";
             AMD = "482.02";
             ANG = "1.785";
             AOA = "567.509";
             ARS = "70.51000000000001";
-            AUD = "1.44449";
+            AUD = "1.4425";
             AWG = "1.78";
             AZN = "1.6995";
             BAM = "1.7409";
@@ -1763,7 +2108,7 @@
             BHD = "0.377";
             BIF = "1899.65";
             BMD = 1;
-            BND = "1.3933";
+            BND = "1.3924";
             BOB = "6.83";
             BRL = "5.3172";
             BSD = 1;
@@ -1772,32 +2117,32 @@
             BYN = "2.42";
             BYR = 20020;
             BZD = "1.998";
-            CAD = "1.3603";
+            CAD = "1.35974";
             CDF = "1901.75";
-            CHF = "0.94573";
+            CHF = "0.9455";
             CLF = "0.02799";
             CLP = "808.2";
-            CNY = "7.0678";
+            CNY = "7.0621";
             COP = 3711;
             CRC = "579.27";
             CUC = 1;
             CUP = "24.9995";
             CVE = "97.90000000000001";
             CYP = 0;
-            CZK = "23.603";
+            CZK = "23.592";
             DEM = "1.71745";
             DJF = "177.5";
-            DKK = "6.6137";
+            DKK = "6.61054";
             DOP = "58.18";
-            DZD = "128.87";
+            DZD = "128.507";
             EGP = "16.08";
             ERN = "15.05";
             ETB = "34.71";
-            EUR = "0.8875";
+            EUR = "0.8869";
             FJD = "2.1475";
             FKP = "0.8098";
             FRF = "1700.2722";
-            GBP = "0.8004";
+            GBP = "0.79966";
             GEL = "3.0468";
             GHS = "5.699";
             GIP = "0.8100000000000001";
@@ -1805,125 +2150,125 @@
             GNF = 9593;
             GTQ = "7.7035";
             GYD = "207.28";
-            HKD = "7.75017";
+            HKD = "7.75034";
             HNL = "24.6845";
             HRK = "6.7515";
             HTG = "107.14";
-            HUF = "312.9";
+            HUF = "312.73";
             IDR = 14365;
             IEP = "0.6991540000000001";
-            ILS = "3.4509";
-            INR = "75.5";
+            ILS = "3.4478";
+            INR = "75.47";
             IQD = 1189;
             IRR = 42000;
             ISK = "138.25";
             ITL = "1700.2722";
             JMD = 137;
             JOD = "0.7078";
-            JPY = "107.432";
-            KES = "106.35";
+            JPY = "107.46";
+            KES = "106.5";
             KGS = "78.6649";
             KHR = 4040;
             KMF = 433;
             KPW = 900;
-            KRW = "1200.29";
+            KRW = "1199.87";
             KWD = "0.3073";
             KYD = "0.82";
-            KZT = "405.57";
+            KZT = "406.22";
             LAK = 9027;
             LBP = "1505.7";
-            LKR = "186.06";
+            LKR = 186;
             LRD = "198.78";
             LSL = "17.05";
             LTL = "3.0487";
             LVL = "0.62055";
             LYD = "1.3992";
-            MAD = "9.6884";
-            MDL = "17.202";
+            MAD = "9.685";
+            MDL = "17.05";
             MGA = 3800;
-            MKD = "54.58";
+            MKD = "54.57";
             MMK = 1378;
             MNT = "2824.15";
             MOP = "7.9824";
             MRO = 355;
             MRU = "37.45";
-            MUR = 40;
+            MUR = "38.9673";
             MVR = "15.57";
             MWK = "729.89";
-            MXN = "22.686";
+            MXN = "22.6504";
             MXV = "3.534249";
-            MYR = "4.286";
+            MYR = "4.287";
             MZN = "69.43000000000001";
             NAD = "17.024";
             NGN = 384;
             NIO = "34.15";
-            NOK = "9.49";
-            NPR = "120.51";
-            NZD = "1.5393";
+            NOK = "9.47486";
+            NPR = "120.65";
+            NZD = "1.5366";
             OMR = "0.3849";
             PAB = 1;
             PEN = "3.5277";
             PGK = "3.5032";
-            PHP = "49.787";
-            PKR = "167.9664";
-            PLN = "3.9699";
+            PHP = "49.767";
+            PKR = "168.1164";
+            PLN = "3.9705";
             PYG = "6802.13";
             QAR = "3.64";
-            RON = "4.2952";
+            RON = "4.288";
             RSD = "104.4706";
-            RUB = "70.577";
+            RUB = "70.6461";
             RWF = "927.8";
-            SAR = "3.751";
+            SAR = "3.7508";
             SBD = "8.3657";
             SCR = "17.5";
             SDG = 55;
-            SEK = "9.292009999999999";
-            SGD = "1.3932";
+            SEK = "9.28321";
+            SGD = "1.39248";
             SHP = "0.8100000000000001";
             SIT = "216.48676";
             SLL = 9644;
             SOS = 570;
             SRD = "7.4";
             STD = "21425.4";
-            STN = "21.8";
+            STN = "21.7";
             SVC = "8.75";
             SYP = 513;
             SZL = "17.024";
-            THB = "31.026";
+            THB = "31.092";
             TJS = "10.3082";
             TMT = "3.4";
             TND = "2.8505";
             TOP = "2.3449";
-            TRY = "6.8447";
+            TRY = "6.85075";
             TTD = "6.7245";
-            TWD = "29.459";
-            TZS = 2314;
+            TWD = "29.472";
+            TZS = 2310;
             UAH = "26.68";
             UGX = "3720.1";
             USD = 1;
             UYU = "42.211";
-            UZS = 10155;
+            UZS = "10168.38";
             VEF = 248209;
             VES = "203906.05";
             VND = 23202;
             VUV = "114.55";
             WST = "2.6893";
-            XAF = "581.89";
+            XAF = "581.38";
             XAG = "0.065703";
             XAU = "0.000768285";
             XCD = "2.7";
             XDR = "0.726178";
-            XOF = "581.89";
+            XOF = "581.38";
             XPD = "0.000737681";
             XPF = "105.95";
             XPT = "0.00109457";
             YER = "248.4";
-            ZAR = "17.0235";
+            ZAR = "17.0236";
             ZMK = "5189.5";
             ZMW = "18.03";
             ZWL = "322.355";
         };
-        currencyCacheRefreshDate = "2020-07-02 04:34:10 +0000";
+        currencyCacheRefreshDate = "2020-07-02 06:11:26 +0000";
     };
     "com.apple.classroom" =     {
         "allowClassroomLockDevice-00000000-0000-0000-0000-000000000000:0" = 1;
@@ -1954,6 +2299,10 @@
             Version = 1;
         };
     };
+    "com.apple.commerce" =     {
+    };
+    "com.apple.commerce.configurator" =     {
+    };
     "com.apple.commerce.knownclients" =     {
         "com.apple.appstore:709" = {length = 1273, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000409 };
     };
@@ -1973,13 +2322,14 @@
     };
     "com.apple.controlstrip" =     {
         "last-messagetrace-stamp" =         (
-            "615357240.198379"
+            "615363025.332478"
         );
     };
     "com.apple.coreauthd" =     {
-        refKey = {length = 317, bytes = 0x31820139 30380c02 65643132 30300c03 ... bd8ec260 9a3e736b };
+        refKey = {length = 317, bytes = 0x31820139 30380c02 65643132 30300c03 ... 97f5ad67 b4b45b3e };
     };
     "com.apple.coreservices.uiagent" =     {
+        CSUIHasSafariBeenLaunched = 1;
         CSUILastOSVersionWhereSafariRecommendationWasMade = "10.15.4";
         CSUIRecommendSafariBackOffInterval = 259200;
         CSUIRecommendSafariNextNotificationDate = "2020-07-05 05:14:57 +0000";
@@ -1988,6 +2338,7 @@
     };
     "com.apple.corespotlightui" =     {
         CSReceiverBundleIdentifierState =         {
+            "com.apple.Safari" = 1;
             "com.apple.fileprovider.fileproviderd" = 1;
             "com.apple.reminders" = 1;
         };
@@ -1995,7 +2346,7 @@
     "com.apple.dock" =     {
         "last-messagetrace-stamp" = "615357256.315536";
         loc = "en_AU:AU";
-        "mod-count" = 10;
+        "mod-count" = 20;
         "persistent-apps" =         (
                         {
                 GUID = 3500412135;
@@ -2010,193 +2361,6 @@
                     "file-label" = Launchpad;
                     "file-mod-date" = 56370823505199;
                     "file-type" = 169;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412136;
-                "tile-data" =                 {
-                    book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.Safari";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///Applications/Safari.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Safari;
-                    "file-mod-date" = 57942781535535;
-                    "file-type" = 41;
-                    "parent-mod-date" = 91868732002816;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412137;
-                "tile-data" =                 {
-                    book = {length = 592, bytes = 0x626f6f6b 50020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.mail";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Mail.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Mail;
-                    "file-mod-date" = 58071630554415;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412138;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.FaceTime";
-                    "dock-extra" = 1;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/FaceTime.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = FaceTime;
-                    "file-mod-date" = 55159642727727;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412139;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.iChat";
-                    "dock-extra" = 1;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Messages.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Messages;
-                    "file-mod-date" = 57783867745583;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412140;
-                "tile-data" =                 {
-                    book = {length = 592, bytes = 0x626f6f6b 50020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.Maps";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Maps.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Maps;
-                    "file-mod-date" = 55730873378095;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412141;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.Photos";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Photos.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Photos;
-                    "file-mod-date" = 56418068145455;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412142;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.AddressBook";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Contacts.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Contacts;
-                    "file-mod-date" = 55988571415855;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412143;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.iCal";
-                    "dock-extra" = 1;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Calendar.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Calendar;
-                    "file-mod-date" = 55417340765487;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412144;
-                "tile-data" =                 {
-                    book = {length = 600, bytes = 0x626f6f6b 58020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.reminders";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Reminders.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Reminders;
-                    "file-mod-date" = 56435248014639;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412145;
-                "tile-data" =                 {
-                    book = {length = 596, bytes = 0x626f6f6b 54020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.Notes";
-                    "dock-extra" = 0;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Notes.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = Notes;
-                    "file-mod-date" = 57354371015983;
-                    "file-type" = 41;
-                    "parent-mod-date" = 3662628493;
-                };
-                "tile-type" = "file-tile";
-            },
-                        {
-                GUID = 3500412153;
-                "tile-data" =                 {
-                    book = {length = 600, bytes = 0x626f6f6b 58020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.AppStore";
-                    "dock-extra" = 1;
-                    "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/App%20Store.app/";
-                        "_CFURLStringType" = 15;
-                    };
-                    "file-label" = "App Store";
-                    "file-mod-date" = 56272039257391;
-                    "file-type" = 41;
                     "parent-mod-date" = 3662628493;
                 };
                 "tile-type" = "file-tile";
@@ -2234,6 +2398,40 @@
                     "parent-mod-date" = 91868732002816;
                 };
                 "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 3057790383;
+                "tile-data" =                 {
+                    book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+                    "bundle-identifier" = "com.googlecode.iterm2";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLString" = "file:///Applications/iTerm.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = iTerm;
+                    "file-mod-date" = 3674445028;
+                    "file-type" = 1;
+                    "parent-mod-date" = 96666210480495;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 3057790384;
+                "tile-data" =                 {
+                    book = {length = 568, bytes = 0x626f6f6b 38020000 00000410 30000000 ... 04000000 00000000 };
+                    "bundle-identifier" = "com.microsoft.VSCode";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLString" = "file:///Applications/Visual%20Studio%20Code.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = "Visual Studio Code";
+                    "file-mod-date" = 3673985284;
+                    "file-type" = 1;
+                    "parent-mod-date" = 96666210480495;
+                };
+                "tile-type" = "file-tile";
             }
         );
         "persistent-others" =         (
@@ -2259,19 +2457,36 @@
         );
         "recent-apps" =         (
                         {
-                GUID = 3500412156;
+                GUID = 3057790385;
                 "tile-data" =                 {
-                    book = {length = 640, bytes = 0x626f6f6b 80020000 00000410 30000000 ... 04000000 00000000 };
-                    "bundle-identifier" = "com.apple.Terminal";
+                    book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+                    "bundle-identifier" = "com.apple.Safari";
                     "dock-extra" = 0;
                     "file-data" =                     {
-                        "_CFURLString" = "file:///System/Applications/Utilities/Terminal.app/";
+                        "_CFURLString" = "file:///Applications/Safari.app/";
                         "_CFURLStringType" = 15;
                     };
-                    "file-label" = Terminal;
-                    "file-mod-date" = 57294241473839;
+                    "file-label" = Safari;
+                    "file-mod-date" = 84086251268451;
                     "file-type" = 1;
-                    "parent-mod-date" = 3662628463;
+                    "parent-mod-date" = 96666210480495;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 3057790386;
+                "tile-data" =                 {
+                    book = {length = 568, bytes = 0x626f6f6b 38020000 00000410 30000000 ... 04000000 00000000 };
+                    "bundle-identifier" = "com.microsoft.VSCode";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLString" = "file:///Applications/Visual%20Studio%20Code.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = "Visual Studio Code";
+                    "file-mod-date" = 3673985284;
+                    "file-type" = 1;
+                    "parent-mod-date" = 96666210480495;
                 };
                 "tile-type" = "file-tile";
             }
@@ -2372,7 +2587,34 @@
         FXICloudDriveFirstSyncDownComplete = 0;
         FXICloudLoggedIn = 0;
         FXQuickActionsConfigUpgradeLevel = 1;
+        FXRecentFolders =         (
+                        {
+                "file-bookmark" = {length = 608, bytes = 0x626f6f6b 60020000 00000410 30000000 ... 04000000 00000000 };
+                name = "Relocated Items";
+            }
+        );
+        FXSidebarUpgradedToTenFourteen = 1;
+        FXSidebarUpgradedToTenTen = 1;
+        FXToolbarUpgradedToTenEight = 1;
+        FXToolbarUpgradedToTenNine = 2;
+        FXToolbarUpgradedToTenSeven = 1;
+        FavoriteTagNames =         (
+            "",
+            Red,
+            Orange,
+            Yellow,
+            Green,
+            Blue,
+            Purple,
+            Grey
+        );
         LastTrashState = 0;
+        "NSToolbar Configuration Browser" =         {
+            "TB Display Mode" = 2;
+            "TB Icon Size Mode" = 1;
+            "TB Is Shown" = 1;
+            "TB Size Mode" = 1;
+        };
         "NSTouchBarConfig: com\\U00b7apple\\U00b7finder\\U00b7touchbar\\U00b7NoSelectionOnDesktopBarCustomizationIdentifier" =         {
             CurrentItems =             (
             );
@@ -2389,6 +2631,9 @@
         ShowExternalHardDrivesOnDesktop = 1;
         ShowHardDrivesOnDesktop = 0;
         ShowRemovableMediaOnDesktop = 1;
+        SidebarPlacesSectionDisclosedState = 1;
+        SidebarShowingSignedIntoiCloud = 0;
+        SidebarShowingiCloudDesktop = 0;
         StandardViewSettings =         {
             ExtendedListViewSettingsV2 =             {
                 calculateAllSizes = 0;
@@ -2544,14 +2789,19 @@
             };
             SettingsType = StandardViewSettings;
         };
+        TagsCloudSerialNumber = 1;
+    };
+    "com.apple.homed" =     {
+    };
+    "com.apple.homed.notbackedup" =     {
     };
     "com.apple.iCal" =     {
         BirthdayEventsGenerationAttemptsToResetKey = 0;
         BirthdayEventsGenerationLastLocale = "en_AU";
         BirthdayEventsGenerationVersion = 10;
         CalForceTruthFileRestoreHashKey = 16A1;
-        LastReminderMigrationCleanupSystemVersion = 19E287;
-        RemindersLastMigratedSystemVersion = 19E287;
+        LastReminderMigrationCleanupSystemVersion = 19F101;
+        RemindersLastMigratedSystemVersion = 19F101;
         "display birthdays calendar" = 1;
     };
     "com.apple.iChat" =     {
@@ -2566,10 +2816,10 @@
     };
     "com.apple.icloud.searchpartyuseragent" =     {
         "FMIPStateManager.fmipState" = 0;
-        LastOSLaunchVersion = 19E287;
-        PersistenceLayerVersion = 14;
+        LastOSLaunchVersion = 19F101;
+        PersistenceLayerVersion = 15;
         "XPCScheduler.fireDate.BeaconSharing" = "2020-07-06 04:33:46 +0000";
-        lastLaunchBootSessionUUID = "48ECA56D-E218-491D-A126-2A833CA62C1F";
+        lastLaunchBootSessionUUID = "20F2876E-3919-42C4-B1F2-0BCAD015CFCA";
         lastLaunchLocale = en;
     };
     "com.apple.identityservicesd" =     {
@@ -2629,6 +2879,8 @@
     };
     "com.apple.loginwindow" =     {
         MiniBuddyLaunch = 0;
+        TALLogoutReason = "Shut Down";
+        TALLogoutSavesState = 0;
         oneTimeSSMigrationComplete = 1;
     };
     "com.apple.madrid" =     {
@@ -2648,6 +2900,9 @@
         IMCloudKitSyncPaused = 0;
         initialSyncRecordHasBeenWritten = 1;
         oneTimeMOCAccountCheckV2 = 1;
+    };
+    "com.apple.menuextra.battery" =     {
+        ShowPercent = YES;
     };
     "com.apple.ncplugin.stocks" =     {
         "SCStockMetadata-AAPL" =         {
@@ -3295,13 +3550,13 @@
                 src =                 (
                                         {
                         flags = 6;
-                        req = {length = 52, bytes = 0xfade0c00 00000034 00000001 00000006 ... 656e7400 00000003 };
-                        uuid = "705F6484-5EE5-4FE8-8AD6-981FB050AEF0";
+                        req = {length = 72, bytes = 0xfade0c00 00000048 00000001 00000006 ... 69636500 00000003 };
+                        uuid = "D80931FF-CAD0-4CBC-BE6F-D1AAE48338F6";
                     },
                                         {
                         flags = 6;
-                        req = {length = 72, bytes = 0xfade0c00 00000048 00000001 00000006 ... 69636500 00000003 };
-                        uuid = "260B7523-1AFF-4A5B-8006-56C9B6C9E5A3";
+                        req = {length = 52, bytes = 0xfade0c00 00000034 00000001 00000006 ... 656e7400 00000003 };
+                        uuid = "732D5C29-796E-48C3-90B2-EF693BBC7AE0";
                     }
                 );
             },
@@ -3352,11 +3607,14 @@
                 "bundle-id" = "com.apple.Safari";
                 flags = 41951246;
                 path = "/Applications/Safari.app";
-            },
-                        {
-                auth = 6;
-                "bundle-id" = "com.apple.notificationcenter.askpermissions";
-                flags = 310383127;
+                src =                 (
+                                        {
+                        flags = 2;
+                        path = "/Applications/Safari.app";
+                        req = {length = 44, bytes = 0xfade0c00 0000002c 00000001 00000006 ... 66617269 00000003 };
+                        uuid = "92E903D3-D9B5-43B9-9C20-13D833CB8AFB";
+                    }
+                );
             },
                         {
                 "bundle-id" = "_SYSTEM_CENTER_:com.apple.migrationhelper";
@@ -3379,7 +3637,14 @@
             },
                         {
                 "bundle-id" = "_SYSTEM_CENTER_:com.apple.storeassetd";
-                flags = 41943575;
+                flags = 41943703;
+                src =                 (
+                                        {
+                        flags = 6;
+                        req = {length = 52, bytes = 0xfade0c00 00000034 00000001 00000006 ... 64000000 00000003 };
+                        uuid = "0775F769-8C97-413B-A728-F79F86E5EC0F";
+                    }
+                );
             },
                         {
                 "bundle-id" = "_SYSTEM_CENTER_:com.apple.TMHelperAgent";
@@ -3622,6 +3887,50 @@
                         uuid = "043C32DA-20BF-4A32-A7E2-DD0B22B2F832";
                     }
                 );
+            },
+                        {
+                auth = 6;
+                "bundle-id" = "com.apple.notificationcenter.askpermissions";
+                flags = 310383127;
+            },
+                        {
+                auth = 39;
+                "bundle-id" = "com.apple.Home";
+                flags = 327684110;
+                path = "/System/Library/UserNotifications/Bundles/com.apple.Home.bundle";
+                src =                 (
+                                        {
+                        flags = 6;
+                        req = {length = 44, bytes = 0xfade0c00 0000002c 00000001 00000006 ... 6d656400 00000003 };
+                        uuid = "6DB9D52B-5B82-4F39-AA7A-5BE89280BD95";
+                    }
+                );
+            },
+                        {
+                "bundle-id" = "com.apple.appstore";
+                flags = 41951382;
+                path = "/System/Applications/App Store.app";
+                src =                 (
+                                        {
+                        flags = 6;
+                        req = {length = 52, bytes = 0xfade0c00 00000034 00000001 00000006 ... 64000000 00000003 };
+                        uuid = "067F0708-EE90-4407-A09B-AF146C8AF657";
+                    }
+                );
+            },
+                        {
+                auth = 7;
+                "bundle-id" = "com.googlecode.iterm2";
+                flags = 41951246;
+                path = "/Applications/iTerm.app";
+                src =                 (
+                                        {
+                        flags = 0;
+                        path = "/Applications/iTerm.app";
+                        req = {length = 196, bytes = 0xfade0c00 000000c4 00000001 00000006 ... 58595651 37440000 };
+                        uuid = "A6A961B9-C6DF-41E1-BEFD-7E6C0E810088";
+                    }
+                );
             }
         );
         "sort_order" = 0;
@@ -3718,6 +4027,27 @@
     "com.apple.passd" =     {
         PDLastLogDate = "2020-07-02 04:35:37 +0000";
     };
+    "com.apple.preferences.extensions.ServicesWithUI" =     {
+        displayOrder =         (
+            "com.apple.share.System.add-to-safari-reading-list",
+            "com.apple.share.Mail.compose",
+            "com.apple.share.Mail.compose-back-to-sender",
+            "com.apple.messages.ShareExtension",
+            "com.apple.messages.ReplyExtension",
+            "com.apple.share.AirDrop.send",
+            "com.apple.Notes.SharingExtension",
+            "com.apple.reminders.RemindersShareExtension",
+            "com.apple.share.System.set-account-picture",
+            "com.apple.share.System.set-buddy-picture",
+            "com.apple.share.System.set-desktop-image",
+            "com.apple.share.System.add-to-iphoto",
+            "com.apple.share.System.add-to-aperture"
+        );
+    };
+    "com.apple.proactive.PersonalizationPortrait" =     {
+        entityBackfillTimestamp = "2020-07-02 06:57:13 +0000";
+        entityMappingTrieSha256 = {length = 32, bytes = 0xe703e046 c8f42501 c301e6af 6e8288ea ... 4bc1a034 d37a7054 };
+    };
     "com.apple.quicklook.ThumbnailsAgent" =     {
         QLMTCacheSizeLastCheckAbsoluteTime = "615357238.548281";
     };
@@ -3739,20 +4069,26 @@
     "com.apple.remindd.babysitter" =     {
         FailedWaiters =         {
         };
+        LastSystemVersion = 19F101;
         RefreshingWaiters =         {
+        };
+        RestrictedWaiters =         {
         };
     };
     "com.apple.routined" =     {
-        "LastLaunchDate.routined" = "2020-07-02 04:33:46 +0000";
+        "LastLaunchDate.routined" = "2020-07-02 06:10:12 +0000";
+        LearnedLocationEngineTrainVisitsLastAttemptDate = "2020-07-02 06:55:12 +0000";
         RTDefaultsPersistenceMirroringManagerMirroringAttemptsByBuildMap =         {
-            19E287 = 0;
+            19F101 = 0;
         };
-        "XPCActivityLastAttemptDate.com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 05:15:12 +0000";
-        "XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.backup" = "2020-07-02 04:33:46 +0000";
-        "XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.post-install" = "2020-07-02 04:34:23 +0000";
-        "XPCActivityLastCompleteDate.com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 05:15:12 +0000";
-        "XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.backup" = "2020-07-02 04:33:46 +0000";
-        "XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.post-install" = "2020-07-02 04:34:23 +0000";
+        "XPCActivityLastAttemptDate.com.apple.routined.learnedLocationEngine.train" = "2020-07-02 06:55:07 +0000";
+        "XPCActivityLastAttemptDate.com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 07:07:15 +0000";
+        "XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.backup" = "2020-07-02 06:10:32 +0000";
+        "XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.post-install" = "2020-07-02 06:11:30 +0000";
+        "XPCActivityLastCompleteDate.com.apple.routined.learnedLocationEngine.train" = "2020-07-02 06:55:12 +0000";
+        "XPCActivityLastCompleteDate.com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 07:07:15 +0000";
+        "XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.backup" = "2020-07-02 06:10:32 +0000";
+        "XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.post-install" = "2020-07-02 06:11:30 +0000";
     };
     "com.apple.scheduler" =     {
         AbsoluteSchedule =         {
@@ -3800,8 +4136,8 @@
     };
     "com.apple.security.ctkd-db" =     {
         classes =         {
-            "com.apple.pivtoken" = "2D4211FD-34DE-495F-953B-62F47DBF8206";
-            "com.apple.setoken" = "D0663AE4-D61B-4F87-9D03-32AFDF05527D";
+            "com.apple.pivtoken" = "2DD62CEB-F00F-4C9F-8BFB-7B71FC3D7950";
+            "com.apple.setoken" = "7D6F4385-8D2D-482E-BA62-CB2C67E7DC3F";
         };
         tokens =         {
             "com.apple.setoken" = {length = 428, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000132 };
@@ -3817,14 +4153,14 @@
         OneTimeAirDropReset2 = 1;
         UserDefaultsHashesDirtyKey = 0;
         hashesAreCorrectKey = 1;
-        lastUpdated = "2020-07-02 04:34:03 +0000";
+        lastUpdated = "2020-07-02 06:55:05 +0000";
     };
     "com.apple.siri.context.service" =     {
     };
     "com.apple.spaces" =     {
         SpacesDisplayConfiguration =         {
             "Management Data" =             {
-                Age = "879.603736433";
+                Age = "4430.322821419";
                 Double =                 {
                     CreatedCount = 0;
                     DeletedCount = 0;
@@ -3906,10 +4242,9 @@
                                 {
                     name = "";
                     windows =                     (
-                        480,
-                        452,
-                        320,
-                        293
+                        276,
+                        81,
+                        51
                     );
                 }
             );
@@ -3923,31 +4258,31 @@
         UUIDTimestamp = "2020-07-02 04:33:59 +0000";
         exchanges =         (
                         {
-                lastUpdateTime = "615357241.800112";
+                lastUpdateTime = "615363025.331895";
                 name = NMS;
                 status = 5;
                 streamInterval = 15;
             },
                         {
-                lastUpdateTime = "615357241.800106";
+                lastUpdateTime = "615363025.331889";
                 name = ASX;
-                status = 2;
+                status = 3;
                 streamInterval = 20;
             },
                         {
-                lastUpdateTime = "615357241.80011";
+                lastUpdateTime = "615363025.331893";
                 name = DJI;
                 status = 5;
                 streamInterval = 120;
             },
                         {
-                lastUpdateTime = "615357241.800114";
+                lastUpdateTime = "615363025.331897";
                 name = NYQ;
                 status = 5;
                 streamInterval = 15;
             }
         );
-        lastModified = "1593664441.801023";
+        lastModified = "1593670225.332708";
         stocks =         (
                         {
                 change = "-77.91016";
@@ -3958,13 +4293,13 @@
                     text = "Delayed Quote";
                 };
                 exchange = DJI;
-                lastUpdateTime = "615357241.800158";
+                lastUpdateTime = "615363025.331943";
                 price = "25734.97";
                 symbol = "^DJI";
                 type = index;
             },
                         {
-                change = "92.1001";
+                change = "96.6001";
                 companyName = "ALL ORDINARIES";
                 dataSource =                 {
                     id = 0;
@@ -3972,8 +4307,8 @@
                     text = "Delayed Quote";
                 };
                 exchange = ASX;
-                lastUpdateTime = "615357241.800543";
-                price = "6133.1";
+                lastUpdateTime = "615363025.332103";
+                price = "6137.6";
                 symbol = "^AORD";
                 type = index;
             },
@@ -3986,14 +4321,14 @@
                     text = "Nasdaq Real Time Price";
                 };
                 exchange = NMS;
-                lastUpdateTime = "615357241.800668";
+                lastUpdateTime = "615363025.332245";
                 marketcap = 1578172809216;
                 price = "364.11";
                 symbol = AAPL;
                 type = equity;
             },
                         {
-                change = "0.16500092";
+                change = "0.1800003";
                 companyName = "BHP Group";
                 dataSource =                 {
                     id = 0;
@@ -4001,14 +4336,14 @@
                     text = "Delayed Quote";
                 };
                 exchange = ASX;
-                lastUpdateTime = "615357241.80079";
-                marketcap = 182009249792;
-                price = "35.985";
+                lastUpdateTime = "615363025.332352";
+                marketcap = 182085124096;
+                price = "36.0";
                 symbol = "BHP.AX";
                 type = equity;
             },
                         {
-                change = "1.1000061";
+                change = "1.0";
                 companyName = "Commonwealth Bank of Australia";
                 dataSource =                 {
                     id = 0;
@@ -4016,9 +4351,9 @@
                     text = "Delayed Quote";
                 };
                 exchange = ASX;
-                lastUpdateTime = "615357241.80089";
-                marketcap = 125651640320;
-                price = "70.98";
+                lastUpdateTime = "615363025.332504";
+                marketcap = 125474603008;
+                price = "70.88";
                 symbol = "CBA.AX";
                 type = equity;
             },
@@ -4031,7 +4366,7 @@
                     text = "Nasdaq Real Time Price";
                 };
                 exchange = NYQ;
-                lastUpdateTime = "615357241.80099";
+                lastUpdateTime = "615363025.332643";
                 marketcap = 204126568448;
                 price = "113.01";
                 symbol = DIS;
@@ -4046,14 +4381,14 @@
                     text = "Nasdaq Real Time Price";
                 };
                 exchange = NYQ;
-                lastUpdateTime = "615357241.800994";
+                lastUpdateTime = "615363025.332649";
                 marketcap = 58955382784;
                 price = "6.74";
                 symbol = GE;
                 type = equity;
             },
                         {
-                change = "0.35000038";
+                change = "0.31000137";
                 companyName = "National Australia Bank Limited";
                 dataSource =                 {
                     id = 0;
@@ -4061,9 +4396,9 @@
                     text = "Delayed Quote";
                 };
                 exchange = ASX;
-                lastUpdateTime = "615357241.8009959";
-                marketcap = 56324947968;
-                price = "18.91";
+                lastUpdateTime = "615363025.332665";
+                marketcap = 56205807616;
+                price = "18.87";
                 symbol = "NAB.AX";
                 type = equity;
             },
@@ -4076,7 +4411,7 @@
                     text = "Delayed Quote";
                 };
                 exchange = NYQ;
-                lastUpdateTime = "615357241.800998";
+                lastUpdateTime = "615363025.33267";
                 marketcap = 151459921920;
                 price = "97.4";
                 symbol = NKE;
@@ -4091,7 +4426,7 @@
                     text = "Delayed Quote";
                 };
                 exchange = NMS;
-                lastUpdateTime = "615357241.800999";
+                lastUpdateTime = "615363025.332673";
                 marketcap = 86489251840;
                 price = "74.03";
                 symbol = SBUX;
@@ -4099,9 +4434,11 @@
             }
         );
     };
+    "com.apple.storeagent" =     {
+    };
     "com.apple.studentd" =     {
         DeviceIdentifier = "5167AC0B-F8CF-4AAA-8EC1-D2C812293E97";
-        LastDateProviderSessionToken = 1593661911;
+        LastDateProviderSessionToken = 1593670075;
     };
     "com.apple.suggestions" =     {
         AppCanShowSiriSuggestionsBlacklist =         (
@@ -4186,16 +4523,16 @@
         };
     };
     "com.apple.systempreferences" =     {
-        AttentionPrefBundleIDs =         {
-            "com.apple.preferences.softwareupdate" = 1;
-        };
+        DisableAutoLoginButtonIsHidden = 1;
         NSQuitAlwaysKeepsWindows = 0;
-        "NSWindow Frame Main Window Frame SystemPreferencesApp 8.0" = "566 657 668 300 0 0 1792 1097 ";
+        "NSWindow Frame Main Window Frame SystemPreferencesApp 8.0" = "566 422 668 535 0 0 1792 1097 ";
+        SecurityPrefTab = Privacy;
         ShowAllMode = 0;
         ThirdPartyCount = 0;
         "com.apple.PreferenceSync.ExcludeSyncKeys" =         (
             "Main Window Frame SystemPreferencesApp 8.0"
         );
+        "com.apple.SecurityPref.Privacy.LastSourceSelected" = 0;
         "com.apple.preferences.accounts.outline.usersparent" = 1;
     };
     "com.apple.systemuiserver" =     {
@@ -4337,45 +4674,49 @@
     "com.apple.xpc.activity2" =     {
         ActivityBaseDates =         {
             "PDCardFileManager.CacheMaintenance" = "2020-07-02 04:35:36 +0000";
-            "PDCardFileManager.RevocationCheck" = "2020-07-03 04:35:36 +0000";
+            "PDCardFileManager.RevocationCheck" = "2020-07-03 06:34:19 +0000";
             "PDMapsMerchantProcessingServiceClientIdentifier.PDMapsMerchantProcessingActivityIdentifier" = "2020-07-02 04:35:38 +0000";
             "com.apple.AOSHeartbeat.daily" = "2020-07-02 04:33:43 +0000";
-            "com.apple.AddressBook.ScheduledSync" = "2020-07-02 05:33:43 +0000";
+            "com.apple.AddressBook.ScheduledSync" = "2020-07-02 07:33:43 +0000";
             "com.apple.CacheDelete.daily" = "2020-07-02 04:33:43 +0000";
             "com.apple.DataDetectorsLocalSource" = "2020-07-02 04:33:43 +0000";
             "com.apple.EscrowSecurityAlert.daily" = "2020-07-02 04:33:43 +0000";
             "com.apple.FileProvider.cache-delete.push" = "2020-07-02 04:33:59 +0000";
+            "com.apple.GeoServices.UpdateExperiment" = "2020-07-02 06:10:13 +0000";
             "com.apple.IMAutomaticHistoryDeletionAgent" = "2020-07-02 04:33:43 +0000";
             "com.apple.KeyboardServices.TextReplacementCKSyncTask" = "2020-07-02 04:35:51 +0000";
             "com.apple.Maps.mapspushd.launchForAnnouncements" = "2020-07-02 04:33:43 +0000";
             "com.apple.ProtectedCloudStorage.fortnightly" = "2020-07-02 04:33:43 +0000";
-            "com.apple.SafariBookmarksSyncAgent.XPC.CloudTabsZoneSubscriptionRegistration" = "2020-07-02 04:34:01 +0000";
-            "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" = "2020-07-02 04:33:44 +0000";
+            "com.apple.SafariBookmarksSyncAgent.XPC.CloudTabsZoneSubscriptionRegistration" = "2020-07-02 06:11:17 +0000";
+            "com.apple.SafariBookmarksSyncAgent.XPC.PeriodicRemoteMigrationStateObserver" = "2020-07-02 08:46:00 +0000";
+            "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" = "2020-07-02 06:10:13 +0000";
+            "com.apple.SafariShared.WBSPeriodicActivityScheduler" = "2020-07-02 06:45:59 +0000";
             "com.apple.UsageTrackingAgent.activity.uncategorized-web-usage" = "2020-07-02 04:33:43 +0000";
             "com.apple.accounts.cleanup" = "2020-07-02 04:59:10 +0000";
             "com.apple.ak.hb" = "2020-07-02 04:33:43 +0000";
             "com.apple.ak.listupdate" = "2020-07-02 04:33:43 +0000";
             "com.apple.ak.postinstall" = "2020-07-02 04:33:45 +0000";
+            "com.apple.appstoreagent.scheduleTasks" = "2020-07-02 06:13:15 +0000";
             "com.apple.appstored.AutoUpdates" = "2020-07-02 04:34:07 +0000";
-            "com.apple.appstored.activities.AdPlatformsStatusConditions" = "2020-08-01 04:34:07 +0000";
+            "com.apple.appstored.activities.AdPlatformsStatusConditions" = "2020-08-01 06:13:16 +0000";
             "com.apple.bird.analytics-report" = "2020-07-02 04:33:43 +0000";
             "com.apple.bird.cache-delete.push" = "2020-07-02 04:33:55 +0000";
             "com.apple.bird.configuration-server-update" = "2020-07-02 04:33:43 +0000";
             "com.apple.bird.sync" = "2020-07-02 04:33:43 +0000";
-            "com.apple.calendar.AlarmScan" = "2020-07-02 06:03:43 +0000";
+            "com.apple.calendar.AlarmScan" = "2020-07-02 07:33:43 +0000";
             "com.apple.calendar.biDailyWork" = "2020-07-02 04:33:46 +0000";
             "com.apple.calendar.dailyWork" = "2020-07-02 04:33:46 +0000";
-            "com.apple.cloudkit.assetHandleExpiration" = "2020-07-02 04:33:43 +0000";
+            "com.apple.cloudkit.assetHandleExpiration" = "2020-07-02 07:10:14 +0000";
             "com.apple.cloudkit.operationInfoCacheEviction" = "2020-07-02 04:33:43 +0000";
-            "com.apple.cloudkit.packageGarbageCollection" = "2020-07-02 04:33:43 +0000";
-            "com.apple.cloudkit.pcs.sqlcache.evict" = "2020-07-02 04:33:46 +0000";
+            "com.apple.cloudkit.packageGarbageCollection" = "2020-07-02 07:10:14 +0000";
+            "com.apple.cloudkit.pcs.sqlcache.evict" = "2020-07-02 08:33:46 +0000";
             "com.apple.cloudkit.recordCachePool.expireRecords" = "2020-07-02 04:33:55 +0000";
             "com.apple.cloudkit.tokenregistration" = "2020-07-02 04:33:43 +0000";
             "com.apple.contextkit.mobileasset.check" = "2020-07-02 04:33:48 +0000";
             "com.apple.coreduet.sync.v1" = "2020-07-02 04:33:43 +0000";
             "com.apple.coreduetd.knowledge.user" = "2020-07-02 04:33:43 +0000";
             "com.apple.devicecheck.notify" = "2020-07-02 04:33:43 +0000";
-            "com.apple.geo.analytics" = "2020-07-02 04:33:49 +0000";
+            "com.apple.geo.analytics" = "2020-07-02 08:33:49 +0000";
             "com.apple.geod.updateNetworkDefaults" = "2020-07-02 04:33:49 +0000";
             "com.apple.icloud.searchpartyd.BeaconKeyManager" = "2020-07-02 04:33:46 +0000";
             "com.apple.ids.key-transparency.verification" = "2020-07-02 04:34:02 +0000";
@@ -4384,13 +4725,13 @@
             "com.apple.kvs.periodic-analytics" = "2020-07-02 04:33:43 +0000";
             "com.apple.mediaanalysisd.fullanalysis" = "2020-07-02 04:33:43 +0000";
             "com.apple.mediaanalysisd.photosanalysis" = "2020-07-02 04:33:43 +0000";
-            "com.apple.messages.chatSyncing" = "2020-07-02 04:33:43 +0000";
+            "com.apple.messages.chatSyncing" = "2020-07-02 08:33:43 +0000";
             "com.apple.messages.ckMetricsLogging" = "2020-07-02 04:33:43 +0000";
             "com.apple.messages.messageSyncing" = "2020-07-02 04:33:43 +0000";
             "com.apple.networkserviceproxy.metadata-refresh" = "2020-07-02 04:33:43 +0000";
             "com.apple.noticeboard.update" = "2020-07-02 04:33:43 +0000";
-            "com.apple.parsec-fbf.flush" = "2020-07-02 04:33:43 +0000";
-            "com.apple.photoanalysisd.backgroundanalysis" = "2020-07-02 04:33:43 +0000";
+            "com.apple.parsec-fbf.flush" = "2020-07-02 07:10:12 +0000";
+            "com.apple.photoanalysisd.backgroundanalysis" = "2020-07-02 08:33:43 +0000";
             "com.apple.photolibraryd.curatedlibraryprocessing" = "2020-07-02 04:33:43 +0000";
             "com.apple.photolibraryd.periodicmaintenance" = "2020-07-02 04:33:43 +0000";
             "com.apple.proactive.PersonalizationPortrait.AssetMetadataUpdate" = "2020-07-02 04:33:43 +0000";
@@ -4410,11 +4751,12 @@
             "com.apple.proactiveeventtrackerd.updateAssetMetadata" = "2020-07-02 04:33:43 +0000";
             "com.apple.quicklook.cloudThumbnailDatabaseCleanup" = "2020-07-02 04:33:43 +0000";
             "com.apple.routined.assets" = "2020-07-02 04:33:46 +0000";
-            "com.apple.routined.learnedLocationEngine.train" = "2020-07-02 04:33:48 +0000";
-            "com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 05:33:48 +0000";
+            "com.apple.routined.learnedLocationEngine.train" = "2020-07-02 08:33:48 +0000";
+            "com.apple.routined.locationAwareness.heartbeat" = "2020-07-02 07:33:48 +0000";
             "com.apple.routined.metrics.daily" = "2020-07-02 04:33:46 +0000";
             "com.apple.routined.persistence.mirroring.background" = "2020-07-02 04:33:46 +0000";
             "com.apple.routined.purge" = "2020-07-02 04:33:46 +0000";
+            "com.apple.safarishared.WBSParsecDSession.autoFillDataUpdate" = "2020-07-02 06:45:59 +0000";
             "com.apple.searchd.expirations" = "2020-07-02 04:33:43 +0000";
             "com.apple.securityd.daily" = "2020-07-02 04:33:43 +0000";
             "com.apple.securityuploadd.triggerupload" = "2020-07-02 04:33:43 +0000";
@@ -4427,11 +4769,12 @@
             "com.apple.siri.xpc_activity.sync.daily" = "2020-07-02 04:33:43 +0000";
             "com.apple.spotlight.modelUpdating" = "2020-07-02 04:34:09 +0000";
             "com.apple.spotlight.sendmlfeedback" = "2020-07-02 04:34:09 +0000";
+            "com.apple.storeagent.SoftwareMap.periodicReload" = "2020-07-02 06:38:41 +0000";
             "com.apple.suggestd.cd-cache-rebuild" = "2020-07-02 04:33:43 +0000";
             "com.apple.suggestd.identityanalysis" = "2020-07-02 04:33:43 +0000";
             "com.apple.suggestd.ma-metadata-download" = "2020-07-02 04:33:43 +0000";
             "com.apple.suggestd.messagetracer" = "2020-07-02 04:33:43 +0000";
-            "com.apple.suggestd.persist-stats" = "2020-07-02 05:51:40 +0000";
+            "com.apple.suggestd.persist-stats" = "2020-07-02 07:20:12 +0000";
             "com.apple.suggestd.process-pending-geocodes" = "2020-07-02 04:33:43 +0000";
             "com.apple.suggestd.sendrtc" = "2020-07-02 04:33:43 +0000";
             "com.apple.suggestd.trim" = "2020-07-02 04:33:43 +0000";
@@ -4443,10 +4786,11 @@
             "com.apple.tourist.notify" = "2020-07-02 04:33:43 +0000";
             "com.apple.transparencyd.dutycycle" = "2020-07-02 04:33:43 +0000";
         };
-        ProductBuildVersion = 19E287;
+        ProductBuildVersion = 19F101;
         VersionSpecificActivitiesRun =         (
             "com.apple.icloud.searchpartyuseragent.post-install",
-            "com.apple.routined.persistence.mirroring.post-install"
+            "com.apple.routined.persistence.mirroring.post-install",
+            "com.apple.ak.postinstall"
         );
     };
     "com.citrix.ReceiverHelper" =     {
@@ -4502,6 +4846,1653 @@
         lastCheckStartDate = "2020-07-02 05:15:22 +0000";
         lastServerCheckDate = "2020-07-02 05:15:25 +0000";
     };
+    "com.googlecode.iterm2" =     {
+        AlternateMouseScroll = 1;
+        AppleAntiAliasingThreshold = 1;
+        ApplePressAndHoldEnabled = 0;
+        AppleScrollAnimationEnabled = 0;
+        AppleSmoothFixedFontsSizeThreshold = 1;
+        AppleWindowTabbingMode = manual;
+        BootstrapDaemon = 0;
+        Command = "/usr/local/bin/bash--login";
+        "Default Bookmark Guid" = "E85F06DA-E7C3-443B-A985-2B0A9FE47360";
+        DimOnlyText = 1;
+        HapticFeedbackForEsc = 0;
+        HideActivityIndicator = 0;
+        HideScrollbar = 0;
+        HideTab = 0;
+        HideTabCloseButton = 1;
+        HideTabNumber = 0;
+        HotKeyBookmark = "244A830E-81C4-4F81-B8CD-5499FDF12D9C";
+        HotKeyTogglesWindow = 1;
+        Hotkey = 0;
+        HotkeyChar = 0;
+        HotkeyCode = 0;
+        HotkeyMigratedFromSingleToMulti = 1;
+        HotkeyModifiers = 8388864;
+        LoadPrefsFromCustomFolder = 1;
+        NSQuotedKeystrokeBinding = "";
+        NSRepeatCountBinding = "";
+        NSScrollAnimationEnabled = 0;
+        NSScrollViewShouldScrollUnderTitlebar = 0;
+        "NSSplitView Subview Frames NSColorPanelSplitView" =         (
+            "0.000000, 0.000000, 224.000000, 258.000000, NO, NO",
+            "0.000000, 259.000000, 224.000000, 48.000000, NO, NO"
+        );
+        "NSTableView Columns v2 KeyBingingTable" = {length = 480, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000014c };
+        "NSTableView Sort Ordering v2 KeyBingingTable" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
+        "NSTableView Supports v2 KeyBingingTable" = 1;
+        "NSToolbar Configuration com.apple.NSColorPanel" =         {
+            "TB Is Shown" = 1;
+        };
+        "NSWindow Frame NSColorPanel" = "0 163 224 275 0 0 1792 1097 ";
+        "NSWindow Frame iTerm Window 0" = "0 80 1792 1017 0 0 1792 1097 ";
+        "New Bookmarks" =         (
+                        {
+                "ASCII Anti Aliased" = 1;
+                "ASCII Ligatures" = 1;
+                "Ambiguous Double Width" = 0;
+                "Ansi 0 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Ansi 1 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 10 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 11 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 12 Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.98040771484375";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.6842234498025587";
+                    "Red Component" = "0.6652937605977058";
+                };
+                "Ansi 13 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "Ansi 14 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 15 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 2 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 3 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 4 Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.781524658203125";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.3348635960174813";
+                    "Red Component" = "0.2393013811670244";
+                };
+                "Ansi 5 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 6 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 7 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 8 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 9 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "BM Growl" = 1;
+                "Background Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Background Image Location" = "";
+                "Badge Color" =                 {
+                    "Alpha Component" = "0.5";
+                    "Blue Component" = 0;
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.1491314172744751";
+                    "Red Component" = 1;
+                };
+                Blend = "0.5";
+                "Blinking Cursor" = 0;
+                Blur = 1;
+                "Blur Radius" = "9.776862980769229";
+                "Bold Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Bound Hosts" =                 (
+                );
+                "Character Encoding" = 4;
+                "Close Sessions On End" = 1;
+                Columns = 80;
+                Command = "/usr/local/bin/fish --login";
+                "Cursor Boost" = 0;
+                "Cursor Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Cursor Guide Color" =                 {
+                    "Alpha Component" = "0.25";
+                    "Blue Component" = 1;
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.9268307089805603";
+                    "Red Component" = "0.7021318674087524";
+                };
+                "Cursor Text Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Custom Command" = Yes;
+                "Custom Directory" = No;
+                "Default Bookmark" = No;
+                Description = Default;
+                "Disable Window Resizing" = 1;
+                "Flashing Bell" = 0;
+                "Foreground Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                Guid = "E85F06DA-E7C3-443B-A985-2B0A9FE47360";
+                "Has Hotkey" = 1;
+                "Horizontal Spacing" = 1;
+                "HotKey Activated By Modifier" = 0;
+                "HotKey Alternate Shortcuts" =                 (
+                );
+                "HotKey Characters" = "\\Uf70f";
+                "HotKey Characters Ignoring Modifiers" = "\\Uf70f";
+                "HotKey Key Code" = 111;
+                "HotKey Modifier Activation" = 0;
+                "HotKey Modifier Flags" = 0;
+                "HotKey Window Animates" = 1;
+                "HotKey Window AutoHides" = 1;
+                "HotKey Window Dock Click Action" = 0;
+                "HotKey Window Floats" = 0;
+                "HotKey Window Reopens On Activation" = 0;
+                "Idle Code" = 0;
+                "Jobs to Ignore" =                 (
+                    rlogin,
+                    ssh,
+                    slogin,
+                    telnet
+                );
+                "Keyboard Map" =                 {
+                    "0x2d-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x32-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x00;
+                    };
+                    "0x33-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1b;
+                    };
+                    "0x34-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1c;
+                    };
+                    "0x35-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1d;
+                    };
+                    "0x36-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1e;
+                    };
+                    "0x37-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x38-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x7f;
+                    };
+                    "0xf700-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2A";
+                    };
+                    "0xf700-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5A";
+                    };
+                    "0xf700-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6A";
+                    };
+                    "0xf700-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x41";
+                    };
+                    "0xf701-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2B";
+                    };
+                    "0xf701-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5B";
+                    };
+                    "0xf701-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6B";
+                    };
+                    "0xf701-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x42";
+                    };
+                    "0xf702-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2D";
+                    };
+                    "0xf702-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5D";
+                    };
+                    "0xf702-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6D";
+                    };
+                    "0xf702-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x44";
+                    };
+                    "0xf703-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2C";
+                    };
+                    "0xf703-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5C";
+                    };
+                    "0xf703-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6C";
+                    };
+                    "0xf703-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x43";
+                    };
+                    "0xf704-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2P";
+                    };
+                    "0xf705-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2Q";
+                    };
+                    "0xf706-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2R";
+                    };
+                    "0xf707-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2S";
+                    };
+                    "0xf708-0x20000" =                     {
+                        Action = 10;
+                        Text = "[15;2~";
+                    };
+                    "0xf709-0x20000" =                     {
+                        Action = 10;
+                        Text = "[17;2~";
+                    };
+                    "0xf70a-0x20000" =                     {
+                        Action = 10;
+                        Text = "[18;2~";
+                    };
+                    "0xf70b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[19;2~";
+                    };
+                    "0xf70c-0x20000" =                     {
+                        Action = 10;
+                        Text = "[20;2~";
+                    };
+                    "0xf70d-0x20000" =                     {
+                        Action = 10;
+                        Text = "[21;2~";
+                    };
+                    "0xf70e-0x20000" =                     {
+                        Action = 10;
+                        Text = "[23;2~";
+                    };
+                    "0xf70f-0x20000" =                     {
+                        Action = 10;
+                        Text = "[24;2~";
+                    };
+                    "0xf729-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2H";
+                    };
+                    "0xf729-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5H";
+                    };
+                    "0xf72b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2F";
+                    };
+                    "0xf72b-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5F";
+                    };
+                };
+                "Link Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.755523681640625";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.4681411998797496";
+                    "Red Component" = "0.1929504373110831";
+                };
+                "Minimum Contrast" = "0.4332164417613636";
+                "Mouse Reporting" = 1;
+                Name = "yakuake - fish";
+                "Non Ascii Font" = "Monaco 12";
+                "Non-ASCII Anti Aliased" = 1;
+                "Normal Font" = "JetBrainsMono-Regular 14";
+                "Option Key Sends" = 0;
+                "Prompt Before Closing 2" = 1;
+                "Right Option Key Sends" = 0;
+                Rows = 125;
+                Screen = 0;
+                "Scrollback Lines" = 100000;
+                "Scrollback in Alternate Screen" = 0;
+                "Selected Text Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Selection Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.8353000283241272";
+                    "Red Component" = "0.7098000049591064";
+                };
+                "Send Code When Idle" = 0;
+                "Session Close Undo Timeout" = 25;
+                Shortcut = "";
+                "Silence Bell" = 0;
+                Space = "-1";
+                "Sync Title" = 0;
+                Tags =                 (
+                );
+                "Terminal Type" = "xterm-256color";
+                Transparency = "0.145963303284729";
+                "Unlimited Scrollback" = 0;
+                "Use Bold Font" = 1;
+                "Use Bright Bold" = 1;
+                "Use Italic Font" = 1;
+                "Use Non-ASCII Font" = 0;
+                "Vertical Spacing" = 1;
+                "Visual Bell" = 1;
+                "Window Type" = 2;
+                "Working Directory" = "/Users/fegeland";
+            },
+                        {
+                "ASCII Anti Aliased" = 1;
+                "ASCII Ligatures" = 1;
+                "Ambiguous Double Width" = 0;
+                "Ansi 0 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Ansi 1 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 10 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 11 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 12 Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.98040771484375";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.6842234498025587";
+                    "Red Component" = "0.6652937605977058";
+                };
+                "Ansi 13 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "Ansi 14 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 15 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 2 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 3 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 4 Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.781524658203125";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.3348635960174813";
+                    "Red Component" = "0.2393013811670244";
+                };
+                "Ansi 5 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 6 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 7 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 8 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 9 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "BM Growl" = 1;
+                "Background Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Background Image Location" = "";
+                "Badge Color" =                 {
+                    "Alpha Component" = "0.5";
+                    "Blue Component" = 0;
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.1491314172744751";
+                    "Red Component" = 1;
+                };
+                Blend = "0.5";
+                "Blinking Cursor" = 0;
+                Blur = 1;
+                "Blur Radius" = "9.776862980769229";
+                "Bold Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Character Encoding" = 4;
+                "Close Sessions On End" = 1;
+                Columns = 160;
+                Command = "/usr/local/bin/bash --login";
+                "Cursor Boost" = 0;
+                "Cursor Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Cursor Guide Color" =                 {
+                    "Alpha Component" = "0.25";
+                    "Blue Component" = 1;
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.9268307089805603";
+                    "Red Component" = "0.7021318674087524";
+                };
+                "Cursor Text Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Custom Command" = "Custom Shell";
+                "Custom Directory" = No;
+                "Default Bookmark" = No;
+                Description = Default;
+                "Disable Window Resizing" = 1;
+                "Draw Powerline Glyphs" = 0;
+                "Flashing Bell" = 0;
+                "Foreground Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                Guid = "244A830E-81C4-4F81-B8CD-5499FDF12D9C";
+                "Has Hotkey" = 0;
+                "Horizontal Spacing" = 1;
+                "HotKey Activated By Modifier" = 0;
+                "HotKey Alternate Shortcuts" =                 (
+                );
+                "HotKey Characters" = "";
+                "HotKey Characters Ignoring Modifiers" = "";
+                "HotKey Key Code" = 0;
+                "HotKey Modifier Activation" = 0;
+                "HotKey Modifier Flags" = 0;
+                "HotKey Window Animates" = 1;
+                "HotKey Window AutoHides" = 1;
+                "HotKey Window Dock Click Action" = 0;
+                "HotKey Window Floats" = 0;
+                "HotKey Window Reopens On Activation" = 0;
+                "Idle Code" = 0;
+                "Jobs to Ignore" =                 (
+                    rlogin,
+                    ssh,
+                    slogin,
+                    telnet
+                );
+                "Keyboard Map" =                 {
+                    "0x2d-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x32-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x00;
+                    };
+                    "0x33-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1b;
+                    };
+                    "0x34-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1c;
+                    };
+                    "0x35-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1d;
+                    };
+                    "0x36-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1e;
+                    };
+                    "0x37-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x38-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x7f;
+                    };
+                    "0xf700-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2A";
+                    };
+                    "0xf700-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5A";
+                    };
+                    "0xf700-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6A";
+                    };
+                    "0xf700-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x41";
+                    };
+                    "0xf701-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2B";
+                    };
+                    "0xf701-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5B";
+                    };
+                    "0xf701-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6B";
+                    };
+                    "0xf701-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x42";
+                    };
+                    "0xf702-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2D";
+                    };
+                    "0xf702-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5D";
+                    };
+                    "0xf702-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6D";
+                    };
+                    "0xf702-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x44";
+                    };
+                    "0xf703-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2C";
+                    };
+                    "0xf703-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5C";
+                    };
+                    "0xf703-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6C";
+                    };
+                    "0xf703-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x43";
+                    };
+                    "0xf704-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2P";
+                    };
+                    "0xf705-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2Q";
+                    };
+                    "0xf706-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2R";
+                    };
+                    "0xf707-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2S";
+                    };
+                    "0xf708-0x20000" =                     {
+                        Action = 10;
+                        Text = "[15;2~";
+                    };
+                    "0xf709-0x20000" =                     {
+                        Action = 10;
+                        Text = "[17;2~";
+                    };
+                    "0xf70a-0x20000" =                     {
+                        Action = 10;
+                        Text = "[18;2~";
+                    };
+                    "0xf70b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[19;2~";
+                    };
+                    "0xf70c-0x20000" =                     {
+                        Action = 10;
+                        Text = "[20;2~";
+                    };
+                    "0xf70d-0x20000" =                     {
+                        Action = 10;
+                        Text = "[21;2~";
+                    };
+                    "0xf70e-0x20000" =                     {
+                        Action = 10;
+                        Text = "[23;2~";
+                    };
+                    "0xf70f-0x20000" =                     {
+                        Action = 10;
+                        Text = "[24;2~";
+                    };
+                    "0xf729-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2H";
+                    };
+                    "0xf729-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5H";
+                    };
+                    "0xf72b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2F";
+                    };
+                    "0xf72b-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5F";
+                    };
+                };
+                "Link Color" =                 {
+                    "Alpha Component" = 1;
+                    "Blue Component" = "0.755523681640625";
+                    "Color Space" = sRGB;
+                    "Green Component" = "0.4681411998797496";
+                    "Red Component" = "0.1929504373110831";
+                };
+                "Minimum Contrast" = "0.4332164417613636";
+                "Mouse Reporting" = 1;
+                Name = "yakuake - bash";
+                "Non Ascii Font" = "Monaco 12";
+                "Non-ASCII Anti Aliased" = 1;
+                "Normal Font" = "JetBrainsMono-Regular 15";
+                "Option Key Sends" = 0;
+                "Prompt Before Closing 2" = 1;
+                "Right Option Key Sends" = 0;
+                Rows = 125;
+                Screen = 0;
+                "Scrollback Lines" = 100000;
+                "Scrollback in Alternate Screen" = 0;
+                "Selected Text Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Selection Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.8353000283241272";
+                    "Red Component" = "0.7098000049591064";
+                };
+                "Send Code When Idle" = 0;
+                "Session Close Undo Timeout" = 25;
+                Shortcut = "";
+                "Silence Bell" = 0;
+                Space = "-1";
+                "Sync Title" = 0;
+                Tags =                 (
+                );
+                "Terminal Type" = "xterm-256color";
+                Transparency = "0.2548584492238153";
+                "Unlimited Scrollback" = 0;
+                "Use Bold Font" = 1;
+                "Use Bright Bold" = 1;
+                "Use Italic Font" = 1;
+                "Use Non-ASCII Font" = 0;
+                "Vertical Spacing" = 1;
+                "Visual Bell" = 1;
+                "Window Type" = 2;
+                "Working Directory" = "/Users/fegeland";
+            },
+                        {
+                "ASCII Anti Aliased" = 1;
+                "Ambiguous Double Width" = 0;
+                "Ansi 0 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Ansi 1 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 10 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 11 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 12 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 13 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "Ansi 14 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 15 Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Ansi 2 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 3 Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 4 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Ansi 5 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = 0;
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 6 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = 0;
+                };
+                "Ansi 7 Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Ansi 8 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = "0.3333333432674408";
+                };
+                "Ansi 9 Color" =                 {
+                    "Blue Component" = "0.3333333432674408";
+                    "Green Component" = "0.3333333432674408";
+                    "Red Component" = 1;
+                };
+                "BM Growl" = 1;
+                "Background Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Background Image Location" = "";
+                "Blinking Cursor" = 0;
+                Blur = 1;
+                "Blur Radius" = "3.214213197969543";
+                "Bold Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Character Encoding" = 4;
+                "Close Sessions On End" = 1;
+                Columns = 80;
+                Command = "/usr/local/bin/bash --login";
+                "Cursor Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                "Cursor Text Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = 1;
+                    "Red Component" = 1;
+                };
+                "Custom Command" = "Custom Shell";
+                "Custom Directory" = No;
+                "Default Bookmark" = No;
+                Description = Default;
+                "Disable Window Resizing" = 1;
+                "Flashing Bell" = 0;
+                "Foreground Color" =                 {
+                    "Blue Component" = "0.7333333492279053";
+                    "Green Component" = "0.7333333492279053";
+                    "Red Component" = "0.7333333492279053";
+                };
+                Guid = "242C8B02-48CB-4204-86D2-499E21E951C5";
+                "Horizontal Spacing" = 1;
+                "Idle Code" = 0;
+                "Jobs to Ignore" =                 (
+                    rlogin,
+                    ssh,
+                    slogin,
+                    telnet
+                );
+                "Keyboard Map" =                 {
+                    "0x2d-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x32-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x00;
+                    };
+                    "0x33-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1b;
+                    };
+                    "0x34-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1c;
+                    };
+                    "0x35-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1d;
+                    };
+                    "0x36-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1e;
+                    };
+                    "0x37-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x1f;
+                    };
+                    "0x38-0x40000" =                     {
+                        Action = 11;
+                        Text = 0x7f;
+                    };
+                    "0xf700-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2A";
+                    };
+                    "0xf700-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5A";
+                    };
+                    "0xf700-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6A";
+                    };
+                    "0xf700-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x41";
+                    };
+                    "0xf701-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2B";
+                    };
+                    "0xf701-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5B";
+                    };
+                    "0xf701-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6B";
+                    };
+                    "0xf701-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x42";
+                    };
+                    "0xf702-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2D";
+                    };
+                    "0xf702-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5D";
+                    };
+                    "0xf702-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6D";
+                    };
+                    "0xf702-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x44";
+                    };
+                    "0xf703-0x220000" =                     {
+                        Action = 10;
+                        Text = "[1;2C";
+                    };
+                    "0xf703-0x240000" =                     {
+                        Action = 10;
+                        Text = "[1;5C";
+                    };
+                    "0xf703-0x260000" =                     {
+                        Action = 10;
+                        Text = "[1;6C";
+                    };
+                    "0xf703-0x280000" =                     {
+                        Action = 11;
+                        Text = "0x1b 0x1b 0x5b 0x43";
+                    };
+                    "0xf704-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2P";
+                    };
+                    "0xf705-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2Q";
+                    };
+                    "0xf706-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2R";
+                    };
+                    "0xf707-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2S";
+                    };
+                    "0xf708-0x20000" =                     {
+                        Action = 10;
+                        Text = "[15;2~";
+                    };
+                    "0xf709-0x20000" =                     {
+                        Action = 10;
+                        Text = "[17;2~";
+                    };
+                    "0xf70a-0x20000" =                     {
+                        Action = 10;
+                        Text = "[18;2~";
+                    };
+                    "0xf70b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[19;2~";
+                    };
+                    "0xf70c-0x20000" =                     {
+                        Action = 10;
+                        Text = "[20;2~";
+                    };
+                    "0xf70d-0x20000" =                     {
+                        Action = 10;
+                        Text = "[21;2~";
+                    };
+                    "0xf70e-0x20000" =                     {
+                        Action = 10;
+                        Text = "[23;2~";
+                    };
+                    "0xf70f-0x20000" =                     {
+                        Action = 10;
+                        Text = "[24;2~";
+                    };
+                    "0xf729-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2H";
+                    };
+                    "0xf729-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5H";
+                    };
+                    "0xf72b-0x20000" =                     {
+                        Action = 10;
+                        Text = "[1;2F";
+                    };
+                    "0xf72b-0x40000" =                     {
+                        Action = 10;
+                        Text = "[1;5F";
+                    };
+                };
+                "Mouse Reporting" = 1;
+                Name = Default;
+                "Non Ascii Font" = "Monaco 12";
+                "Non-ASCII Anti Aliased" = 1;
+                "Normal Font" = "Monaco 14";
+                "Option Key Sends" = 0;
+                "Prompt Before Closing 2" = 0;
+                "Right Option Key Sends" = 0;
+                Rows = 125;
+                Screen = "-1";
+                "Scrollback Lines" = 100000;
+                "Scrollback in Alternate Screen" = 0;
+                "Selected Text Color" =                 {
+                    "Blue Component" = 0;
+                    "Green Component" = 0;
+                    "Red Component" = 0;
+                };
+                "Selection Color" =                 {
+                    "Blue Component" = 1;
+                    "Green Component" = "0.8353000283241272";
+                    "Red Component" = "0.7098000049591064";
+                };
+                "Send Code When Idle" = 0;
+                Shortcut = "";
+                "Silence Bell" = 0;
+                "Sync Title" = 0;
+                Tags =                 (
+                );
+                "Terminal Type" = "xterm-256color";
+                Transparency = "0.1453898318527919";
+                "Unlimited Scrollback" = 0;
+                "Use Bold Font" = 1;
+                "Use Bright Bold" = 1;
+                "Use Italic Font" = 1;
+                "Use Non-ASCII Font" = 0;
+                "Vertical Spacing" = 1;
+                "Visual Bell" = 1;
+                "Window Type" = 0;
+                "Working Directory" = "/Users/fegeland";
+            }
+        );
+        NoSyncAllAppVersions =         (
+            "3.3.11"
+        );
+        "NoSyncFrame_SharedPreferences" =         {
+            screenFrame = "{{0, 0}, {1792, 1120}}";
+            topLeft = "{574, 895}";
+        };
+        NoSyncInstallationId = "66F4B65E-30E0-4358-8589-D876BCC6419E";
+        NoSyncLaunchExperienceControllerRunCount = 3;
+        NoSyncNextAnnoyanceTime = "615537861.159521";
+        NoSyncOnboardingWindowHasBeenShown = 1;
+        NoSyncRecordedVariables =         {
+            0 =             (
+                                {
+                    isTerminal = 1;
+                    name = "";
+                    nonterminalContext = 0;
+                }
+            );
+            1 =             (
+                                {
+                    isTerminal = 1;
+                    name = presentationName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxRole;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = lastCommand;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = profileName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = termid;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = id;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = jobName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = columns;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "tab.tmuxWindowTitle";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = hostname;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxClientName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = path;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = triggerName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = terminalIconName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxWindowPane;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxStatusRight;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = mouseReportingMode;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = iterm2;
+                    nonterminalContext = 4;
+                },
+                                {
+                    isTerminal = 1;
+                    name = name;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxPaneTitle;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = rows;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = username;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tty;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = autoLogId;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = badge;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "tab.tmuxWindowName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = tab;
+                    nonterminalContext = 2;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxStatusLeft;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = autoNameFormat;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = autoName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = terminalWindowName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = creationTimeString;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = commandLine;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = jobPid;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = pid;
+                    nonterminalContext = 0;
+                }
+            );
+            16 =             (
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.presentationName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.iterm2.localhostName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = style;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = frame;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.pid";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.termid";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.terminalIconName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.terminalWindowName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = currentTab;
+                    nonterminalContext = 2;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.window";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = id;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.name";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = titleOverride;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = number;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.commandLine";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.path";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.hostname";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.tty";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.username";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = iterm2;
+                    nonterminalContext = 4;
+                },
+                                {
+                    isTerminal = 1;
+                    name = titleOverrideFormat;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentTab.currentSession.jobName";
+                    nonterminalContext = 0;
+                }
+            );
+            2 =             (
+                                {
+                    isTerminal = 1;
+                    name = currentSession;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.commandLine";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = title;
+                    nonterminalContext = 1;
+                },
+                                {
+                    isTerminal = 1;
+                    name = title;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxWindowTitle;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.terminalIconName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.presentationName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "iterm2.localhostName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxWindowName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = window;
+                    nonterminalContext = 16;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.tty";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.jobName";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.name";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = window;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = id;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = titleOverride;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.username";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.termid";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = iterm2;
+                    nonterminalContext = 4;
+                },
+                                {
+                    isTerminal = 1;
+                    name = titleOverrideFormat;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.hostname";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.pid";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.path";
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = tmuxWindow;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 0;
+                    name = currentSession;
+                    nonterminalContext = 1;
+                },
+                                {
+                    isTerminal = 1;
+                    name = "currentSession.terminalWindowName";
+                    nonterminalContext = 0;
+                }
+            );
+            4 =             (
+                                {
+                    isTerminal = 1;
+                    name = pid;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = localhostName;
+                    nonterminalContext = 0;
+                },
+                                {
+                    isTerminal = 1;
+                    name = effectiveTheme;
+                    nonterminalContext = 0;
+                }
+            );
+        };
+        NoSyncTipOfTheDayEligibilityBeganTime = "615365061.1593291";
+        PMPrintingExpandedStateForPrint2 = 0;
+        PasteTabToStringTabStopSize = 4;
+        PointerActions =         {
+            "Button,1,1,," =             {
+                Action = kContextMenuPointerAction;
+            };
+            "Button,2,1,," =             {
+                Action = kPasteFromSelectionPointerAction;
+            };
+            "Gesture,ThreeFingerSwipeDown,," =             {
+                Action = kPrevWindowPointerAction;
+            };
+            "Gesture,ThreeFingerSwipeLeft,," =             {
+                Action = kPrevTabPointerAction;
+            };
+            "Gesture,ThreeFingerSwipeRight,," =             {
+                Action = kNextTabPointerAction;
+            };
+            "Gesture,ThreeFingerSwipeUp,," =             {
+                Action = kNextWindowPointerAction;
+            };
+        };
+        PrefsCustomFolder = "~/.dotfiles/iterm2_profile";
+        "Print In Black And White" = 1;
+        SUEnableAutomaticChecks = 0;
+        SUFeedAlternateAppNameKey = iTerm;
+        SUFeedURL = "https://iterm2.com/appcasts/final_new.xml?shard=19";
+        SUHasLaunchedBefore = 1;
+        SUSendProfileInfo = 0;
+        ShowFullScreenTabBar = 1;
+        ShowNewOutputIndicator = 1;
+        SoundForEsc = 0;
+        SplitPaneDimmingAmount = "0.3383513621794872";
+        TabStyle = 1;
+        TabStyleWithAutomaticOption = 4;
+        TabViewType = 1;
+        VisualIndicatorForEsc = 0;
+        WordCharacters = "/-+\\\\~_.";
+        "findIgnoreCase_iTerm" = 1;
+        "findMode_iTerm" = 0;
+        "findRegex_iTerm" = 0;
+        "iTerm Version" = "3.3.11";
+        kCPKSelectionViewPreferredModeKey = 0;
+        kCPKSelectionViewShowHSBTextFieldsKey = 0;
+    };
     "com.landesk.mdm-enrollment" =     {
         "config profile uuid" = "7EA8D794-2FBA-4FF6-B5B3-9CFA77E9D8C9";
         "device enrolled date" = "2020-05-19 05:35:28 +0000";
@@ -4509,15 +6500,21 @@
         "raw server url" = "https://ldcsa.fairfaxmedia.com.au:443/rtc/LANPCORP02";
         "server url" = "https://ldcsa.fairfaxmedia.com.au/rtc/LANPCORP02";
     };
+    "com.microsoft.VSCode" =     {
+        NSFullScreenMenuItemEverywhere = 0;
+        NSTreatUnknownArgumentsAsOpen = NO;
+    };
     "knowledge-agent" =     {
-        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/notification/usageActivityDate" = "2020-07-02 05:15:00 +0000";
-        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/notification/usageActivityDate" = "2020-07-02 05:15:00 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/app/webUsageActivityDate" = "2020-07-02 06:46:10 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/notification/usageActivityDate" = "2020-07-02 06:44:21 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/app/webUsageActivityDate" = "2020-07-02 06:46:10 +0000";
+        "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/notification/usageActivityDate" = "2020-07-02 06:44:21 +0000";
     };
     loginwindow =     {
-        BuildVersionStampAsNumber = 40117216;
-        BuildVersionStampAsString = 19E287;
-        SystemVersionStampAsNumber = 168756224;
-        SystemVersionStampAsString = "10.15.4";
+        BuildVersionStampAsNumber = 40176800;
+        BuildVersionStampAsString = 19F101;
+        SystemVersionStampAsNumber = 168756480;
+        SystemVersionStampAsString = "10.15.5";
     };
     pbs =     {
         FinderActive =         {
