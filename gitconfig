@@ -1,9 +1,9 @@
 [user]
 	email = frode.egeland@fairfaxmedia.com.au
 	name = Frode Egeland
-	signingkey = 5F49CC7B
+	signingkey = F7BF5887C4DC446F74EC91870A32DE835F49CC7B
 [alias]
-	ci = commit --signoff -S
+	ci = commit --signoff
     prp = pull --rebase --prune
 	meld = !git difftool -t meld --dir-diff
 	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
@@ -12,9 +12,11 @@
 [core]
 	excludesfile = /Users/fegeland/.gitignore_global
 	pager = diff-so-fancy | less --tabs=4 -RFX
-	editor = code --wait
+	# editor = code --wait
+	editor = micro
 [commit]
 	template = /Users/fegeland/.stCommitMsg
+	gpgsign = true
 
 [merge]
 	tool = meld
