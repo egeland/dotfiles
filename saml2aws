@@ -9,5 +9,11 @@ skip_prompt          = true
 timeout              = 0
 aws_urn              = urn:amazon:webservices
 aws_session_duration = 43200
-aws_profile           = saml
+aws_profile          = saml
 subdomain            = fairfaxmedia
+resource_id          = 
+role_arn             = 
+region               = 
+http_attempts_count  = 
+http_retry_delay     = 
+
