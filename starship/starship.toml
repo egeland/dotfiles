@@ -12,3 +12,12 @@ ap-southeast-2 = "apse2"
 
 [time]
 disabled = false
+
+[custom.saml2aws]
+disabled = false
+description = "show when saml2aws creds have expired"
+when = """ test (date -jf "%Y-%m-%dT%H:%M:%S" (awk '$1 == "x_security_token_expires" {print $3}' ~/.aws/credentials | cut -d '+' -f 1) +'%s') -lt (date +'%s') """
+command = """ echo "🅢 " """
+style = "#ff0000"
+prefix = "SAML2AWS "
+shell = "/usr/local/bin/fish"
