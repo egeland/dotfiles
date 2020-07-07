@@ -1,10 +1,10 @@
-#!/bin/bash -x
+#!/usr/bin/env bash -x
 
 cd homebrew
 
 LAST_RUN=".last_run"
 if [[ -f "$LAST_RUN" ]]; then
-    find "$LAST_RUN" -mtime +4h -print | grep -q "$LAST_RUN" || \
+    find ~/.dotfiles/homebrew -name "$LAST_RUN" -mmin -240 -print | grep -q "$LAST_RUN" && \
         echo "Homebrew checked recently - skipping" && \
         cd .. && \
         exit 0
