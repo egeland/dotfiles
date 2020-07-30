@@ -23,7 +23,7 @@
         "revision": "94d474d9ab199720ff34560c82493e18da9b612d"
       },
       "homebrew/cask": {
-        "revision": "c446c9892b612b80d4081c29a77635f274adb6c1"
+        "revision": "ebe97a367f901424a9ee10b6bafbb28d27e95cda"
       },
       "homebrew/core": {
         "revision": "0bff963c8a77b5bf0c2239d743fbd4550c6117cc"
@@ -44,7 +44,7 @@
         "revision": "d4367329629e744a9ad31d0a5858b0d5a9870c7c"
       },
       "homebrew/cask-fonts": {
-        "revision": "a7f547fb151cc5edd99d75b40c6c3717e0fa5f0a"
+        "revision": "013ba756595f8daabccbf21008096201a6d23150"
       },
       "mikelorant/custom": {
         "revision": "174c03ff7f2875d82e3e1fb60da63b59e0d66f8b"
@@ -816,22 +816,22 @@
         }
       },
       "istioctl": {
-        "version": "1.6.5",
+        "version": "1.6.6",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.5.catalina.bottle.tar.gz",
-              "sha256": "30f8f07445295591c134fd2e65a11e6023e60c8d924723b27abeaccf3d0a628f"
+              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.6.catalina.bottle.tar.gz",
+              "sha256": "34b2311deaff6b86a17bb7186cc5fac408afc55a3a385669b13d09367d231fe2"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.5.mojave.bottle.tar.gz",
-              "sha256": "30f8f07445295591c134fd2e65a11e6023e60c8d924723b27abeaccf3d0a628f"
+              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.6.mojave.bottle.tar.gz",
+              "sha256": "34b2311deaff6b86a17bb7186cc5fac408afc55a3a385669b13d09367d231fe2"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.5.high_sierra.bottle.tar.gz",
-              "sha256": "30f8f07445295591c134fd2e65a11e6023e60c8d924723b27abeaccf3d0a628f"
+              "url": "https://homebrew.bintray.com/bottles/istioctl-1.6.6.high_sierra.bottle.tar.gz",
+              "sha256": "34b2311deaff6b86a17bb7186cc5fac408afc55a3a385669b13d09367d231fe2"
             }
           }
         }
@@ -1752,6 +1752,12 @@
         "options": {
           "full_name": "font-jetbrainsmono-nerd-font"
         }
+      },
+      "muzzle": {
+        "version": "1.5,304",
+        "options": {
+          "full_name": "muzzle"
+        }
       }
     },
     "mas": {
@@ -1778,7 +1784,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9ae0e780deecd90c2c3db2f32e47f03965f1554b",
+        "Homebrew/homebrew-core": "18ee729189c021f330980d6a019537b657914b74",
         "CLT": "1103.0.32.62",
         "Xcode": "11.5",
         "macOS": "10.15.5"
