@@ -11,12 +11,13 @@
 	cm = checkout master
 [core]
 	excludesfile = /Users/fegeland/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 	editor = code --wait
 [commit]
 	template = /Users/fegeland/.stCommitMsg
 	gpgsign = true
-
+[interactive]
+    diffFilter = delta --color-only
 [merge]
 	tool = meld
 [mergetool]
