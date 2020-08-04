@@ -122,14 +122,14 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>2424 301 735 382 1792 40 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1792 -40 1920 1097 1792 0 1920 1057 </string>
+	<string>1792 0 1920 1057 1792 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
 			<key>ASCII Ligatures</key>
-			<true/>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -733,7 +733,7 @@
 			<key>Name</key>
 			<string>yakuake - fish</string>
 			<key>Non Ascii Font</key>
-			<string>JetBrainsMonoNerdFontCompleteM-Regular 15</string>
+			<string>JetBrainsMonoNerdFontCompleteM-Regular 16</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
@@ -811,7 +811,7 @@
 			<key>ASCII Anti Aliased</key>
 			<true/>
 			<key>ASCII Ligatures</key>
-			<true/>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2014,11 +2014,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>JetBrainsMonoNerdFontCompleteM-Regular 16</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 14</string>
+			<string>JetBrainsMono-Regular 15</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2074,7 +2074,7 @@
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<false/>
+			<true/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
@@ -2096,10 +2096,10 @@
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
+		<string>JetBrains Mono</string>
 		<string>JetBrainsMono Nerd Font Mono</string>
 		<string>Monaco</string>
 		<string>JetBrains Mono NL</string>
-		<string>Wingdings 3</string>
 	</array>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
@@ -2118,7 +2118,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>66F4B65E-30E0-4358-8589-D876BCC6419E</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>7</integer>
+	<integer>8</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>616597711.15197396</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
