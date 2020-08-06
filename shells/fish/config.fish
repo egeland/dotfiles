@@ -22,4 +22,6 @@ if not functions -q fisher
     fish -c fisher
 end
 
+# Set up various completions
 /usr/local/bin/kind completion fish | source
+zoxide init fish --cmd c | source
