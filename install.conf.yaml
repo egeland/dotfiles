@@ -61,6 +61,10 @@
         command: which bw || sudo snap install bw
         stdout: true
     -
+        description: Install lsd
+        command: which lsd || sudo snap install lsd --classic
+        stdout: true
+    -
         description: Retrieve SSH keys
         command: ./ssh/install.sh
         stdin: true
