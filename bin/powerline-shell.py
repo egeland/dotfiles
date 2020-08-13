@@ -1,1 +1,0 @@
-/Users/fegeland/git/powerline-shell/powerline-shell.py

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "Setting kubernetes context to white prod"
-kubectl config use-context white-production

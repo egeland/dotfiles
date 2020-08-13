@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 if [[ -f ~/.ssh/.import_done ]]; then
     echo "SSH Keys already imported"

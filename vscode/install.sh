@@ -1,4 +1,6 @@
-#!/usr/local/bin/bash
+#!/bin/bash
+
+which code || sudo snap install --classic code
 
 cd vscode
 LAST_RUN='.last_run'

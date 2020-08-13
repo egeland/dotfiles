@@ -1,0 +1,9 @@
+git
+fish
+neovim
+fzf
+chromium-browser
+fd-find
+bat
+jq
+

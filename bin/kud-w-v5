@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "Setting kubernetes context to white development"
-kubectl config use-context white-development

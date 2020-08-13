@@ -1,6 +1,0 @@
-#!/bin/bash
-
-TOKEN=$(cat ~/.fastlyctl_token)
-curl -H 'Accept: application/json' -H "Fastly-Key: $TOKEN" $*
-echo ''
-

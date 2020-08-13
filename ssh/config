@@ -15,14 +15,6 @@ host mail1 mail2
     IdentityFile ~/.ssh/fegeland_ffx_white
 
 Host *
-  UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/fegeland_ffx_blue
-
-Host ffxassets.upload.akamai.com
-  User blueops
-  IdentityFile ~/.ssh/akamai_cloudstorage
-
-#Host github.com
-#  HostName 192.30.253.113
 

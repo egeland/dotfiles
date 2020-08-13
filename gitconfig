@@ -1,5 +1,5 @@
 [user]
-	email = frode.egeland@fairfaxmedia.com.au
+	email = egeland@gmail.com
 	name = Frode Egeland
 	signingkey = F7BF5887C4DC446F74EC91870A32DE835F49CC7B
 [alias]
@@ -15,7 +15,7 @@
 	editor = code --wait
 [commit]
 	template = /Users/fegeland/.stCommitMsg
-	gpgsign = true
+	gpgsign = false
 [interactive]
     diffFilter = delta --color-only
 [merge]

@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash -x
+#!/bin/bash -x
 
 if [[ -f ~/.gnupg/.import_done ]]; then
     echo "GNUPG Secret already imported"

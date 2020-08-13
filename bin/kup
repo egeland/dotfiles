@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo "Setting kubernetes context to blue-production"
-kubectl config use-context blue-production
-

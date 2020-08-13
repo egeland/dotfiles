@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo "Setting kubernetes context to blue-shared"
-kubectl config use-context blue-shared
-

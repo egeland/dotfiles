@@ -1,4 +1,0 @@
-echo "You want to use the ./cluster.sh tool in infrastructure-kubernetes, not kops directly.."
-
-exit 1
-

@@ -5,15 +5,15 @@ starship init fish | source
 source ~/py3/bin/activate.fish
 
 # Ensure Homebrew-installed stuff is happy
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+# set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 # Add ~/bin to path
 set -g -a fish_user_paths ~/bin
 
 # Set up AWS defaults
-set -x AWS_REGION "ap-southeast-2"
-set -x AWS_PROFILE "saml"
-set -x AWS_DEFAULT_PROFILE "saml"
+# set -x AWS_REGION "ap-southeast-2"
+# set -x AWS_PROFILE "saml"
+# set -x AWS_DEFAULT_PROFILE "saml"
 
 # Set up fisher
 if not functions -q fisher
@@ -23,5 +23,4 @@ if not functions -q fisher
 end
 
 # Set up various completions
-/usr/local/bin/kind completion fish | source
 zoxide init fish --cmd c | source
