@@ -14,7 +14,7 @@
 	pager = delta
 	editor = code --wait
 [commit]
-	gpgsign = false
+	gpgsign = true
 [interactive]
 	diffFilter = delta --color-only
 [merge]
