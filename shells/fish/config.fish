@@ -24,3 +24,7 @@ end
 
 # Set up various completions
 zoxide init fish --cmd c | source
+
+# Set GPG TTY - needed for agent to do the right thing
+set -g -x GPG_TTY (tty)
+

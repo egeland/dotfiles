@@ -2,13 +2,13 @@
 Frames=0
 
 [Desktop Entry]
-DefaultProfile=Fishy Goodness.profile
+DefaultProfile=Fish.profile
 
 [Dialogs]
 FirstRun=false
 
 [Favorite Profiles]
-Favorites=Fishy Goodness.profile,Bashing it!.profile
+Favorites=Fish.profile,Bash.profile
 
 [Shortcuts]
 toggle-window-state=CapsLock

@@ -7,4 +7,6 @@ fd-find
 bat
 jq
 pwgen
+meld
+awscli
 
