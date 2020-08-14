@@ -85,3 +85,7 @@
         command: which lsd || (curl -fsSL -o /tmp/lsd.deb https://github.com/Peltoche/lsd/releases/download/0.17.0/lsd_0.17.0_amd64.deb && sudo apt install -f /tmp/lsd.deb && rm -f /tmp/lsd.deb)
         stdout: true
         stdin: true
+    -
+        description: Install fonts
+        command: ./fonts/install.sh
+
