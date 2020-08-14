@@ -5,7 +5,15 @@
     ~/.ssh/config:
         path: ssh/config
         create: true
-    # ~/.zshrc: shells/zshrc
+    ~/.local/share/konsole/Fish.profile:
+        path: konsole/Fish.profile
+        create: true
+    ~/.local/share/konsole/Bash.profile:
+        path: konsole/Bash.profile
+        create: true
+    ~/.config/yakuakerc:
+        path: konsole/yakuakerc
+        create: true
     ~/bin:
         path: bin/
         create: true

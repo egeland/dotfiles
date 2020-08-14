@@ -1,0 +1,19 @@
+[Animation]
+Frames=0
+
+[Desktop Entry]
+DefaultProfile=Fishy Goodness.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=Fishy Goodness.profile,Bashing it!.profile
+
+[Shortcuts]
+toggle-window-state=CapsLock
+
+[Window]
+Height=100
+ShowOnAllDesktops=false
+Width=100
