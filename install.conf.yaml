@@ -61,10 +61,6 @@
         command: which bw || sudo snap install bw
         stdout: true
     -
-        description: Install lsd
-        command: which lsd || sudo snap install lsd --classic
-        stdout: true
-    -
         description: Retrieve SSH keys
         command: ./ssh/install.sh
         stdin: true
@@ -84,4 +80,8 @@
         command: which delta || (curl -fsSL -o /tmp/delta.deb https://github.com/dandavison/delta/releases/download/0.4.1/git-delta_0.4.1_amd64.deb && sudo apt install -f /tmp/delta.deb && rm -f /tmp/delta.deb)
         stdout: true
         stdin: true
-
+    -
+        description: Install lsd
+        command: which lsd || (curl -fsSL -o /tmp/lsd.deb https://github.com/Peltoche/lsd/releases/download/0.17.0/lsd_0.17.0_amd64.deb && sudo apt install -f /tmp/lsd.deb && rm -f /tmp/lsd.deb)
+        stdout: true
+        stdin: true
