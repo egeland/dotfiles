@@ -4,7 +4,7 @@
 	signingkey = F7BF5887C4DC446F74EC91870A32DE835F49CC7B
 [alias]
 	ci = commit --signoff
-    prp = pull --rebase --prune
+	prp = pull --rebase --prune
 	meld = !git difftool -t meld --dir-diff
 	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
 	cb = checkout -b
@@ -17,13 +17,18 @@
 	template = /Users/fegeland/.stCommitMsg
 	gpgsign = false
 [interactive]
-    diffFilter = delta --color-only
+	diffFilter = delta --color-only
 [merge]
 	tool = meld
 [mergetool]
 	prompt = false
 [push]
-    default = current
+	default = current
+[delta]
+	line-numbers = true
+	dark = true
+	plus-style = syntax "#005800"
+	minus-style = syntax "#5f0000"
 
 [color]
 	ui = true

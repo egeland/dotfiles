@@ -6,4 +6,5 @@ chromium-browser
 fd-find
 bat
 jq
+pwgen
 
