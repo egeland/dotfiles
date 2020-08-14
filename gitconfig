@@ -10,11 +10,10 @@
 	cb = checkout -b
 	cm = checkout master
 [core]
-	excludesfile = /Users/fegeland/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	pager = delta
 	editor = code --wait
 [commit]
-	template = /Users/fegeland/.stCommitMsg
 	gpgsign = false
 [interactive]
 	diffFilter = delta --color-only
