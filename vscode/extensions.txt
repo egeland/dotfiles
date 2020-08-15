@@ -1,4 +1,4 @@
-# eamodio.gitlens
+eamodio.gitlens
 # EFanZh.graphviz-preview
 # emmanuelbeziat.vscode-great-icons
 # Equinusocio.vsc-community-material-theme
