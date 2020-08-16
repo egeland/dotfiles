@@ -96,4 +96,7 @@
     -
         description: Install fonts
         command: ./fonts/install.sh
-
+    -
+        description: Install Headset
+        command: which headset || sudo snap install headset
+        stdout: true

@@ -9,4 +9,6 @@ jq
 pwgen
 meld
 awscli
+tree
+kdenlive
 
