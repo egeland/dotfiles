@@ -24,6 +24,11 @@
 	prompt = false
 [push]
     default = current
+[delta]
+	line-numbers = true
+	dark = true
+	plus-style = syntax "#005800"
+	minus-style = syntax "#5f0000"
 
 [color]
 	ui = true
