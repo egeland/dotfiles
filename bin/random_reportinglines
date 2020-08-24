@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+import random
+
+FRODE = {"Aish"}
+ALEX = {"Denny","Balu"}
+
+TEAM = [
+    "Bala",
+    "Ben",
+    "Joel",
+    "Sweeney",
+    "Mick",
+    "Miles",
+    "Mitchell",
+    "Gomez",
+    "Todd",
+    "Rasika",
+]
+
+
+random.shuffle(TEAM)
+
+FRODE.update(set(TEAM[:6]))
+ALEX.update(set(TEAM[6:]))
+print("Frode:",FRODE)
+print("Alex:",ALEX)
