@@ -79,6 +79,11 @@
         stdin: true
         stdout: true
     -
+        description: Set up trackball
+        command: ./trackball/install.fish
+        stdin: true
+        stdout: true
+    -
         description: Set up VS Code
         command: ./vscode/install.sh
         stdin: true
