@@ -1,4 +1,5 @@
 # Defined in - @ line 1
-function localip --wraps='ipconfig getifaddr en0' --description 'alias localip=ipconfig getifaddr en0'
-  ipconfig getifaddr en0 $argv;
+function localip
+  set IP_DEV (ip route | grep default | awk '{print $5}')
+  ip address show dev $IP_DEV scope global | grep inet | awk '{print $2}' | cut -d '/' -f1
 end
