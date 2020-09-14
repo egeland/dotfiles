@@ -70,14 +70,14 @@
         description: Install Bitwarden CLI
         command: which bw || sudo snap install bw
         stdout: true
-    -
-        description: Retrieve SSH keys
-        command: ./ssh/install.sh
-        stdin: true
-        stdout: true
+    # -
+    #     description: Retrieve SSH keys
+    #     command: ./ssh/install.sh
+    #     stdin: true
+    #     stdout: true
     -
         description: Decode GPG secret key
-        command: ./gnupg/install.sh
+        command: ./gnupg/install.fish
         stdin: true
         stdout: true
     -
