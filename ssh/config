@@ -16,9 +16,8 @@ host mail1 mail2
 
 Host *
   User fegeland
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/fegeland_ffx_blue
+#  UseKeychain yes
+#  AddKeysToAgent yes
 
 Host ffxassets.upload.akamai.com
   User blueops
