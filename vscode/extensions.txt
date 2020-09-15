@@ -23,3 +23,4 @@ skyapps.fish-vscode
 thomas-baumgaertner.vcl
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
+wscats.qf
