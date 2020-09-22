@@ -31,4 +31,5 @@ zoxide init fish --cmd c | source
 # Set GPG TTY - needed for agent to do the right thing
 set -g -x GPG_TTY (tty)
 set -g -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/gnupg/S.gpg-agent.ssh
+gpg-connect-agent updatestartuptty /bye >/dev/null
 

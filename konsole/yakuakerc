@@ -8,7 +8,7 @@ DefaultProfile=Fish.profile
 FirstRun=false
 
 [Favorite Profiles]
-Favorites=Fish.profile,Bash.profile
+Favorites=Bash.profile,Fish.profile
 
 [Shortcuts]
 toggle-window-state=CapsLock
