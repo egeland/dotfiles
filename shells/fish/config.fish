@@ -4,6 +4,9 @@ starship init fish | source
 # Activate python virtual env
 source ~/py3/bin/activate.fish
 
+# Ensure we use LTS nodejs
+nvm use --silent default
+
 # Ensure Homebrew-installed stuff is happy
 # set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 

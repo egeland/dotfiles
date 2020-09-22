@@ -1,3 +1,4 @@
+aureliaeffect.aurelia
 eamodio.gitlens
 # EFanZh.graphviz-preview
 # emmanuelbeziat.vscode-great-icons
