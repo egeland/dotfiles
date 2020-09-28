@@ -1,17 +1,21 @@
 host az???p?????? az???s?????? az???u?????? az???d??????
-    HostName %h.dynamic.f2.com.au
+  User fegeland
+  HostName %h.dynamic.f2.com.au
 
 host ap???p????1 as???p????1
-    HostName %h.prod.f2.com.au
+  User fegeland
+  HostName %h.prod.f2.com.au
 
 host unixadmin?
-    HostName %h.prod.f2.com.au
+  User fegeland
+  HostName %h.prod.f2.com.au
 
 host mail1 mail2
-    HostName %h.f2.com.au
-
-Host *
   User fegeland
+  HostName %h.f2.com.au
+
+#Host *
+#  User fegeland
 #  UseKeychain yes
 #  AddKeysToAgent yes
 
@@ -24,8 +28,10 @@ Host ffxassets.upload.akamai.com
 
 host i-* mi-*
   User ubuntu
+  IdentityFile ~/.ssh/ffxblue_cloudformation
   ProxyCommand sh -c "aws ssm start-session --target %h --document-name AWS-StartSSHSession --parameters 'portNumber=%p'"
 
 host ip-10-44-*
   User ubuntu
+  IdentityFile ~/.ssh/ffxblue_cloudformation
   ProxyCommand sh -c "aws ssm start-session --target $( aws ec2 describe-instances --filters 'Name=private-dns-name,Values=%h' --output text --query 'Reservations[*].Instances[*].InstanceId' ) --document-name AWS-StartSSHSession --parameters 'portNumber=%p'"
