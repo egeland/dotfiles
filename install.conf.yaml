@@ -72,3 +72,7 @@
         description: Set up iterm2
         command: ./iterm2_profile/install.sh
         stdout: true
+    -
+        description: Clean up MacOS Dock
+        command: ./macos/dock.sh
+        stdout: true

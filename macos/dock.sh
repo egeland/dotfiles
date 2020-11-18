@@ -3,7 +3,7 @@
 [[ "$(command -v dockutil)" ]] || { echo "dockutil is not installed" 1>&2 ; exit 1; }
 
 # Set tilesize (default 40)
-defaults write com.apple.dock tilesize -int 40
+defaults write com.apple.dock tilesize -int 70
 
 dockutil --no-restart --remove all
 
@@ -32,10 +32,14 @@ dockutil --no-restart --section apps --add "/System/Applications/System Preferen
 # Custom Apps
 dockutil --no-restart --section apps --add "/Applications/Google Chrome.app"
 dockutil --no-restart --section apps --add "/Applications/iTerm.app"
-dockutil --no-restart --section apps --add "/Applications/Visual Studio Code.app"
-dockutil --no-restart --section apps --add "/Applications/BIG-IP Edge Client.app"
-dockutil --no-restart --section apps --add "/Applications/mmhmm.app"
 dockutil --no-restart --section apps --add "/Applications/Slack.app"
+dockutil --no-restart --section apps --add "/Applications/Visual Studio Code.app"
+dockutil --no-restart --section apps --add "/Applications/mmhmm.app"
+dockutil --no-restart --section apps --add "/Applications/BIG-IP Edge Client.app"
+
+dockutil --add '' --type spacer --section apps --after "System Preferences"
+dockutil --add '' --type spacer --section apps --after "iTerm"
+dockutil --add '' --type spacer --section apps --after "Visual Studio Code"
 
 # Default Others
 dockutil --no-restart --section others --add "${HOME}/Downloads" --view fan --display stack --sort dateadded
