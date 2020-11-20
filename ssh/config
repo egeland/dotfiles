@@ -8,6 +8,7 @@ host ap???p????1 as???p????1
 
 host unixadmin?
   User fegeland
+  ForwardAgent yes
   HostName %h.prod.f2.com.au
 
 host mail1 mail2
