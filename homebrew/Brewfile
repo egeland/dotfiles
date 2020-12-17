@@ -88,7 +88,7 @@ cask "session-manager-plugin"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
-cask "zoomus"
+cask "zoom"
 
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Monosnap", id: 540348655
