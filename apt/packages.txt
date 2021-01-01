@@ -12,4 +12,6 @@ awscli
 tree
 kdenlive
 gimp
+exfat-fuse
+exfat-utils
 

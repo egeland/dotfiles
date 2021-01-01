@@ -1,20 +1,3 @@
-host az???p?????? az???s?????? az???u?????? az???d??????
-    HostName %h.dynamic.f2.com.au
-    IdentityFile ~/.ssh/fegeland_ffx_white
-
-host ap???p????1 as???p????1
-    HostName %h.prod.f2.com.au
-    IdentityFile ~/.ssh/fegeland_ffx_white
-
-host unixadmin?
-    HostName %h.prod.f2.com.au
-    IdentityFile ~/.ssh/fegeland_ffx_white
-
-host mail1 mail2
-    HostName %h.f2.com.au
-    IdentityFile ~/.ssh/fegeland_ffx_white
-
 Host *
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/fegeland_ffx_blue
 

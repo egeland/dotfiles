@@ -39,4 +39,6 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR --export newmongo:mongodb\x2bsrv\x3a//onsentipster\x3aNX8EZ1xg0J7KMRSJSENNbReqqvIApy\x40ot\x2dproduction\x2e5jfwv\x2emongodb\x2enet/ot\x2dproduction\x3fretryWrites\x3dtrue\x26w\x3dmajority
+SETUVAR --export old_mongo:mongodb\x3a//onsentipster\x3aNX8EZ1xg0J7KMRSJSENNbReqqvIApy\x40ds037165\x2emlab\x2ecom\x3a37165/ot\x2dproduction
 SETUVAR pisces_pairs:\x28\x2c\x29\x1e\x5b\x2c\x5d\x1e\x7b\x2c\x7d\x1e\x22\x2c\x22\x1e\x27\x2c\x27
