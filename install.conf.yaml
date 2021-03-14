@@ -120,3 +120,7 @@
         description: Install Headset
         command: which headset || sudo snap install headset
         stdout: true
+    -
+        description: Install Discord
+        command: which discord || sudo snap install discord
+        stdout: true

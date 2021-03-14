@@ -16,4 +16,5 @@ exfat-fuse
 exfat-utils
 yakuake
 transgui
+uget
 
