@@ -34,7 +34,6 @@ dockutil --no-restart --section apps --add "/Applications/Google Chrome.app"
 dockutil --no-restart --section apps --add "/Applications/iTerm.app"
 dockutil --no-restart --section apps --add "/Applications/Slack.app"
 dockutil --no-restart --section apps --add "/Applications/Visual Studio Code.app"
-dockutil --no-restart --section apps --add "/Applications/mmhmm.app"
 dockutil --no-restart --section apps --add "/Applications/BIG-IP Edge Client.app"
 
 dockutil --add '' --type spacer --section apps --after "System Preferences"
