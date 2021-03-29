@@ -1,4 +1,6 @@
 #!/usr/local/bin/bash
 
-kill $(cat /tmp/sshuttle.pid)
+if [[ -e /tmp/sshuttle.pid ]]; then
+  kill $(cat /tmp/sshuttle.pid)
+fi
 
