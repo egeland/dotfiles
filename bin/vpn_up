@@ -1,0 +1,6 @@
+#!/usr/local/bin/bash
+
+NODE="${1:-ip-10-44-14-172.ap-southeast-2.compute.internal}"
+
+sshuttle --pidfile=/tmp/sshuttle.pid --daemon --remote $NODE 10.44.0.0/16
+
