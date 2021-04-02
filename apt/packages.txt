@@ -17,4 +17,5 @@ exfat-utils
 yakuake
 transgui
 uget
+fonts-ipafont-mincho
 
