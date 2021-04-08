@@ -114,6 +114,11 @@
         stdout: true
         stdin: true
     -
+        description: Install k3d
+        command: which k3d || (curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash)
+        stdout: true
+        stdin: true
+    -
         description: Install fonts
         command: ./fonts/install.sh
     -
