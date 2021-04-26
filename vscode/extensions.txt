@@ -11,6 +11,7 @@ joaompinto.vscode-graphviz
 mblode.pretty-formatter
 mechatroner.rainbow-csv
 ms-azuretools.vscode-docker
+msazurermtools.azurerm-vscode-tools
 ms-python.python
 ms-vscode-remote.remote-containers
 oderwat.indent-rainbow
