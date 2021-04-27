@@ -1,4 +1,5 @@
 eamodio.gitlens
+bencoleman.armview
 EFanZh.graphviz-preview
 emmanuelbeziat.vscode-great-icons
 Equinusocio.vsc-community-material-theme

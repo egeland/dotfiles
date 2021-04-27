@@ -9,6 +9,7 @@
 	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
 	cb = checkout -b
 	cm = checkout master
+	cd = checkout develop
 [core]
 	excludesfile = /Users/fegeland/.gitignore_global
 	pager = delta
