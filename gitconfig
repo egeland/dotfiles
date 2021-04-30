@@ -8,6 +8,7 @@
 	meld = !git difftool -t meld --dir-diff
 	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
 	cb = checkout -b
+	co = checkout
 	cm = checkout master
 	cd = checkout develop
 [core]

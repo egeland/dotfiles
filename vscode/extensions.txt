@@ -23,6 +23,7 @@ redhat.vscode-yaml
 sidp.strict-whitespace
 skyapps.fish-vscode
 thomas-baumgaertner.vcl
+timonwong.shellcheck
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
 wscats.qf
