@@ -16,7 +16,6 @@ msazurermtools.azurerm-vscode-tools
 ms-python.python
 ms-vscode-remote.remote-containers
 oderwat.indent-rainbow
-Pivotal.vscode-concourse
 PKief.material-icon-theme
 rafamel.subtle-brackets
 redhat.vscode-yaml
