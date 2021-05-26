@@ -8,3 +8,5 @@ alias aws_ffx_serverless1='export AWS_PROFILE="serverless1" ; export AWS_DEFAULT
 alias aws_CLEAR='unset AWS_PROFILE ; unset AWS_DEFAULT_PROFILE'
 alias k='kubectl'
 
+
+function gam() { "/Users/frode/bin/gam/gam" "$@" ; }

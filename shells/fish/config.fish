@@ -11,9 +11,9 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 set -g -a fish_user_paths ~/bin
 
 # Set up AWS defaults
-set -x AWS_REGION "ap-southeast-2"
-set -x AWS_PROFILE "saml"
-set -x AWS_DEFAULT_PROFILE "saml"
+#set -x AWS_REGION "ap-southeast-2"
+set -x AWS_PROFILE "default"
+set -x AWS_DEFAULT_PROFILE "default"
 
 # Set up fisher
 if not functions -q fisher
