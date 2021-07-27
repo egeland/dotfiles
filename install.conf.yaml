@@ -76,3 +76,11 @@
         description: Clean up MacOS Dock
         command: ./macos/dock.sh
         stdout: true
+    -
+        description: Set up git repo dirs
+        command: mkdir -p ~/git/github
+    -
+        description: Install tfenv
+        command: git clone https://github.com/tfutils/tfenv.git ~/git/github/tfenv
+        stdout: true
+

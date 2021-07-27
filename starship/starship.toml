@@ -1,3 +1,5 @@
+command_timeout = 1000
+
 [kubernetes]
 symbol = "☸︎ "
 style = "#326CE5"

@@ -9,6 +9,7 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 # Add ~/bin to path
 set -g -a fish_user_paths ~/bin
+set -g -a fish_user_paths ~/git/github/tfenv/bin
 
 # Set up AWS defaults
 #set -x AWS_REGION "ap-southeast-2"
