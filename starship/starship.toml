@@ -25,3 +25,6 @@ disabled = true
 symbol = "️🅶 "
 format = 'on [$symbol$project]($style) '
 
+[java]
+disabled = true
+
