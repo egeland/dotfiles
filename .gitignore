@@ -3,3 +3,5 @@ homebrew/.last_run
 vscode/.last_run
 shells/fish/completions/
 karabiner/automatic_backups/
+.DS_Store
+
