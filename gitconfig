@@ -54,5 +54,9 @@
 
 [url "ssh://git@bitbucket.org"]
 	insteadOf = https://bitbucket.org
+
+[url "ssh://git@lab.identitii.com"]
+	insteadOf = https://lab.identitii.com
+
 [init]
 	defaultBranch = main
