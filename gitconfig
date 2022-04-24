@@ -1,7 +1,7 @@
 [user]
 	email = egeland@gmail.com
 	name = Frode Egeland
-	signingkey = F7BF5887C4DC446F74EC91870A32DE835F49CC7B
+	signingkey = 0x6249C5087F5382D2
 [alias]
 	ci = commit --signoff
 	prp = pull --rebase --prune
