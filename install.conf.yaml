@@ -83,11 +83,11 @@
     #     command: ./ssh/install.sh
     #     stdin: true
     #     stdout: true
-    -
-        description: Decode GPG secret key
-        command: ./gnupg/install.fish
-        stdin: true
-        stdout: true
+    #-
+    #    description: Decode GPG secret key
+    #    command: ./gnupg/install.fish
+    #    stdin: true
+    #    stdout: true
     -
         description: Set up trackball
         command: ./trackball/install.fish
