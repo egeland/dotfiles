@@ -1,27 +1,24 @@
 [user]
-	email = frode@identitii.com
+	email = egeland@gmail.com
 	name = Frode Egeland
-	signingkey = F7BF5887C4DC446F74EC91870A32DE835F49CC7B
+	signingkey = 0x6249C5087F5382D2
 [alias]
 	ci = commit --signoff
     prp = pull --rebase --prune
-	meld = !git difftool -t meld --dir-diff
 	lg = log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges
 	cb = checkout -b
 	co = checkout
-	cm = checkout master
+	cm = checkout main
 	cd = checkout develop
 [core]
-	excludesfile = /Users/fegeland/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	pager = delta
 	editor = code --wait
 [commit]
-	template = /Users/fegeland/.stCommitMsg
+	template = ~/.stCommitMsg
 	gpgsign = true
 [interactive]
     diffFilter = delta --color-only
-[merge]
-	tool = meld
 [mergetool]
 	prompt = false
 [push]
@@ -55,8 +52,6 @@
 [url "ssh://git@bitbucket.org"]
 	insteadOf = https://bitbucket.org
 
-[url "ssh://git@lab.identitii.com"]
-	insteadOf = https://lab.identitii.com
 
 [init]
 	defaultBranch = main

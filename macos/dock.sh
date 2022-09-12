@@ -32,13 +32,14 @@ dockutil --no-restart --section apps --add "/System/Applications/System Preferen
 # Custom Apps
 dockutil --no-restart --section apps --add "/Applications/Google Chrome.app"
 dockutil --no-restart --section apps --add "/Applications/iTerm.app"
-dockutil --no-restart --section apps --add "/Applications/zoom.us.app"
-dockutil --no-restart --section apps --add "/Applications/Slack.app"
+#dockutil --no-restart --section apps --add "/Applications/zoom.us.app"
+#dockutil --no-restart --section apps --add "/Applications/Slack.app"
 dockutil --no-restart --section apps --add "/Applications/Visual Studio Code.app"
+dockutil --no-restart --section apps --add "/Applications/Privileges.app"
 
 dockutil --add '' --type spacer --section apps --after "System Preferences"
 dockutil --add '' --type spacer --section apps --after "iTerm"
-dockutil --add '' --type spacer --section apps --after "Slack"
+#dockutil --add '' --type spacer --section apps --after "Slack"
 
 # Default Others
 dockutil --no-restart --section others --add "${HOME}/Downloads" --view fan --display stack --sort dateadded

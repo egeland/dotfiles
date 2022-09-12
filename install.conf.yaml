@@ -20,9 +20,6 @@
         path: shells/fish
         create: true
         force: true
-    shells/fish/completions/kubectl.fish:
-        path: shells/fish/fish-kubectl-completions/completions/kubectl.fish
-        create: true
     ~/.gnupg/gpg.conf:
         path: gnupg/gpg.conf
         create: true
@@ -32,8 +29,6 @@
         path: gnupg/sshcontrol
     ~/.config/starship.toml:
         path: starship/starship.toml
-    ~/.saml2aws:
-        path: saml2aws
 
 - shell:
     -
@@ -56,21 +51,15 @@
         description: Set up python virtual env
         command: ./python/install.sh
     -
-        description: Retrieve SSH keys
-        command: ./ssh/install.sh
-        stdin: true
-        stdout: true
-    -
-        description: Decode GPG secret key
-        command: ./gnupg/install.fish
-        stdin: true
-        stdout: true
-    -
         description: Install VS Code extensions
         command: ./vscode/install.sh
     -
         description: Set up iterm2
         command: ./iterm2_profile/install.sh
+        stdout: true
+    -
+        description: Download dockutil
+        command: ./macos/dockutil_install.sh
         stdout: true
     -
         description: Clean up MacOS Dock
