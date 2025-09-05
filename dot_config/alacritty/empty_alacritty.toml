@@ -1,0 +1,16 @@
+[font]
+size = 18
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+#[general]
+#import = ["/nix/store/jyngs0f87010wxkqskm0xc74z0i0npyz-source/themes/catppuccin_frappe.toml"]
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
+
+[window]
+option_as_alt = "OnlyLeft"
+

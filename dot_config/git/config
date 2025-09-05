@@ -1,0 +1,63 @@
+[alias]
+	amend = "commit --amend -m"
+	br = "branch"
+	ca = "commit -am"
+	cb = "checkout -b"
+	ci = "commit --signoff"
+	cm = "commit -m"
+	co = "checkout"
+	dc = "diff --cached"
+	foreach = "submodule foreach"
+	lg = "log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges"
+	ll = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate --numstat"
+	ls = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate"
+	prp = "pull --rebase --prune"
+	st = "status"
+	update = "submodule update --init --recursive"
+
+[commit]
+	gpgSign = true
+
+[core]
+	pager = "/opt/homebrew/bin/delta"
+
+[delta]
+	features = "side-by-side"
+	light = false
+	navigate = true
+	syntax-theme = "catppuccin"
+
+[filter "lfs"]
+	clean = "git-lfs clean -- %f"
+	process = "git-lfs filter-process"
+	required = true
+	smudge = "git-lfs smudge -- %f"
+
+[gpg]
+	format = "openpgp"
+
+[gpg "openpgp"]
+	program = "/opt/homebrew/bin/gpg"
+
+[init]
+	defaultBranch = "main"
+
+[interactive]
+	diffFilter = "/opt/homebrew/bin/delta --color-only"
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[tag]
+	gpgSign = true
+
+[user]
+	email = "egeland@gmail.com"
+	name = "Frode Egeland"
+	signingKey = "0x6249C5087F5382D2"
+
+[includeIf "gitdir:~/work/"]
+	path = "~/work/.gitconfig"
