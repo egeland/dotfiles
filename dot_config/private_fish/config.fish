@@ -6,4 +6,5 @@ if status is-interactive
     alias la='ls -a'
     alias lla='ls -la'
     alias lt='ls -lhtr'
+    fish_vi_key_bindings
 end
