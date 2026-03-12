@@ -14,3 +14,26 @@ args = ["--login"]
 [window]
 option_as_alt = "OnlyLeft"
 
+#[[keyboard.bindings]]
+#key = "Return"
+#mods = "Shift"
+#chars = "\x1b\r"
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+action = "ScrollHalfPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+action = "ScrollHalfPageDown"
+
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Alt|Shift"
+action = "ScrollLineUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Alt|Shift"
+action = "ScrollLineDown"

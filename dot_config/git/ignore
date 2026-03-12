@@ -18,6 +18,9 @@ result
 result-*
 .direnv
 .envrc
+.env
+.env.*
 .env/
 node_modules
 .sass-cache
+**/.claude/settings.local.json

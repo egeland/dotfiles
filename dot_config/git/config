@@ -8,15 +8,17 @@
 	co = "checkout"
 	dc = "diff --cached"
 	foreach = "submodule foreach"
+	force-sweep = !git branch -vv | grep '\\[.*gone\\]' | awk '{print $1}' | xargs git branch -D
 	lg = "log --oneline --abbrev-commit --all --graph --decorate --color --show-signature --no-merges"
 	ll = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate --numstat"
 	ls = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate"
 	prp = "pull --rebase --prune"
 	st = "status"
+	sweep = !git branch -vv | grep '\\[.*gone\\]' | awk '{print $1}' | xargs git branch -d
 	update = "submodule update --init --recursive"
 
 [commit]
-	gpgSign = true
+	gpgsign = true
 
 [core]
 	pager = "/opt/homebrew/bin/delta"
@@ -34,10 +36,13 @@
 	smudge = "git-lfs smudge -- %f"
 
 [gpg]
-	format = "openpgp"
+	format = ssh
 
 [gpg "openpgp"]
 	program = "/opt/homebrew/bin/gpg"
+
+[gpg "ssh"]
+	allowedSignersFile = /Users/ksy-syd-mbp-0149/.ssh/allowed_signers
 
 [init]
 	defaultBranch = "main"
@@ -52,12 +57,12 @@
 	autoSetupRemote = true
 
 [tag]
-	gpgSign = true
+	gpgSign = false
 
 [user]
 	email = "egeland@gmail.com"
 	name = "Frode Egeland"
-	signingKey = "0x6249C5087F5382D2"
+	signingkey = /Users/ksy-syd-mbp-0149/.ssh/id_ed25519.pub
 
-[includeIf "gitdir:~/work/"]
-	path = "~/work/.gitconfig"
+[includeIf "gitdir:~/git_repos/"]
+	path = "~/.config/git/work_config"
