@@ -25,7 +25,7 @@ This will:
 7. Set fish as the default shell
 
 After the script completes:
-- Create `~/.env` with any secrets or environment variables needed
+- Create `~/.env` with any secrets or environment variables needed (see below)
 - Authenticate CLI tools: `aws-sso login`, `gh auth login`, `gcloud auth login`
 - Open a new terminal to start using fish
 
@@ -62,3 +62,19 @@ bootstrap-kudosity.sh     # fresh machine setup script
 Chezmoi naming conventions used here:
 - `dot_` → `.` (e.g. `dot_config` → `.config`)
 - `private_` → file permissions set to `0600`
+
+## ~/.env
+
+Secrets and machine-specific values that must not be committed live in `~/.env`.
+This file is loaded automatically by fish on shell start.
+
+Required entries for the kudosity setup:
+
+```sh
+# Cloud SQL proxy connection strings (get these from the GCP console or a teammate)
+DB_STG=<non-prod project>:<region>:<staging cluster>
+DB_QA=<non-prod project>:<region>:<qa cluster>
+DB_PROD=<production project>:<region>:<production cluster>
+```
+
+These are used by the `db-stg`, `db-qa`, and `db-prod` shell abbreviations.
