@@ -27,7 +27,6 @@
 	features = "side-by-side"
 	light = false
 	navigate = true
-	syntax-theme = "catppuccin"
 
 [filter "lfs"]
 	clean = "git-lfs clean -- %f"
