@@ -7,7 +7,7 @@ if status is-interactive
                 set -l value (string split -m1 '=' $line)[2]
                 set -x $key $value
             end
-        end < ~/.env
+        end <~/.env
     end
 
     # Commands to run in interactive sessions can go here
