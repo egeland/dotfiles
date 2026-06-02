@@ -37,3 +37,6 @@ action = "ScrollLineUp"
 key = "PageDown"
 mods = "Alt|Shift"
 action = "ScrollLineDown"
+
+[mouse]
+hide_when_typing = true
