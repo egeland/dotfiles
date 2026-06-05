@@ -8,9 +8,15 @@ cwd=$(echo "$input" | jq -r '.workspace.current_dir // .cwd // empty')
 model=$(echo "$input" | jq -r '.model.display_name // empty')
 
 # Abbreviate home directory like fish's prompt_pwd
-home="$HOME"
 if [ -n "$cwd" ]; then
-    short_cwd="${cwd/#$home/~}"
+    case "$cwd" in
+        "$HOME"*)
+            short_cwd="~${cwd#$HOME}"
+            ;;
+        *)
+            short_cwd="$cwd"
+            ;;
+    esac
     # Abbreviate intermediate path components (like fish prompt_pwd)
     short_cwd=$(echo "$short_cwd" | sed 's|\([^/]\)[^/]*/|\1/|g')
 else
@@ -85,7 +91,16 @@ session_info=""
 if [ -n "$session_pct" ]; then
     spct=$(printf '%.0f' "$session_pct")
     session_bar=$(make_bar "$spct" 10)
-    session_info=$(printf " session:[%b] %s%%" "$session_bar" "$spct")
+    session_info=$(printf " 5h:[%b] %s%%" "$session_bar" "$spct")
 fi
 
-printf "%s%s  %s%s%s" "$short_cwd" "$git_info" "$model" "$ctx_info" "$session_info"
+# Weekly rate limit usage (7-day window) — colored progress bar
+week_pct=$(echo "$input" | jq -r '.rate_limits.seven_day.used_percentage // empty')
+week_info=""
+if [ -n "$week_pct" ]; then
+    wpct=$(printf '%.0f' "$week_pct")
+    week_bar=$(make_bar "$wpct" 10)
+    week_info=$(printf " 7d:[%b] %s%%" "$week_bar" "$wpct")
+fi
+
+printf "%s%s  %s\n%s%s%s" "$short_cwd" "$git_info" "$model" "$ctx_info" "$session_info" "$week_info"
