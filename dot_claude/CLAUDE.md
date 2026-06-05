@@ -113,6 +113,7 @@ Default to surfacing uncertainty, not hiding it.
 - Confluence page URLs follow the format: `https://kudosity.atlassian.net/wiki/spaces/{SPACE_KEY}/pages/{PAGE_ID}/{URL+encoded+title}`
 - The MCP tool returns URLs without `/wiki/` prefix — these 404. Always add `/wiki/` when constructing links.
 - To mark items as done, always use the ✅ emoji, not `[x]`
+- Unless explicitly asked to do it differently, always show the user a draft of changes proposed.
 
 ## Claude Code MCP Configuration
 

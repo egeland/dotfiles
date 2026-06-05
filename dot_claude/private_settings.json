@@ -1,0 +1,257 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws cloudwatch describe-*)",
+      "Bash(aws cloudwatch get-*)",
+      "Bash(aws cloudwatch list-*)",
+      "Bash(aws ec2 describe-*)",
+      "Bash(aws ec2 list-*)",
+      "Bash(aws iam get-*)",
+      "Bash(aws iam list-*)",
+      "Bash(aws pi get-*)",
+      "Bash(aws rds describe-*)",
+      "Bash(aws rds list-*)",
+      "Bash(aws route53 list-*)",
+      "Bash(aws route53resolver list-*)",
+      "Bash(aws secretsmanager get-*)",
+      "Bash(aws secretsmanager list-*)",
+      "Bash(aws ssm describe-*)",
+      "Bash(aws ssm list-*)",
+      "Bash(aws ssm-quicksetup get-*)",
+      "Bash(aws ssm-quicksetup list-*)",
+      "Bash(aws sts get-caller-identity*)",
+      "Bash(aws-sso list:*)",
+      "Bash(fish -c \"functions fish_right_prompt\")",
+      "Bash(fish -c \"set | grep -i prompt\" 2>/dev/null)",
+      "Bash(fish -c \"set | grep fish_color\")",
+      "Bash(gcloud logging logs list *)",
+      "Bash(gcloud logging read *)",
+      "Bash(gcloud projects list *)",
+      "Bash(gh api:*)",
+      "Bash(podman pull:*)",
+      "Bash(rtk grep *)",
+      "Bash(rtk ls *)",
+      "Bash(rtk read *)",
+      "Bash(terragrunt hclfmt)",
+      "Bash(tofu fmt *)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:octopus.com)",
+      "WebFetch(domain:synfinatic.github.io)",
+      "mcp__github__get_me",
+      "mcp__github__search_code",
+      "mcp__github__search_repositories",
+      "mcp__icm__*",
+      "mcp__mcp-atlassian__confluence_get_*",
+      "mcp__mcp-atlassian__confluence_search",
+      "mcp__mcp-atlassian__jira_get_*",
+      "mcp__mcp-atlassian__jira_search",
+      "mcp__mempalace__*",
+      "mcp__mempalace__mempalace_add_drawer",
+      "mcp__octopus__get_current_user",
+      "mcp__octopus__list_projects",
+      "mcp__octopus__list_spaces"
+    ]
+  },
+  "model": "opusplan",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook start"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook end"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook prompt"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook compact"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook pre"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook post"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/ksy-syd-mbp-0149/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "verbose": true,
+  "fileCheckpointingEnabled": false,
+  "skipAutoPermissionPrompt": true
+}

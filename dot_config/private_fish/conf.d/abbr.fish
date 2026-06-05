@@ -1,6 +1,7 @@
 if status is-interactive
     abbr -a -- gs 'git status'
     abbr -a -- gd 'git diff'
+    abbr -a -- cl 'LC_LANG=C claude'
 
     # Cloud SQL proxy shortcuts — connection strings loaded from ~/.env
     # Set DB_STG, DB_QA, DB_PROD in ~/.env
