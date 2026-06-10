@@ -67,3 +67,4 @@ $ARGUMENTS - The PR number to review (e.g. "313"). If not provided, detect from 
 - Do not resolve without replying first
 - If code changes are needed, commit and push before replying
 - Group related fixes into a single commit where sensible
+- Ask the user whether or not to rebase before pushing
