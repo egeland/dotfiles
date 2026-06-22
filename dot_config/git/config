@@ -25,7 +25,6 @@
 	features = "side-by-side"
 	light = false
 	navigate = true
-	syntax-theme = "catppuccin"
 
 [filter "lfs"]
 	clean = "git-lfs clean -- %f"
@@ -61,3 +60,20 @@
 
 [includeIf "gitdir:~/work/"]
 	path = "~/work/.gitconfig"
+
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	cmd = meld $LOCAL $REMOTE
+[mergetool "meld"]
+	cmd = meld $LOCAL $MERGED $REMOTE
+	trustExitCode = false
+[mergetool]
+	prompt = false
+	keepBackup = false
+[merge]
+	tool = meld
+[credential]
+	helper = !gh auth git-credential

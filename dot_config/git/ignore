@@ -21,3 +21,4 @@ result-*
 .env/
 node_modules
 .sass-cache
+.worktrees/
