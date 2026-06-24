@@ -1,0 +1,19 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Frode Egeland"
+email = "frode.egeland@kudosity.com"
+
+[revsets]
+log = 'reachable(@, mutable()) | ancestors(@,5) | ancestors(immutable_heads().., 2) | trunk() | ancestors(tracked_remote_bookmarks(),5)'
+
+[ui]
+editor = "nvim"
+show-cryptographic-signatures = true
+
+[signing]
+behavior = "own"
+backend = "ssh"
+key = "~/.ssh/id_ed25519"
+backends.ssh.allowed-signers = "~/.ssh/allowed_signers"
+

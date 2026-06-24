@@ -24,13 +24,25 @@ else
     short_cwd="?"
 fi
 
-# Git branch, worktree, and dirty state (skip optional locks)
-git_info=""
-if git -C "$cwd" rev-parse --git-dir >/dev/null 2>&1; then
+# VCS info: jj first (may coexist with git backend), then pure-git fallback
+vcs_info=""
+if jj root >/dev/null 2>&1; then
+    # jj repo — bookmark or short change id
+    bookmark=$(jj log -r @ --no-graph -T 'local_bookmarks' 2>/dev/null | tr -d ' \n')
+    if [ -z "$bookmark" ]; then
+        cid=$(jj log -r @ --no-graph -T 'change_id.short(8)' 2>/dev/null | tr -d ' \n')
+        label="@${cid:-?}"
+    else
+        label="$bookmark"
+    fi
+    dirty_marker=""
+    jj diff --summary 2>/dev/null | grep -qE '^[MADR]' && dirty_marker=" *"
+    vcs_info=" (jj:$label$dirty_marker)"
+elif git -C "$cwd" rev-parse --git-dir >/dev/null 2>&1; then
+    # pure-git repo
     branch=$(git -C "$cwd" symbolic-ref --short HEAD 2>/dev/null \
              || git -C "$cwd" rev-parse --short HEAD 2>/dev/null)
     if [ -n "$branch" ]; then
-        # Detect linked worktree: git-dir is <root>/.git/worktrees/<name>
         git_dir=$(git -C "$cwd" rev-parse --git-dir 2>/dev/null)
         worktree_name=""
         case "$git_dir" in
@@ -38,19 +50,16 @@ if git -C "$cwd" rev-parse --git-dir >/dev/null 2>&1; then
                 worktree_name="${git_dir##*/.git/worktrees/}"
                 ;;
             */worktrees/*)
-                # Absolute path variant (git-dir returned as absolute)
                 worktree_name="${git_dir##*/worktrees/}"
                 ;;
         esac
-
         dirty=$(git -C "$cwd" status --porcelain 2>/dev/null | head -1)
         dirty_marker=""
         [ -n "$dirty" ] && dirty_marker=" *"
-
         if [ -n "$worktree_name" ]; then
-            git_info=" ($branch | $worktree_name$dirty_marker)"
+            vcs_info=" ($branch | $worktree_name$dirty_marker)"
         else
-            git_info=" ($branch$dirty_marker)"
+            vcs_info=" ($branch$dirty_marker)"
         fi
     fi
 fi
@@ -153,4 +162,4 @@ fi
 cost_info=""
 [ -n "$cost" ] && cost_info=$(printf "  \$%.2f" "$cost")
 
-printf "%s%s  %s%s\n%s%s%s%s" "$short_cwd" "$git_info" "$model" "$effort_glyph" "$ctx_info" "$session_info" "$week_info" "$cost_info"
+printf "%s%s  %s%s\n%s%s%s%s" "$short_cwd" "$vcs_info" "$model" "$effort_glyph" "$ctx_info" "$session_info" "$week_info" "$cost_info"

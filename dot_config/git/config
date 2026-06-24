@@ -67,3 +67,7 @@
 	path = "~/.config/git/work_config"
 [pager]
 	diff = diffnav
+[merge]
+	tool = meld
+[merge "meld"]
+	cmd = meld "$LOCAL" "$BASE" "$REMOTE" -o "$MERGED"

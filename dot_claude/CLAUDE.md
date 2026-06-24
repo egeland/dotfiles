@@ -71,8 +71,9 @@ Default to surfacing uncertainty, not hiding it.
 
 ## CLI Tool Preferences
 
-- Use `fd` instead of `find`, `rg` instead of `grep -r`
-- Note that `rtk` may swallow some verbosity from tools, use `rtk proxy` (sparingly) to bypass.
+- Note that `rtk` plugin may swallow some verbosity from some tools, use `rtk proxy` (sparingly) to bypass.
+- Use `rtk grep` instead of `grep`. Learn its usage with `rtk grep --help`.
+- Use `rtk find` instead of `find`. Learn its usage with `rtk find --help`.
 - Use `tofu` instead of `terraform` unless explicitly agreed. Run `tofu fmt` before committing edited `.tf` files.
 - In repos where terragrunt is used, always run `terragrunt hclfmt` before committing edited `.hcl` files.
 - Ensure the virtual env `~/venv/` is active for python scripts.
@@ -89,7 +90,7 @@ Default to surfacing uncertainty, not hiding it.
 - Podman: `/opt/podman/bin/podman` — use full path in configs (GUI apps don't inherit shell PATH)
 - Node.js: `/opt/homebrew/bin/node`, npx: `/opt/homebrew/bin/npx`
 - `~/.env` auto-loaded by fish only — not available to GUI apps
-- **Temp Dir**: use `/tmp` as temp directory.
+- **Temp Dir**: use `~/tmp` as temp directory.
 
 ## User Identity
 
@@ -132,7 +133,7 @@ When asked to create a slack message, remember to wrap single lines of code/conf
 ## Git
 
 - Check if rebase needed before git push or `gh pr`
-- Never work on main/develop branch—use worktree/worktrunk instead
+- Never work on main/develop branch—use worktree/worktrunk instead. Ask the user if we are already on the desired branch/worktrunk, do not assume.
 - Prefer `wt switch --create <name>` over `git branch`
 - Git branches should include a descriptive suffix, not just the ticket number
 - PR titles must start with the ticket number then a space — `KJU-2390 Text here`, NOT `KJU-2390: Text here` (no colon)
@@ -140,20 +141,15 @@ When asked to create a slack message, remember to wrap single lines of code/conf
 ## Terraform/Terragrunt/Tofu Plan Workflow
 
 When running `terraform plan`, `terragrunt plan` or `tofu plan` and needing to inspect output in multiple ways: **run once, redirect to a temp file, then grep the file**. Never run plan multiple times for the same inspection. The same rule applies for `apply` and `destroy`.
+Use `| grep -E "^Plan:|^Error:|will be (created|destroyed|updated|replaced)|error occurred|failed to"` at the end of the `tee` to detect any conditions that we need to know about. Examine the file if that grep gives no output.
 Always run `tofu fmt` before making any git commits when Terraform files have been edited (`.tf`, `.tfvars`, etc.).
+
+IMPORTANT: Never run `terraform apply`, `terragrunt apply`, or `tofu apply` without EXPLICIT approval from the user in that message.
 
 ## People / Org Chart
 
 - Kudosity org chart is stored in ICM under topic `people-kudosity`
 - When a person's name comes up, recall from ICM before asking or guessing: `icm recall "<name>" -t people-kudosity`
 - Covers: roles, teams, reporting lines, active/former status for ~50 Kudosity staff
-
-## Mempalace
-
-- Mempalace is augmented memory — use it to retain context across sessions
-- At conversation start: search mempalace for relevant project context before diving in
-- During work: update mempalace when plans change, tickets progress, key decisions are made, or work completes
-- At conversation end: ensure any significant new context is saved/updated
-- Don't wait to be asked — treat it like saving your work
 
 @RTK.md

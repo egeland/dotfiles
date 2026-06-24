@@ -1,0 +1,2 @@
+[revisions]
+revset = 'heads(reachable(@, mutable())) | ancestors(@,5) | ancestors(trunk(),5) | ancestors(tracked_remote_bookmarks(),5)'

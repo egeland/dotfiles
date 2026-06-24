@@ -25,3 +25,4 @@ result
 result-*
 target/
 venv/
+.a5c/

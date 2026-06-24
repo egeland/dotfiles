@@ -1,0 +1,14 @@
+{
+  "trustedtaps": [
+    "anomalyco/tap",
+    "dlvhdr/formulae",
+    "egeland/local",
+    "modem-dev/tap",
+    "octopusdeploy/taps",
+    "peonping/tap",
+    "rtk-ai/tap"
+  ],
+  "trustedformulae": [
+    "modem-dev/tap/hunk"
+  ]
+}
