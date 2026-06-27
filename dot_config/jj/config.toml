@@ -3,3 +3,21 @@
 [user]
 name = "Frode Egeland"
 email = "egeland@gmail.com"
+
+# Enable GPG signing to match your Git configuration
+[signing]
+backend = "gpg"
+behavior = "own"
+key = "0x6249C5087F5382D2"
+backends.gpg.program = "/opt/homebrew/bin/gpg"
+backends.gpg.allow-expired-keys = true
+
+# Display signature status in logs (e.g., ✓ for valid)
+[ui]
+show-cryptographic-signatures = true
+editor = "nvim"
+default-command = "log"
+
+[revsets]
+log = 'ancestors(@,3) | trunk() | ancestors(tracked_remote_bookmarks(),3) | conflicts()'
+

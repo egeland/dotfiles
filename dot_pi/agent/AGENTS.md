@@ -5,10 +5,10 @@
 - User is on a MacOS machine
 - User uses `fish` shell
 - User uses homebrew, with ~/Brewfile (read only, do not edit without explicit instructions from user)
+- Only use English language.
 
 ## Core Workflow
 
-- Never edit files in the `main` git branch. Always ensure you are either in a worktrunk/worktree or branch. If in doubt, ask!
 - Requirements: always clarify requirements using the `grill-with-docs` skill before beginning any development.
 - **TDD**: 1 test → implement → pass → repeat (no batching). Always trigger the `tdd` skill when developing code.
 - **Confirm** destructive ops (`rm`, overwrites)
@@ -25,15 +25,23 @@
 ## Tool Preferences
 
 - Use the rtk tools > native tools. E.g. `rtk find`, `rtk grep`. They have `--help` available for learning syntax.
-- GitHub: SSH, `gh` CLI for non-git ops
-- Main branch worktrees: `wt switch --create` (not `git worktree`)
-- Before editing files, check that the current branch is up to date with origin. Rebase if needed.
-- Never change git repo remotes from `ssh` to `https`.
-- Never switch from a git branch, worktrunk or worktree without user's express request
+- GitHub: SSH, `gh` CLI for non-git ops, `jj` for the actual version control.
+
+### Version Control System (Jujutsu / `jj`)
+
+Use **Jujutsu (`jj`)** for version control. **Do not use `git` commands.**
+Reference: <https://docs.jj-vcs.dev/latest/git-comparison/>
+
+#### Key Concepts
+
+- **No Staging Area**: Changes are automatically committed to the working copy.
+- **No "Current Branch"**: You work on anonymous commits; use **bookmarks** (like branches) only when needed.
+- **Undo is Safe**: Use `jj undo` instead of destructive resets.
+- Check `jj --help` for details. Update this VCS section with any learning, especially if a common operation is unclear.
 
 ## GitHub Workflow
 
-- Never use `git add -A`, add each edited file with `git add -a <file1> <file2>`
+- Always fetch and rebase before pushing to GitHub.
 
 ### Create PR + set automerge (squash)
 
@@ -57,7 +65,7 @@ Verify with:
 gh pr view <number> --json state,autoMergeRequest,title,url
 ```
 
-Confirm `autoMergeRequest.mergeMethod == "SQUASH"` and `state == "OPEN"` before reporting success.
+Confirm `autoMergeRequest.mergeMethod == "SQUASH"` and `state == "OPEN"` and that the branch doesn't require rebase before reporting success.
 
 ## Thinking Rules
 
@@ -72,10 +80,6 @@ Confirm `autoMergeRequest.mergeMethod == "SQUASH"` and `state == "OPEN"` before 
   - "Fix bug" → write test that reproduces it
   - "Refactor" → ensure tests pass before and after
 - Multi-step tasks: state plan with verification checkpoints
-- Check codebase first for answers. Use tools like gitnexus to understand relationships within the codebase.
+- Check codebase first for answers.
+- Use tools like gitnexus to understand relationships within the codebase.
 - Research to ≥95% certainty, cite evidence
-
-## Planning
-
-- Grill the user when intent is unclear. Ask questions until a shared understanding is reached. Ask one question at a time; give recommended answer + evidence
-- In git repos: maintain PLAN.md
