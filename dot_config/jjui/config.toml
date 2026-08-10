@@ -1,2 +1,2 @@
 [revisions]
-revset = 'heads(reachable(@, mutable())) | ancestors(@,5) | ancestors(trunk(),5) | ancestors(tracked_remote_bookmarks(),5)'
+revset = 'heads(reachable(@, mutable())) | ancestors(@,5) | ancestors(trunk(),5) | ancestors(tracked_remote_bookmarks(),5) | ancestors(bookmarks(),5) | ancestors(conflicts(),5)'
