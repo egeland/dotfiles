@@ -5,15 +5,20 @@ name = "Frode Egeland"
 email = "frode.egeland@kudosity.com"
 
 [revsets]
-log = 'reachable(@, mutable()) | ancestors(@,5) | ancestors(immutable_heads().., 2) | trunk() | ancestors(tracked_remote_bookmarks(),5)'
+log = 'ancestors(@,4) | ancestors(bookmarks(),2) | tracked_remote_bookmarks() | heads(reachable(@, mutable())) | trunk() | conflicts()'
+#log = '@ | bookmarks() | heads(reachable(@, mutable())) | ancestors(@,5) | ancestors(immutable_heads().., 2) | trunk() | ancestors(tracked_remote_bookmarks(),5)'
 
 [ui]
 editor = "nvim"
 show-cryptographic-signatures = true
+default-command = "log"
 
 [signing]
 behavior = "own"
 backend = "ssh"
 key = "~/.ssh/id_ed25519"
 backends.ssh.allowed-signers = "~/.ssh/allowed_signers"
+
+[snapshot]
+max-new-file-size = "10 MiB"
 

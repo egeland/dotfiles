@@ -9,6 +9,9 @@
     "rtk-ai/tap"
   ],
   "trustedformulae": [
-    "modem-dev/tap/hunk"
+    "modem-dev/tap/hunk",
+    "octopusdeploy/taps/octopus-cli",
+    "peonping/tap/peon-ping",
+    "rtk-ai/tap/icm"
   ]
 }

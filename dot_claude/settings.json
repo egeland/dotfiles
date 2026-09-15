@@ -46,16 +46,25 @@
       "mcp__mcp-atlassian__confluence_search",
       "mcp__mcp-atlassian__jira_get_*",
       "mcp__mcp-atlassian__jira_search",
-      "mcp__mempalace__*",
-      "mcp__mempalace__mempalace_add_drawer",
       "mcp__octopus__get_current_user",
       "mcp__octopus__list_projects",
       "mcp__octopus__list_spaces"
+    ],
+    "deny": [
+      "mcp__claude_ai_*"
     ]
   },
   "model": "opusplan",
   "hooks": {
     "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook start"
+          }
+        ]
+      },
       {
         "matcher": "",
         "hooks": [
@@ -65,17 +74,17 @@
             "timeout": 10
           }
         ]
-      },
+      }
+    ],
+    "SessionEnd": [
       {
         "hooks": [
           {
             "type": "command",
-            "command": "/opt/homebrew/bin/icm hook start"
+            "command": "/opt/homebrew/bin/icm hook end"
           }
         ]
-      }
-    ],
-    "SessionEnd": [
+      },
       {
         "matcher": "",
         "hooks": [
@@ -84,14 +93,6 @@
             "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
             "timeout": 10,
             "async": true
-          }
-        ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/opt/homebrew/bin/icm hook end"
           }
         ]
       }
@@ -111,6 +112,14 @@
     ],
     "UserPromptSubmit": [
       {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook prompt"
+          }
+        ]
+      },
+      {
         "matcher": "",
         "hooks": [
           {
@@ -118,14 +127,6 @@
             "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
             "timeout": 10,
             "async": true
-          }
-        ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/opt/homebrew/bin/icm hook prompt"
           }
         ]
       }
@@ -184,6 +185,14 @@
     ],
     "PreCompact": [
       {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/icm hook compact"
+          }
+        ]
+      },
+      {
         "matcher": "",
         "hooks": [
           {
@@ -191,14 +200,6 @@
             "command": "/Users/ksy-syd-mbp-0149/.claude/hooks/peon-ping/peon.sh",
             "timeout": 10,
             "async": true
-          }
-        ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/opt/homebrew/bin/icm hook compact"
           }
         ]
       }
@@ -240,7 +241,9 @@
   },
   "enabledPlugins": {
     "context7@claude-plugins-official": true,
-    "caveman@caveman": true
+    "caveman@caveman": true,
+    "babysitter@a5c.ai": true,
+    "ponytail@ponytail": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
@@ -248,9 +251,23 @@
         "source": "github",
         "repo": "JuliusBrussee/caveman"
       }
+    },
+    "a5c.ai": {
+      "source": {
+        "source": "github",
+        "repo": "a5c-ai/babysitter"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
     }
   },
   "effortLevel": "medium",
+  "skipWorkflowUsageWarning": true,
+  "theme": "dark",
   "verbose": true,
   "fileCheckpointingEnabled": false,
   "skipAutoPermissionPrompt": true

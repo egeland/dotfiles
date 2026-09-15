@@ -1,3 +1,5 @@
+# keg-only Homebrew curl (OpenSSL) — shadows macOS /usr/bin/curl (SecureTransport)
+fish_add_path /opt/homebrew/opt/curl/bin
 fish_add_path /opt/homebrew/share/google-cloud-sdk/bin
 
 # Load ~/.env
