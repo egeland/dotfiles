@@ -31,7 +31,7 @@ Use `jj`, never `git`. Do not use `/start-ticket` or `/pr` (those are git).
 
 ## Skip TF when host already listed
 
-If the host is already in **both** lists: add the new account ID as a comment on the existing entry, skip steps 1–4 of the runbook, go to Forest Admin.
+If the host is already in **both** lists: add the new account ID as a comment on the existing entry, skip steps 1–4 of the runbook, go to Forest Admin. Same FA gate as below: no requestor comment until the user confirms the TLD is saved.
 
 ## 1. tfvars
 
@@ -116,6 +116,8 @@ Redirect plan to `~/tmp/…`, grep `^Plan:|^Error:|will be (created|destroyed|up
 
 On approval: `make track-link-apply-production`. Login (`make login` / `aws-sso login`) if AWS creds expired.
 
+`tofu init` reads GCS state with **ADC**, not `gcloud auth login`. `invalid_grant` / `invalid_rapt` → `gcloud auth application-default login`, then retry. `make gcloud-login` does not refresh ADC.
+
 ## 5. Forest Admin
 
 https://app.forestadmin.com/Kudosity/Production/Engineering/data/transmitsms_user/index/record/transmitsms_user/{accountId}/details
@@ -124,7 +126,11 @@ Set **Tracked Link TLD** to the host. Save error on "Date balance alert" → any
 
 No FA API from this skill — open the record URL (Brave) and edit, or tell the user the URL + field.
 
+**STOP.** Wait until the user says the FA edit is saved. Do not transition Pending Customer and do not post the public requestor comment yet — tracked SMS still use the old TLD until that field is saved. Internal notes (`public: false`) are fine while waiting.
+
 ## 6. Browser check
+
+May run after apply, while waiting on FA.
 
 Open `https://<host>/resolve` in Brave. Expect the track-link landing page.
 
@@ -132,7 +138,9 @@ Open `https://<host>/resolve` in Brave. Expect the track-link landing page.
 
 After apply, public issuer is often `CN=cert-manager.local` (temporary). ACME HTTP-01 may 404 for ~1 min, then Order sits `ready` until ZeroSSL finalize. Wait. Do not wipe Certificate/Order unless still local after ~10 min. `curl -k` 200 on `/resolve` is not TLS done — need issuer `C=AT, O=ZeroSSL GmbH`. Broken HTTPS after that wait → Confluence troubleshooting.
 
-## 7. JSM
+## 7. JSM (after FA)
+
+Only after the user confirms Forest Admin Tracked Link TLD is saved.
 
 Transition **Pending Customer** (status becomes Awaiting Customer Feedback). Do not put a customer-visible comment on the transition itself; post a **public** comment after:
 
@@ -150,4 +158,8 @@ Please have the customer send a tracked SMS and confirm the link works.
 
 ## After
 
-If the job actually finished, one `context-burst` / high store: ticket + host + account + FA TLD + JSM status. Update the existing custom-domain memory; do not re-store the runbook (this skill owns it). Hosts already in `terraform.tfvars` are not ICM facts.
+Do **not** ICM-store a finished ticket (host, account, FA TLD, JSM status, PR number). That is session diary. Jira + `terraform.tfvars` are the record.
+
+Do **not** re-store this runbook (this skill owns it). Hosts in `terraform.tfvars` are not ICM facts.
+
+Store only on a real trigger: a new lasting gotcha (`errors-resolved`) or a preference. Procedure changes go in this skill, not ICM.
