@@ -98,6 +98,11 @@ Default to surfacing uncertainty, not hiding it.
 - **Temp Dir**: use `~/tmp` as temp directory.
 - Git repos are in ~/git_repos/ - read the ~/git_repos/AGENTS.md for an overview if you need to find any codebases.
 
+## Beads (`br`)
+
+- Global store only. `BEADS_DIR=/Users/ksy-syd-mbp-0149/.beads` (in `~/.env`, fish-only). If the shell lacks it, prefix the command with that assignment. Never `br init` inside a repo. Never commit `.beads/`.
+- `source_repo` is the home-directory basename on every issue. On `br create`, pass `--labels repo:<repo-basename>` (example: `--labels repo:burst`).
+
 ## User Identity
 
 - Frode Egeland <frode.egeland@kudosity.com>
@@ -154,10 +159,7 @@ When asked to create a slack message, remember to wrap single lines of code/conf
 - `jj` bookmarks (analogous to git branches) should include a descriptive suffix, not just the ticket number
 - **PR workflow (default): describe + auto-bookmark — not `jj commit`.**
   - In jj there is no staging area; work lives on the working-copy change `@`. A PR is made by **describing** `@` and **pushing** it, not by `jj commit` (which is `describe` + `new` and leaves `@` empty).
-  - **Before** finalising a PR (or when the user asks to “commit” / “ship” / “PR”), **ask** which they want:
-    1. **Describe + auto-bookmark push + PR** (default / preferred) — keep the change as `@`, push it, open PR.
-    2. **`jj commit`** (`describe` + `new`) — only if they explicitly want the change finalised off `@`.
-  - Do not assume either path. If they already said “auto-bookmark” / “describe then push”, skip the ask and use path 1.
+  - Opening a PR follows the jj skill.
   - Path 1 steps:
     1. `jj describe -m "KJU-NNNN …"` (ticket + short summary; multi-line body OK)
     2. Auto-bookmark push: `jj git push --change @` — creates a tracked bookmark from the change ID and pushes it.

@@ -9,6 +9,8 @@
     "rtk-ai/tap"
   ],
   "trustedformulae": [
+    "dicklesworthstone/tap/br",
+    "dlvhdr/formulae/diffnav",
     "modem-dev/tap/hunk",
     "octopusdeploy/taps/octopus-cli",
     "peonping/tap/peon-ping",

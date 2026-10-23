@@ -22,3 +22,6 @@ backends.ssh.allowed-signers = "~/.ssh/allowed_signers"
 [snapshot]
 max-new-file-size = "10 MiB"
 
+[git]
+colocate = false
+

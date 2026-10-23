@@ -1,25 +1,60 @@
 ---
 name: custom-track-link-domain
 description: >
-  Set up a customer track-link custom domain on an ENGSD ticket (CNAME host +
-  account ID). Use when enabling a custom domain / tracked-link TLD / track-link
-  CNAME for a customer, or when the user runs /custom-track-link-domain.
-  Not for company opt-out domains (unsub.at / custom_opt_out_domain).
+  Enable a customer track-link custom domain. Default (prod beta, 2026-10-13):
+  ask Malcolm Blaney to add the account to Unleash `track-link-custom-domains`,
+  then add the domain on Track Link Settings (page verifies and issues the
+  cert). Do not enable `track-link-protocol-mode`. Historical terraform +
+  Forest Admin only if self-serve is stuck. Use for custom domain / tracked-link
+  TLD / track-link CNAME, or /custom-track-link-domain. Not for company opt-out
+  domains (unsub.at / custom_opt_out_domain).
 ---
 
 # Custom track-link domain (ENGSD)
 
-Do this on the ENGSD ticket. Do not open a Kaiju ticket.
-
-Authoritative runbook: https://kudosity.atlassian.net/wiki/spaces/KJU/pages/4535091232/Runbook+-+Custom+Domain+Track+link+Setup (page 4535091232). This skill is the jj-native agent procedure for that runbook.
-
-Repo: `~/git_repos/burst`. File: `ops/infrastructure/environment/production/terraform.tfvars`. Add the host to **both** `track_link_ingresses` and `track_link_httproutes`. One host can serve many accounts; TLD is per-account.
-
-This is **not** opt-out (`custom_opt_out_domain` / `unsub.at`). Wrong module.
+Stay on the ENGSD ticket. Do not open a Kaiju ticket. This is **not** opt-out (`custom_opt_out_domain` / `unsub.at`).
 
 ## Extract
 
 From the ticket (and comments): **account ID** + **host** (CNAME). Stop if either is missing.
+
+## Default (prod beta, live 2026-10-13)
+
+Self-serve on Track Link Settings. No terraform, no Forest Admin, no apply, unless this path is stuck.
+
+Source: https://kudosity.slack.com/archives/C095JD6UDL6/p1791428993464289 (Tom Lancaster 2026-10-08; Malcolm Blaney confirmed production 2026-10-13). Release note: https://kudosity.atlassian.net/wiki/spaces/PROD/pages/5217779714
+
+1. Draft this ask for the #ask-engineering thread (C04RM91LT4L). Send only when the user says send. **Malcolm Blaney** adds the account ID to the Unleash segment `track-link-custom-domains`. He adds IDs as domains are requested. Do not enable the flag for every account.
+
+```
+Please add account `<id>` to the Unleash segment `track-link-custom-domains` for host `<host>`. Leave `track-link-protocol-mode` off.
+```
+
+2. Do **not** turn on `track-link-protocol-mode` for any account. It stays off until Tom Lancaster is back and the https:// migration has run. Both flags on for everyone is a later cutover, not this beta.
+3. Customer (or we) opens **Track Link Settings**, adds the host, and creates the CNAME the page shows. The page verifies the domain and issues the certificate. Tracked links use that domain as soon as it is verified.
+4. After the user confirms the domain shows verified, public JSM comment (`jira_add_comment`, `public: true`). Do not transition status on this path.
+
+```
+Custom track-link domain is ready for testing.
+
+- Host: `<host>` (account <id>)
+- Tracked links use this domain as soon as it is verified.
+- Track Link Settings is now its own page. "Add Custom Data to URL" is now "Append recipient details as URL parameters". Same setting, same value.
+
+Please have the customer send a tracked SMS and confirm the link works.
+```
+
+Opt-out links on v2 still use the shared domain (KEM-1491). Do not tell the customer opt-out moved to this host.
+
+5. Stuck (verify fail, cert not issued, page error): tell Malcolm, then use the historical path below.
+
+## Fallback: historical terraform
+
+Only when Default step 5 says self-serve is stuck.
+
+Authoritative runbook: https://kudosity.atlassian.net/wiki/spaces/KJU/pages/4535091232/Runbook+-+Custom+Domain+Track+link+Setup (page 4535091232). This skill is the jj-native agent procedure for that runbook.
+
+Repo: `~/git_repos/burst`. File: `ops/infrastructure/environment/production/terraform.tfvars`. Add the host to **both** `track_link_ingresses` and `track_link_httproutes`. One host can serve many accounts; TLD is per-account.
 
 ## Git (jj)
 
@@ -62,9 +97,9 @@ Cloudflare-proxied hosts often have A records, not a CNAME. Script yellow-passes
 
 ## 3. PR (jj)
 
-Ask first: **describe + auto-bookmark push + PR** (default) vs `jj commit`.
+Ask first: **describe + auto-bookmark push + PR** (preferred) vs `jj commit`.
 
-Default path:
+Describe + auto-bookmark:
 
 ```bash
 jj describe -m "ENGSD-NNNN Add <host> track-link custom domain"
@@ -140,6 +175,8 @@ Open `https://<host>/resolve` in Brave. Expect the track-link landing page.
 After apply, public issuer is often `CN=cert-manager.local` (temporary). ACME HTTP-01 may 404 for ~1 min, then Order sits `ready` until ZeroSSL finalize. Wait. Do not wipe Certificate/Order unless still local after ~10 min. `curl -k` 200 on `/resolve` is not TLS done — need issuer `C=AT, O=ZeroSSL GmbH`. Broken HTTPS after that wait → Confluence troubleshooting.
 
 ## 7. JSM (after FA)
+
+Fallback only. The default path uses Default step 4 and does not transition status.
 
 Only after the user confirms Forest Admin Tracked Link TLD is saved.
 
